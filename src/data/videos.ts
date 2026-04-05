@@ -33,6 +33,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "286万",
         "videoId": "To1yijqZCCE",
         "comment": "寝る前のルーティンに最適。リラックス効果も高いので睡眠の質も上がります。"
+      },
+      {
+        "title": "【8分で肩こり＆自律神経ケア】寝たまま簡単リラックスストレッチ #702",
+        "channel": "B-Flow",
+        "duration": "9:32",
+        "views": "80万",
+        "videoId": "tgUuVWpL9gY",
+        "comment": "寝ながらできるので就寝前のルーティンにぴったり。力を抜いてゆっくりやりましょう。"
+      },
+      {
+        "title": "寝ながら肩こり対策ストレッチ【10分間】",
+        "channel": "前田のまいにちセルフケア !  by GronG",
+        "duration": "10:34",
+        "views": "13万",
+        "videoId": "A_6rh6OmKB0",
+        "comment": "肩甲骨を大きく動かすことで血流が改善します。デスクワークの合間にも。"
+      },
+      {
+        "title": "【寝たまま10分】姿勢改善ヨガ　疲労回復・肩こり解消にもおすすめ #642",
+        "channel": "B-Flow",
+        "duration": "11:26",
+        "views": "101万",
+        "videoId": "v2YwcuW8rQs",
+        "comment": "座ったままできるので仕事中にもおすすめ。こまめにやることが大事です。"
+      },
+      {
+        "title": "【肩こり解消ストレッチ】座ったままできる！体が硬いあなたにおすすめ！肩こり・首こり解消法！",
+        "channel": "整体院和み-NAGOMI-土師和也",
+        "duration": "9:09",
+        "views": "45万",
+        "videoId": "I1oLy06PcfI",
+        "comment": "タオルを使うとさらに効果的。可動域が自然と広がります。"
+      },
+      {
+        "title": "【肩甲骨ストレッチ】ガチガチ肩こりが１回で解消！座ったままできる肩こり解消ストレッチ BY417",
+        "channel": "美筋ヨガチャンネル",
+        "duration": "7:39",
+        "views": "83万",
+        "videoId": "fy_tSeT51LM",
+        "comment": "ガチガチの人ほど効果を実感しやすいメニュー。最初は痛気持ちいい程度で。"
+      },
+      {
+        "title": "ガチガチ背中とがっしり肩幅は肩甲骨が原因だった！簡単なのに1回で姿勢が変わって続けるほど背中が痩せるトレーニング",
+        "channel": "のがちゃんねる/nogachannel",
+        "duration": "6:03",
+        "views": "1865万",
+        "videoId": "WuMZ3Ejnv88",
+        "comment": "首と肩は連動しているので、首のストレッチも合わせてやると効果倍増。"
+      },
+      {
+        "title": "【1回で変わる】ガチガチ肩甲骨を徹底的にほぐせば、背中・腕・姿勢・肩幅・顔のたるみ、上半身の悩みが一気に解決する！大人気トレーニング",
+        "channel": "のがちゃんねる/nogachannel",
+        "duration": "6:22",
+        "views": "273万",
+        "videoId": "_1kyQbCMWTE",
+        "comment": "肩甲骨を寄せる動きは背中の筋肉も刺激します。姿勢改善にもつながります。"
       }
     ],
     "back": [
@@ -59,6 +115,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "52万",
         "videoId": "koelvnexy3g",
         "comment": "朝起きて腰が重い方に。ベッドの上でできるので続けやすいです。"
+      },
+      {
+        "title": "寝ながら腰痛体操｜ゆっくり身体をほぐそう【7分間】",
+        "channel": "前田のまいにちセルフケア !  by GronG",
+        "duration": "7:38",
+        "views": "29万",
+        "videoId": "DquQqTZiKy0",
+        "comment": "朝ベッドの上でそのままできます。腰が重い日のルーティンにしてください。"
+      },
+      {
+        "title": "寝たままできる腰痛改善ヨガ☆　初心者におすすめ #310",
+        "channel": "B-Flow",
+        "duration": "15:41",
+        "views": "633万",
+        "videoId": "zCHw2fWcnw4",
+        "comment": "反り腰の方はお腹に力を入れる意識を持つだけで腰の負担が減ります。"
+      },
+      {
+        "title": "【9分間】寝ながら腰痛対策・予防ストレッチ【身体のプロと一緒に】",
+        "channel": "前田のまいにちセルフケア !  by GronG",
+        "duration": "9:52",
+        "views": "5万",
+        "videoId": "iGJdbTNrpUo",
+        "comment": "立ったままできるバージョンなのでオフィスでも実践しやすいです。"
+      },
+      {
+        "title": "寝ながら腰痛対策ストレッチ【寝る前に9分間】",
+        "channel": "前田のまいにちセルフケア !  by GronG",
+        "duration": "9:34",
+        "views": "136万",
+        "videoId": "anHktHYc3cA",
+        "comment": "骨盤周りの筋肉をほぐすと腰痛予防に効果的。特にお尻のストレッチが大事。"
+      },
+      {
+        "title": "【朝夜8分】寝たまま全身ストレッチでガチガチの体をほぐそう！【疲労回復/反り腰改善/腰痛予防】",
+        "channel": "Marina Takewaki",
+        "duration": "9:28",
+        "views": "59万",
+        "videoId": "6rTnwWhJzN4",
+        "comment": "体幹を鍛えることが最大の腰痛予防。このメニューは筋トレ要素もあって◎"
+      },
+      {
+        "title": "寝ながら腰痛予防ヨガストレッチ｜５分で腰の張りをとる",
+        "channel": "たかヨガ 小野田貴代",
+        "duration": "6:59",
+        "views": "10万",
+        "videoId": "7hwZUzfMnTo",
+        "comment": "ヘルニアなど痛みが強い方は無理せず。痛みがない範囲で行ってください。"
+      },
+      {
+        "title": "【 腰痛改善 】たった一回で効く！寝ながら腰痛改善ストレッチ！ BY389",
+        "channel": "美筋ヨガチャンネル",
+        "duration": "10:11",
+        "views": "16万",
+        "videoId": "2kc7OXhF0F0",
+        "comment": "腰痛は姿勢と直結しています。このエクササイズで根本原因にアプローチ。"
       }
     ],
     "hip": [
@@ -85,6 +197,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "161万",
         "videoId": "9cXEAPmgc5A",
         "comment": "開脚が目標の方に。2週間続けると変化を感じられるはずです。"
+      },
+      {
+        "title": "開脚ベターが30日で出来るようになるストレッチ【毎日10分】",
+        "channel": "山澤 礼明【筋肉チャンネル】",
+        "duration": "10:32",
+        "views": "193万",
+        "videoId": "-FwOX9nna5g",
+        "comment": "開脚チャレンジ系の動画ですが、焦らず自分のペースで進めてOK。"
+      },
+      {
+        "title": "股関節の可動域をじっくり広げるストレッチ【7分間】",
+        "channel": "前田のまいにちセルフケア !  by GronG",
+        "duration": "8:13",
+        "views": "100万",
+        "videoId": "yOmrTfTg4hg",
+        "comment": "ヨガベースのアプローチで股関節を優しくほぐせます。呼吸が大切。"
+      },
+      {
+        "title": "開脚できるようになるストレッチ！【2週間で開脚ベターっになる方法】",
+        "channel": "オガトレ",
+        "duration": "14:11",
+        "views": "2807万",
+        "videoId": "Re5FPU5_37g",
+        "comment": "あぐらがつらい方はまずここから。日常動作が楽になりますよ。"
+      },
+      {
+        "title": "開脚できるようになるストレッチ！180度も余裕！超柔らかいプロのチアリーダーと一緒にやってみた",
+        "channel": "オガトレ",
+        "duration": "11:44",
+        "views": "392万",
+        "videoId": "NJgUP7P1Fsg",
+        "comment": "股関節が硬いとスクワットのフォームが崩れやすい。柔軟性は筋トレの基礎です。"
+      },
+      {
+        "title": "【毎日９分】劇的に開脚ができるようになるスペシャルストレッチ!!",
+        "channel": "Marina Takewaki",
+        "duration": "10:23",
+        "views": "637万",
+        "videoId": "HY1q6e-6rjc",
+        "comment": "お風呂上がりにやると効果倍増。体が温まっているうちがチャンス。"
+      },
+      {
+        "title": "【毎日10分】 2週間でベターっと開脚できる魔法のストレッチ #510",
+        "channel": "B-Flow",
+        "duration": "12:59",
+        "views": "868万",
+        "videoId": "hS_BRoS5euw",
+        "comment": "片側ずつ丁寧にやると左右差に気づけます。バランスを整えましょう。"
+      },
+      {
+        "title": "【初心者向け股関節ストレッチ】太りやすいのは股関節が硬いから！ BY305",
+        "channel": "美筋ヨガチャンネル",
+        "duration": "11:23",
+        "views": "53万",
+        "videoId": "6lDfHv4-_F8",
+        "comment": "毎日5分でも続けることが最重要。2週間で明確な変化を感じるはずです。"
       }
     ],
     "leg": [
@@ -111,6 +279,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "168万",
         "videoId": "2ipaAMYxGm4",
         "comment": "ヒールを履く方は特にやってほしい。アキレス腱周りのケアがポイントです。"
+      },
+      {
+        "title": "【ふくらはぎ むくみ取り】寝ながら足のむくみ解消！足痩せにも効果大！",
+        "channel": "整体院和み-NAGOMI-土師和也",
+        "duration": "9:52",
+        "views": "13万",
+        "videoId": "2mGMFZPU8Co",
+        "comment": "フォームローラーを使ったセルフマッサージ。持っている方はぜひ試して。"
+      },
+      {
+        "title": "ふくらはぎのセルフマッサージとストレッチ｜めざせふわふわ【10分間】",
+        "channel": "前田のまいにちセルフケア !  by GronG",
+        "duration": "10:22",
+        "views": "4万",
+        "videoId": "NniLWYRBhLs",
+        "comment": "太もものストレッチも脚のむくみ解消に効果的。ふくらはぎだけじゃないんです。"
+      },
+      {
+        "title": "【むくみ撃退でふくらはぎ痩せ】脚やせ最短最強リンパマッサージ",
+        "channel": "あい先生 ｜リンパ師",
+        "duration": "8:00",
+        "views": "114万",
+        "videoId": "7IMUnKR-MSE",
+        "comment": "足首の柔軟性は全身のバランスに影響します。意外と見落としがちなポイント。"
+      },
+      {
+        "title": "【毎日8分】ふくらはぎを細くする最強に効率的なマッサージ方法",
+        "channel": "オガトレ",
+        "duration": "8:30",
+        "views": "23万",
+        "videoId": "vVNi7jhGBpU",
+        "comment": "デスクワーク後の脚の重さがスッキリ取れます。毎日の習慣にしてほしい。"
+      },
+      {
+        "title": "【ふくらはぎ痩せ、坐骨神経痛も改善】寝る前のリンパマッサージ！",
+        "channel": "ストレッチ整体師とも先生",
+        "duration": "12:07",
+        "views": "241万",
+        "videoId": "y5Wzyf2dNSU",
+        "comment": "寝ながらできるので、テレビを見ながらでもOK。続けやすさが魅力。"
+      },
+      {
+        "title": "【脚やせマッサージ】太もも〜ふくらはぎの脚痩せリンパマッサージ完全保存版",
+        "channel": "あい先生 ｜リンパ師",
+        "duration": "17:48",
+        "views": "720万",
+        "videoId": "HfneuOlC4es",
+        "comment": "冷え性の方にもおすすめ。血流が改善されて足先まで温まります。"
+      },
+      {
+        "title": "【座ったまま脚痩せ】60分の運動よりも脚やせリンパでみるみる細くなる！",
+        "channel": "あい先生 ｜リンパ師",
+        "duration": "12:59",
+        "views": "188万",
+        "videoId": "v3uHauBWh0Y",
+        "comment": "立ち仕事が多い方は特に重点的に。ふくらはぎは第二の心臓です。"
       }
     ],
     "fullbody": [
@@ -137,6 +361,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "55万",
         "videoId": "ayfMmOblHAI",
         "comment": "フォームローラーをお持ちの方に。筋膜リリースで翌朝の体が全然違います。"
+      },
+      {
+        "title": "朝ストレッチで1日の消費カロリーを上げて痩せる",
+        "channel": "のがちゃんねる/nogachannel",
+        "duration": "8:27",
+        "views": "354万",
+        "videoId": "5gFiEoahUFU",
+        "comment": "朝のルーティンにすると1日の調子が全然違います。10分で十分です。"
+      },
+      {
+        "title": "【朝＆出勤前に】立ったまま全身温まるストレッチで代謝を上げよう！",
+        "channel": "Marina Takewaki",
+        "duration": "7:18",
+        "views": "144万",
+        "videoId": "ANO2ZxflspE",
+        "comment": "疲れた日の夜に。全身をゆっくり伸ばすと翌朝の体が軽くなります。"
+      },
+      {
+        "title": "【朝専用】疲れないカラダを作る極上10分ストレッチルーティン",
+        "channel": "オガトレ",
+        "duration": "10:47",
+        "views": "162万",
+        "videoId": "Jz7WdjFV5aw",
+        "comment": "ヨガベースの全身ストレッチ。呼吸と動きを合わせることで効果アップ。"
+      },
+      {
+        "title": "代謝を上げたい方にオススメ｜1日の始まりストレッチ【9分間】",
+        "channel": "前田のまいにちセルフケア !  by GronG",
+        "duration": "9:44",
+        "views": "138万",
+        "videoId": "0Ag0loKekpU",
+        "comment": "初心者の方はまずこの動画から。無理なく全身をまんべんなくほぐせます。"
+      },
+      {
+        "title": "【毎朝10分】 朝のストレッチで1日が劇的に変わる！ #631",
+        "channel": "B-Flow",
+        "duration": "11:20",
+        "views": "356万",
+        "videoId": "m5j9hIK2rT0",
+        "comment": "ストレッチは毎日の積み重ねが大事。完璧じゃなくても続けることが正解。"
+      },
+      {
+        "title": "柔軟体操で全身がスッキリ！家で簡単にできるストレッチで運動不足が解消",
+        "channel": "整体師 たっかー【3つの国家資格】",
+        "duration": "11:11",
+        "views": "42万",
+        "videoId": "UKwr906458g",
+        "comment": "フォームローラーやテニスボールを使ったセルフケア。道具があると効果的。"
+      },
+      {
+        "title": "【寝る前12分】全身の疲れを癒すヨガストレッチ",
+        "channel": "Marina Takewaki",
+        "duration": "12:24",
+        "views": "11万",
+        "videoId": "EXvg4VvsqXc",
+        "comment": "自律神経を整える効果も。メンタルが不安定な時にもおすすめです。"
       }
     ]
   },
@@ -165,6 +445,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "1935万",
         "videoId": "31X6hVi4LKQ",
         "comment": "体幹の基礎作りに最適。お尻が上がりすぎないよう一直線を意識してください。"
+      },
+      {
+        "title": "【3分下腹】寝たまま下腹のお肉をごっそり落とす簡単筋トレ！",
+        "channel": "Marina Takewaki",
+        "duration": "4:11",
+        "views": "124万",
+        "videoId": "3nUau9MO2e8",
+        "comment": "初心者の方はまずこのレベルから。正しいフォームを覚えることが最優先。"
+      },
+      {
+        "title": "【3035万回再生突破！】短期集中型【１日２分だけ】耐久戦腹筋",
+        "channel": "メトロンブログ",
+        "duration": "4:20",
+        "views": "3569万",
+        "videoId": "sM3W0b1PdOY",
+        "comment": "立ったままできる腹筋エクササイズ。マットがなくてもどこでもできます。"
+      },
+      {
+        "title": "【地獄の3分】腹筋を最速で割るトレーニング",
+        "channel": "のがちゃんねる/nogachannel",
+        "duration": "5:09",
+        "views": "1928万",
+        "videoId": "b-TFz42PRsk",
+        "comment": "プランクは体幹トレの王道。まずは20秒キープから始めましょう。"
+      },
+      {
+        "title": "【1日3分】2種目でシックスパックを作る腹筋トレーニング！",
+        "channel": "CALISLIFE自重トレ",
+        "duration": "4:28",
+        "views": "825万",
+        "videoId": "2wY41fBnJ8o",
+        "comment": "くびれを作りたいなら腹斜筋を意識。ひねる動きがポイントです。"
+      },
+      {
+        "title": "【3分お腹痩せ】松岡茉優さんが腹筋をバキバキに割ったトレーニング",
+        "channel": "なるねぇ【笑けるダイエット】",
+        "duration": "4:04",
+        "views": "425万",
+        "videoId": "BDuRd1CW3Ng",
+        "comment": "腰が痛くなる方はフォームを確認して。骨盤のポジションが重要です。"
+      },
+      {
+        "title": "【3分だけ!!】立ったままやる立ち腹筋がくびれに効く!!!",
+        "channel": "Marina Takewaki",
+        "duration": "4:05",
+        "views": "599万",
+        "videoId": "-IcHwS728tM",
+        "comment": "下腹部は意識しにくい部位。この動画のように呼吸と連動させると効きます。"
+      },
+      {
+        "title": "【腹筋】最速で腹筋を割る方法＆3分半で追い込む７種類の腹筋メニュー",
+        "channel": "ザ・きんにくTV 【The Muscle TV】",
+        "duration": "12:33",
+        "views": "1996万",
+        "videoId": "u-wS8jABqQI",
+        "comment": "毎日少しずつでOK。腹筋は回復が早い筋肉なので頻度を上げられます。"
       }
     ],
     "arms": [
@@ -191,6 +527,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "2234万",
         "videoId": "3HFAd1LLjxU",
         "comment": "スキマ時間にサクッとできます。肩がすくまないよう注意してください。"
+      },
+      {
+        "title": "【めちゃ効く９分＋タオル】二の腕・ハミ肉・肩・背中〜上半身攻め",
+        "channel": "タビワダンス / tabiwadance",
+        "duration": "10:42",
+        "views": "18万",
+        "videoId": "TjV4UKy6BzY",
+        "comment": "タオルを使った二の腕エクササイズ。家にあるもので十分効果が出ます。"
+      },
+      {
+        "title": "【３分】二の腕・肩こりに効く簡単タオルダンス！",
+        "channel": "Marina Takewaki",
+        "duration": "4:18",
+        "views": "452万",
+        "videoId": "r26YFOI7XcU",
+        "comment": "腕立て伏せが苦手な方は膝つきから。それでもしっかり効きます。"
+      },
+      {
+        "title": "【1日1回のバンザイだけで】みるみる痩せる！",
+        "channel": "美容整体アピアランスTV",
+        "duration": "8:02",
+        "views": "48万",
+        "videoId": "zx1Cb3pQ0EA",
+        "comment": "ダンベルがなくてもペットボトルで代用可能。500mlから始めましょう。"
+      },
+      {
+        "title": "【着実に背中痩せ】座ったまま2週間で背中と二の腕を引き締め",
+        "channel": "トレぴな【脱ムチコ】",
+        "duration": "6:43",
+        "views": "2483万",
+        "videoId": "20ygs9VXxh0",
+        "comment": "上腕三頭筋を集中的に鍛えるメニュー。二の腕のたるみ解消に直結。"
+      },
+      {
+        "title": "【8分】美しい背中をつくる毎日のタオルエクササイズ",
+        "channel": "Yuuka Sagawa",
+        "duration": "8:57",
+        "views": "45万",
+        "videoId": "jaRnXujNwWA",
+        "comment": "肩まわりの筋肉も一緒に鍛えると姿勢改善+二の腕引き締めの一石二鳥。"
+      },
+      {
+        "title": "【K-POPアイドルのような二の腕＆背中痩せ！】タオルを使った筋トレ",
+        "channel": "Hinafit",
+        "duration": "6:02",
+        "views": "10万",
+        "videoId": "GnO61HRcSOo",
+        "comment": "短時間で追い込むタイプ。時間がない日にサクッとやりたい方向け。"
+      },
+      {
+        "title": "【8分】背肉を撃退！引き締まった背中をつくる立ちエクササイズ",
+        "channel": "Yuuka Sagawa",
+        "duration": "8:14",
+        "views": "2622万",
+        "videoId": "SAeZjHAkSo8",
+        "comment": "背中側の筋肉も意識すると腕全体が引き締まります。バランスが大事。"
       }
     ],
     "glutes": [
@@ -217,6 +609,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "1053万",
         "videoId": "4JizH4SPYU8",
         "comment": "ワイドスクワットを中心に。膝がつま先より内に入らないよう気をつけて。"
+      },
+      {
+        "title": "【2weeks】寝たまま！丸く上向きのお尻を作る5分間のヒップアップ筋トレ",
+        "channel": "のがちゃんねる/nogachannel",
+        "duration": "5:35",
+        "views": "407万",
+        "videoId": "nh6-kKP8lTw",
+        "comment": "寝ながらできるお尻トレ。テレビを見ながらでもできる手軽さが魅力。"
+      },
+      {
+        "title": "【毎日4分】寝たまま太ももとお尻を鍛える筋トレ",
+        "channel": "Marina Takewaki",
+        "duration": "4:25",
+        "views": "888万",
+        "videoId": "VGqLNzCHdCo",
+        "comment": "スクワットの正しいフォームを学べます。膝を痛めないコツがわかる。"
+      },
+      {
+        "title": "【まずは7日やってみて！】寝たまま30日でお尻と脚が変わる3種目",
+        "channel": "のがちゃんねる/nogachannel",
+        "duration": "6:39",
+        "views": "75万",
+        "videoId": "sNaFaXfPc_k",
+        "comment": "ゴムバンドを使うと負荷がアップ。中臀筋にピンポイントで効きます。"
+      },
+      {
+        "title": "【8分お尻】寝たままごろごろしながらお尻も太ももも鍛えられる",
+        "channel": "Marina Takewaki",
+        "duration": "9:07",
+        "views": "42万",
+        "videoId": "OdX0qOI9HEE",
+        "comment": "お尻と太ももを同時に鍛えるメニュー。下半身全体の引き締めに。"
+      },
+      {
+        "title": "【ノリノリ４分】最強のお尻トレーニング!!",
+        "channel": "Marina Takewaki",
+        "duration": "4:48",
+        "views": "498万",
+        "videoId": "N2dRjj4sUVE",
+        "comment": "ヒップリフトは寝ながらできて効果抜群。お尻の上部を意識して。"
+      },
+      {
+        "title": "【８分寝たまま】４つの動きでしっかりお尻に効くプリケツ筋トレ",
+        "channel": "Marina Takewaki",
+        "duration": "8:55",
+        "views": "77万",
+        "videoId": "QKQVVMZfG2c",
+        "comment": "片脚ずつやると左右差の改善にも。バランスのとれた美尻を目指して。"
+      },
+      {
+        "title": "【自宅筋トレ】なかやまきんに君の正しいスクワットを学ぼう。",
+        "channel": "ザ・きんにくTV 【The Muscle TV】",
+        "duration": "6:33",
+        "views": "245万",
+        "videoId": "SFnfYPktYBU",
+        "comment": "週3回このメニューを続ければ1ヶ月で変化を実感できるはずです。"
       }
     ],
     "cardio": [
@@ -243,6 +691,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "5256万",
         "videoId": "KxzZJwmB8qc",
         "comment": "楽しみながら動きたい方に。完璧に踊れなくても動き続ければOKです。"
+      },
+      {
+        "title": "【確実に身体が引き締まる】自宅で静かに立ったままできる有酸素運動！【20分】",
+        "channel": "林慧亮 / uFit代表",
+        "duration": "19:34",
+        "views": "10万",
+        "videoId": "tbj_QJyTqyQ",
+        "comment": "20分の有酸素で脂肪燃焼効果をしっかり出せます。ペース配分が大事。"
+      },
+      {
+        "title": "【有酸素運動】静かに自宅でできる有酸素運動！飛ばない脂肪がすぐに燃えるダイエット",
+        "channel": "林慧亮 / uFit代表",
+        "duration": "10:03",
+        "views": "693万",
+        "videoId": "iKWmRIflEhc",
+        "comment": "ダンス系の有酸素。音楽に乗って楽しくカロリー消費できます。"
+      },
+      {
+        "title": "【有酸素運動ダイエット】音を立てずに自宅で静かにできる有酸素運動！（20分）",
+        "channel": "林慧亮 / uFit代表",
+        "duration": "19:56",
+        "views": "5万",
+        "videoId": "ofIDz9VJL5k",
+        "comment": "タバタ式4分間。短時間で追い込みたい時に最適。上級者向け。"
+      },
+      {
+        "title": "【本気の人専用】飛ばないHIITで限界を越えろ!!",
+        "channel": "Marina Takewaki",
+        "duration": "10:46",
+        "views": "174万",
+        "videoId": "pJyq_CReq8g",
+        "comment": "ウォーキング感覚でできる低強度有酸素。運動習慣がない方のスタートに。"
+      },
+      {
+        "title": "運動不足を自宅で静かに解消しよう！飛ばない自宅エクササイズ（20分）",
+        "channel": "林慧亮 / uFit代表",
+        "duration": "19:55",
+        "views": "2万",
+        "videoId": "Rpex8BvGgeE",
+        "comment": "休憩を挟みながらのインターバル形式。自分のペースで調整できます。"
+      },
+      {
+        "title": "【地獄の19分】三日坊主でも良い！超きついけど楽しく痩せるダンス",
+        "channel": "Marina Takewaki",
+        "duration": "19:33",
+        "views": "3129万",
+        "videoId": "9UX7XUBMJnc",
+        "comment": "ステップ系の動きで楽しく有酸素。単調になりがちな運動に変化を。"
+      },
+      {
+        "title": "【静かにできるHIIT】スクワットだけ!!脂肪がガンガン燃える自宅トレ!!",
+        "channel": "【地球がジム】fitness mate",
+        "duration": "4:59",
+        "views": "84万",
+        "videoId": "iWlpOVUTjag",
+        "comment": "音楽に合わせたエアロビクス系。気分転換にもなって一石二鳥。"
       }
     ],
     "posture": [
@@ -269,6 +773,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "799万",
         "videoId": "yfyejTh4kZc",
         "comment": "スマホ首の方に。胸鎖乳突筋と大胸筋のストレッチが特に重要です。"
+      },
+      {
+        "title": "【90秒で巻き肩を改善】顔のたるみ・肩こり・首こりを根本的に治す方法",
+        "channel": "美容整体のうちやま先生。",
+        "duration": "5:19",
+        "views": "68万",
+        "videoId": "v8EDqn9k23M",
+        "comment": "壁を使った巻き肩改善エクササイズ。道具なしでどこでもできます。"
+      },
+      {
+        "title": "簡単3分！壁を使ってできる巻き肩解消ストレッチ",
+        "channel": "椎名亮 整体院チャンネル",
+        "duration": "19:16",
+        "views": "665",
+        "videoId": "JVN3VF7WUMc",
+        "comment": "反り腰と猫背を同時に改善。骨盤のニュートラルポジションを覚えましょう。"
+      },
+      {
+        "title": "【500万再生】肩甲骨が原因！背面が痩せるトレーニング・ストレッチ",
+        "channel": "のがちゃんねる/nogachannel",
+        "duration": "9:46",
+        "views": "638万",
+        "videoId": "DHfqYMts4pE",
+        "comment": "背中の筋肉を鍛えることで自然と良い姿勢がキープできます。"
+      },
+      {
+        "title": "【伸び〜る10分】巻き肩改善！壁ヨガストレッチで美姿勢へ",
+        "channel": "ボディメイクスタジオSTELLA公式",
+        "duration": "10:19",
+        "views": "1.9千",
+        "videoId": "fmW8wuPbThw",
+        "comment": "デスクワーク中にできる30秒ストレッチ。1時間に1回やるのが理想。"
+      },
+      {
+        "title": "３分肩甲骨を動かして猫背・巻き肩・肩こり改善！代謝アップも！",
+        "channel": "Marina Takewaki",
+        "duration": "4:25",
+        "views": "46万",
+        "videoId": "OTM_K1RDXK0",
+        "comment": "ストレートネックの改善は首だけでなく胸椎の動きが重要です。"
+      },
+      {
+        "title": "痩せない原因の巻き肩をしっかり解消するストレッチ",
+        "channel": "オガトレ",
+        "duration": "9:01",
+        "views": "291万",
+        "videoId": "YfK_r3PeP6Q",
+        "comment": "姿勢改善は見た目だけでなく肩こり・腰痛予防にも直結します。"
+      },
+      {
+        "title": "壁を使った挙上運動 肩関節周囲炎の運動療法",
+        "channel": "科研製薬",
+        "duration": "6:55",
+        "views": "9万",
+        "videoId": "i55EpfDdbUU",
+        "comment": "立ち姿勢のチェックポイントを解説。自分の姿勢を客観的に見直せます。"
       }
     ]
   },
@@ -297,6 +857,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "81万",
         "videoId": "QV1lEO38LLc",
         "comment": "朝時間がない方に。バナナ+プロテイン+豆乳の組み合わせが飲みやすいです。"
+      },
+      {
+        "title": "【体脂肪30%→18％】旨くて超簡単！痩せるささみ作り置き３品",
+        "channel": "食べ痩せ健康チャンネル",
+        "duration": "15:13",
+        "views": "6万",
+        "videoId": "rU7vwboqlh0",
+        "comment": "ささみを使った時短レシピ。パサつかないコツは下処理にあります。"
+      },
+      {
+        "title": "レンジで３分ささみの絶品蒸し しっとりふっくら！",
+        "channel": "DAIFUKU KITCHEN",
+        "duration": "7:17",
+        "views": "16万",
+        "videoId": "5semhEzPmG8",
+        "comment": "卵は最強のタンパク源。アレンジ無限大で飽きません。"
+      },
+      {
+        "title": "正直何回食べてもこれが1番美味しい鶏ササミの最高の調理法",
+        "channel": "けんますクッキング",
+        "duration": "13:14",
+        "views": "113万",
+        "videoId": "0ICwRPrK5fs",
+        "comment": "豆腐は植物性タンパク質の優秀食材。満腹感もあってダイエットの味方。"
+      },
+      {
+        "title": "どう考えても痩せるし安いしウマすぎる痩せささみサラダ",
+        "channel": "料理研究家リュウジのバズレシピ",
+        "duration": "9:07",
+        "views": "136万",
+        "videoId": "V40ANxY9SMs",
+        "comment": "魚のタンパク質も重要。サバ缶なら手軽に良質な脂質も摂れます。"
+      },
+      {
+        "title": "絶対作ってほしいささみレシピ２選！ダイエット神レシピ",
+        "channel": "なべのだいどころ。",
+        "duration": "4:48",
+        "views": "14万",
+        "videoId": "SQ9rCfz407I",
+        "comment": "プロテインを料理に活用するレシピ。パンケーキやスムージーに。"
+      },
+      {
+        "title": "【筋取り不要】箸で切れる柔らかさ超柔ささみステーキ",
+        "channel": "料理研究家リュウジのバズレシピ",
+        "duration": "8:23",
+        "views": "241万",
+        "videoId": "VmIseMBSQH0",
+        "comment": "コンビニでも買える高タンパク食品の選び方。忙しい日の参考に。"
+      },
+      {
+        "title": "【焼くだけ5分】ササミが驚くほどしっとり！ササマヨ焼き",
+        "channel": "料理長のおうちごはん",
+        "duration": "8:11",
+        "views": "32万",
+        "videoId": "Qmqq5_zcHkI",
+        "comment": "1食30g以上のタンパク質を目指しましょう。このレシピなら楽にクリア。"
       }
     ],
     "snack": [
@@ -323,6 +939,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "160万",
         "videoId": "3xfGNpa-kTM",
         "comment": "自炊が難しい時の参考に。ギリシャヨーグルト+ナッツが最強の組み合わせ。"
+      },
+      {
+        "title": "【神回】簡単プロテインバーの作り方！減量レシピ！",
+        "channel": "ドムス",
+        "duration": "9:15",
+        "views": "14万",
+        "videoId": "m9hhz9NR93k",
+        "comment": "手作りプロテインバー。市販品より安くて添加物なしで安心。"
+      },
+      {
+        "title": "【持ち歩きに便利】オーミールプロテインバー！",
+        "channel": "まゆ l 痩せうまレシピ",
+        "duration": "4:07",
+        "views": "15万",
+        "videoId": "hCUE98gChcc",
+        "comment": "オートミールを使ったヘルシースイーツ。食物繊維も摂れて一石二鳥。"
+      },
+      {
+        "title": "【オイル･砂糖･小麦粉不使用】オートミールプロテインバー",
+        "channel": "健康に痩せる!【ぷらりーch】",
+        "duration": "9:28",
+        "views": "8.7千",
+        "videoId": "TZiFgxzuA2A",
+        "comment": "ギリシャヨーグルトのアレンジレシピ。タンパク質が豊富で腹持ち抜群。"
+      },
+      {
+        "title": "【ダイエット】焼かないスタバ風プロテインバーの作り方",
+        "channel": "食べ痩せ健康チャンネル",
+        "duration": "6:41",
+        "views": "5万",
+        "videoId": "62924uO7PfM",
+        "comment": "ナッツは良質な脂質の宝庫。ただし食べ過ぎ注意。1日25g程度が目安。"
+      },
+      {
+        "title": "【No.1おやつレシピ】オーバーナイト・オートミール・プロテインバー",
+        "channel": "ドムス",
+        "duration": "6:35",
+        "views": "14万",
+        "videoId": "kBUoiJiV6EA",
+        "comment": "フルーツを使った低カロリースイーツ。冷凍バナナのアイスが簡単で美味しい。"
+      },
+      {
+        "title": "爆速５分！！超簡単に出来るプロテインバーの作り方",
+        "channel": "タンクトップDJ",
+        "duration": "6:59",
+        "views": "6.3千",
+        "videoId": "Cwlho16B-HY",
+        "comment": "するめやビーフジャーキーも優秀なタンパク質おやつ。噛む回数も増えて◎"
+      },
+      {
+        "title": "【オイル無し】高タンパク＆乳酸菌オートミールプロテインバー",
+        "channel": "健康に痩せる!【ぷらりーch】",
+        "duration": "12:40",
+        "views": "1万",
+        "videoId": "hiQozrSpI0k",
+        "comment": "小腹が空いた時は茹で卵かチーズ。手軽で栄養バランスも良いです。"
       }
     ],
     "mealprep": [
@@ -349,6 +1021,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "205万",
         "videoId": "Rq1taW6LVOI",
         "comment": "完璧を目指さなくてOK。まずは真似できるところから取り入れてみてください。"
+      },
+      {
+        "title": "お弁当は毎朝作らなくていい。週末に作り置きして平日が楽になる",
+        "channel": "おすぎ(管理栄養士)",
+        "duration": "19:05",
+        "views": "13万",
+        "videoId": "MPLkTduOwEg",
+        "comment": "鶏むね肉の下味冷凍バリエーション。5種類作っておけば1週間飽きない。"
+      },
+      {
+        "title": "【1食150円】同じ食材で5日間全部違うおかず！鶏むね肉メイン",
+        "channel": "おすぎ(管理栄養士)",
+        "duration": "13:56",
+        "views": "15万",
+        "videoId": "aEgawScD-kI",
+        "comment": "野菜たっぷりのヘルシー作り置き。ビタミン・ミネラルも忘れずに。"
+      },
+      {
+        "title": "鶏もも肉の下味冷凍｜毎日の食事作りの負担を減らす",
+        "channel": "yuu. style",
+        "duration": "6:08",
+        "views": "21万",
+        "videoId": "Ea2U_97lYF4",
+        "comment": "筋肉弁当の組み立て方。PFCバランスを意識した詰め方のコツ。"
+      },
+      {
+        "title": "秋冬の美味しい7品1週間の下味冷凍献立！",
+        "channel": "まごころ和定食 うつわと料理vlog",
+        "duration": "11:19",
+        "views": "63万",
+        "videoId": "eTQQpZA8MnE",
+        "comment": "休日2時間で平日5日分。まとめて作る効率的な段取りを学べます。"
+      },
+      {
+        "title": "【まるごと冷凍弁当】5日分2人前計10食作り置き",
+        "channel": "ちゃみキッチン",
+        "duration": "19:43",
+        "views": "347万",
+        "videoId": "3lREcMBwMCY",
+        "comment": "冷凍保存のコツとおすすめ容器。品質を保つ保存方法も重要。"
+      },
+      {
+        "title": "【1食130円】鶏むね肉を反則級に美味しくする！鶏チリ",
+        "channel": "おすぎ(管理栄養士)",
+        "duration": "8:07",
+        "views": "24万",
+        "videoId": "aetGUzw9XPo",
+        "comment": "調味料を変えるだけで同じ食材でもバリエーション無限。飽き対策に。"
+      },
+      {
+        "title": "1週間の野菜＆肉たっぷり冷凍おかずの作り置き",
+        "channel": "1人前食堂",
+        "duration": "12:01",
+        "views": "85万",
+        "videoId": "XCqhB2svDrk",
+        "comment": "ご飯の量の目安も解説。糖質も適量は必要です。極端なカットはNG。"
       }
     ],
     "breakfast": [
@@ -375,6 +1103,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "41万",
         "videoId": "eGEA0cmLJBs",
         "comment": "朝食を抜くと筋分解が進みやすいです。少量でもいいので何か口にしましょう。"
+      },
+      {
+        "title": "【マグカップで5分】オートミールの朝食レシピ1週間分",
+        "channel": "ayahare diet",
+        "duration": "11:47",
+        "views": "81万",
+        "videoId": "Upw_RnktXCs",
+        "comment": "オートミールは腹持ち抜群。レンジで2分のお手軽レシピ。"
+      },
+      {
+        "title": "【ダイエット料理】超簡単で美味しいオートミールレシピ３選！",
+        "channel": "Marina Takewaki",
+        "duration": "11:48",
+        "views": "200万",
+        "videoId": "kQxTrMbffTs",
+        "comment": "卵かけご飯にプロテインをプラス。日本人の朝食の最適解かも。"
+      },
+      {
+        "title": "オートミール嫌いを克服した簡単5分で作る朝ご飯レシピ6選",
+        "channel": "ayahare diet",
+        "duration": "12:41",
+        "views": "34万",
+        "videoId": "MxPRdGTxpyo",
+        "comment": "スムージーなら忙しい朝でもタンパク質20g以上摂れます。"
+      },
+      {
+        "title": "【忙しい朝に最適】レンジで作る超簡単オートミール朝ごはん4日分！",
+        "channel": "まゆ l 痩せうまレシピ",
+        "duration": "6:08",
+        "views": "4万",
+        "videoId": "RG-u2Gc_3UQ",
+        "comment": "前日夜に仕込むオーバーナイトオーツ。朝は冷蔵庫から出すだけ。"
+      },
+      {
+        "title": "【オートミールレンジレシピ集】レンジで出来る！朝食にも♪",
+        "channel": "macaroni | マカロニ",
+        "duration": "11:42",
+        "views": "61万",
+        "videoId": "hNIwLCXJOGo",
+        "comment": "納豆+卵+ご飯は黄金の組み合わせ。和食の朝ごはんも優秀です。"
+      },
+      {
+        "title": "【痩せる朝食】ズボラで簡単な定番オートミールのレシピ3品！",
+        "channel": "まあ",
+        "duration": "4:35",
+        "views": "43万",
+        "videoId": "yluhcZAgyJY",
+        "comment": "トーストにチーズとハムを乗せるだけでもタンパク質量がアップ。"
+      },
+      {
+        "title": "【超簡単】レンジだけでオートミール朝ごはん！",
+        "channel": "こてぃん食堂",
+        "duration": "7:41",
+        "views": "81万",
+        "videoId": "NSTMQXkVD10",
+        "comment": "朝食を抜くと昼に血糖値が急上昇しやすい。少量でも食べましょう。"
       }
     ],
     "recovery": [
@@ -401,6 +1185,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "9.4千",
         "videoId": "96RoUNh3ocQ",
         "comment": "ご褒美感がありつつ栄養もしっかり。トレーニング後の楽しみにしてください。"
+      },
+      {
+        "title": "【徹底解説】プロテインっていつ飲めばいいのか",
+        "channel": "ザ・きんにくTV",
+        "duration": "12:27",
+        "views": "94万",
+        "videoId": "xB9isYGZfJc",
+        "comment": "プロテインの効果的な飲み方。タイミングと量の最新エビデンス。"
+      },
+      {
+        "title": "筋肥大を最適化するプロテインの飲み方",
+        "channel": "今古賀翔【トレーニング科学】",
+        "duration": "9:09",
+        "views": "9万",
+        "videoId": "fPjYNvkcY70",
+        "comment": "トレーニング直後の栄養補給。糖質も一緒に摂ることが重要な理由。"
+      },
+      {
+        "title": "【2024年最新版】筋合成を活発にさせるベストなプロテインの飲むタイミング",
+        "channel": "VALX 山本義徳 筋トレ大学",
+        "duration": "12:19",
+        "views": "26万",
+        "videoId": "nt0mXOB_ajs",
+        "comment": "疲労回復に効く食材と栄養素。ビタミンB群と鉄分がカギ。"
+      },
+      {
+        "title": "【真実or嘘】30分以内は守るべき？筋トレ後のタンパク質摂取",
+        "channel": "新・バズーカ岡田チャンネル",
+        "duration": "14:28",
+        "views": "5万",
+        "videoId": "rvO4f9pXrOc",
+        "comment": "運動後の食事メニュー実例。タンパク質+糖質のベストバランスとは。"
+      },
+      {
+        "title": "【筋トレ科学】筋トレ前VS筋トレ後 プロテインパウダーの効果",
+        "channel": "論文で解決",
+        "duration": "10:12",
+        "views": "1万",
+        "videoId": "ZhWO1UzIYz4",
+        "comment": "コンビニで買えるリカバリー食。プロテインドリンク+おにぎりが最強。"
+      },
+      {
+        "title": "プロテインの効果を高める飲むタイミング&飲み方を徹底解説",
+        "channel": "林慧亮 / uFit代表",
+        "duration": "8:53",
+        "views": "10万",
+        "videoId": "ZsuEVWM00_Y",
+        "comment": "寝る前のプロテインは太る？最新研究に基づく回答がわかります。"
+      },
+      {
+        "title": "【要注意】痩せない原因はプロテインのこの飲み方です",
+        "channel": "片倉岳人/ダイエットの知恵袋",
+        "duration": "8:27",
+        "views": "72万",
+        "videoId": "qzkaPFTZOv8",
+        "comment": "トレーニング強度に応じた食事量の調整方法。やりすぎもNG。"
       }
     ]
   },
@@ -429,6 +1269,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "109万",
         "videoId": "WY7L052hiPY",
         "comment": "トレーニング日の夜に特におすすめ。興奮した神経を落ち着かせてくれます。"
+      },
+      {
+        "title": "【寝たまま10分】自律神経を整え安眠したい方におすすめのヨガ #649",
+        "channel": "B-Flow",
+        "duration": "11:13",
+        "views": "208万",
+        "videoId": "z4h3OH_VcVU",
+        "comment": "不眠に効くヨガポーズを厳選。リラックス効果の高い動きだけを集めています。"
+      },
+      {
+        "title": "【寝る前10分】寝たまま全身の疲れを取る簡単ヨガストレッチ #586",
+        "channel": "B-Flow",
+        "duration": "11:02",
+        "views": "320万",
+        "videoId": "ZdoECl5OznE",
+        "comment": "ASMR要素のあるストレッチ動画。音声も心地よくて自然と眠くなります。"
+      },
+      {
+        "title": "【10分】寝たままデトックスヨガ #584",
+        "channel": "B-Flow",
+        "duration": "11:36",
+        "views": "88万",
+        "videoId": "W4Y5Vb3FxBA",
+        "comment": "4-7-8呼吸法のやり方を丁寧に解説。不眠で悩む方の第一歩に。"
+      },
+      {
+        "title": "寝たままできる自律神経を整えるヨガ #109",
+        "channel": "B-Flow",
+        "duration": "16:15",
+        "views": "591万",
+        "videoId": "k7ju5ykeoV8",
+        "comment": "寝る前のスマホは睡眠の大敵。代わりにこのストレッチを習慣にして。"
+      },
+      {
+        "title": "【寝たまま10分】姿勢改善ヨガ #642",
+        "channel": "B-Flow",
+        "duration": "11:26",
+        "views": "101万",
+        "videoId": "v2YwcuW8rQs",
+        "comment": "マットレスや枕の選び方も睡眠の質に大きく影響します。参考にしてみて。"
+      },
+      {
+        "title": "【8分で肩こり＆自律神経ケア】寝たまま簡単リラックスストレッチ #702",
+        "channel": "B-Flow",
+        "duration": "9:32",
+        "views": "80万",
+        "videoId": "tgUuVWpL9gY",
+        "comment": "体の緊張をひとつずつ解いていくボディスキャン瞑想。初心者にもおすすめ。"
+      },
+      {
+        "title": "【9分寝たまま】全身の疲れを取る寝る前のストレッチ",
+        "channel": "Marina Takewaki",
+        "duration": "10:00",
+        "views": "38万",
+        "videoId": "fyfhkmF0zLo",
+        "comment": "カフェインの影響は8時間以上続くことも。14時以降は控えめに。"
       }
     ],
     "wakeup": [
@@ -455,6 +1351,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "402万",
         "videoId": "09C7ti0xY4k",
         "comment": "寝る90分前の入浴がゴールデンタイム。深部体温の低下が入眠を促します。"
+      },
+      {
+        "title": "【科学的根拠】体力がチートで増える睡眠の雑学",
+        "channel": "健康の雑学",
+        "duration": "8:21",
+        "views": "218万",
+        "videoId": "9kUu2IVvBjw",
+        "comment": "科学的根拠に基づいた睡眠改善法。実践しやすいものから試してみて。"
+      },
+      {
+        "title": "【要約】スタンフォード式 最高の睡眠",
+        "channel": "フェルミ漫画大学",
+        "duration": "18:26",
+        "views": "48万",
+        "videoId": "PuLXl_Le2Pc",
+        "comment": "食事と睡眠の関係を詳しく解説。トリプトファンを含む食品を意識して。"
+      },
+      {
+        "title": "【睡眠革命】30％睡眠時間を減らしても大丈夫!?",
+        "channel": "【人生が楽しくなる】雑学学校",
+        "duration": "5:58",
+        "views": "13",
+        "videoId": "UfkT1PrZoAA",
+        "comment": "寝室の温度・湿度・光の最適条件を解説。環境整備が第一歩。"
+      },
+      {
+        "title": "【寝付きの悪い方へ】試して欲しい入眠方法５選",
+        "channel": "メディバリー大学病院",
+        "duration": "9:08",
+        "views": "10万",
+        "videoId": "234F4YqvYqQ",
+        "comment": "アルコールは睡眠の質を下げる。飲むなら寝る3時間前までに。"
+      },
+      {
+        "title": "【超熟睡法！】薬に頼らず最高の睡眠を得る方法",
+        "channel": "あまが台ファミリークリニック",
+        "duration": "16:30",
+        "views": "26万",
+        "videoId": "yf5oysNb1Yw",
+        "comment": "睡眠のサイクル（90分周期）を意識した就寝時間の設定方法。"
+      },
+      {
+        "title": "【ポケモンスリープ監修】専門家に聞く睡眠の新常識",
+        "channel": "メ〜テレニュース",
+        "duration": "10:22",
+        "views": "52万",
+        "videoId": "3KuY5E6Yfdk",
+        "comment": "枕の高さと寝姿勢の関係。自分に合った枕選びのポイント。"
+      },
+      {
+        "title": "睡眠学者、柳沢正史だけど質問ある？",
+        "channel": "WIRED.jp",
+        "duration": "16:08",
+        "views": "282万",
+        "videoId": "fOsaVft0Mtw",
+        "comment": "ブルーライトカットだけでは不十分。寝る1時間前のスクリーンタイムを減らそう。"
       }
     ],
     "morning": [
@@ -481,6 +1433,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "65万",
         "videoId": "h8bvc10n3sk",
         "comment": "急に起き上がらず、まず手足をグーパーする。段階的に体を起こすのがコツ。"
+      },
+      {
+        "title": "【朝晩5分だけ!!】これさえやればOK!!運動前後にも最適な簡単ストレッチルーティン",
+        "channel": "Marina Takewaki",
+        "duration": "6:03",
+        "views": "580万",
+        "videoId": "fj8CbDE9Keo",
+        "comment": "5分で終わる朝のルーティン。忙しい朝でも続けられるのが最大の魅力。"
+      },
+      {
+        "title": "【朝活5分】1日これだけでOK。朝のリンパストレッチルーティン",
+        "channel": "ブスの美ボディメイク -miey-",
+        "duration": "8:44",
+        "views": "20万",
+        "videoId": "nuuTkTfn5pQ",
+        "comment": "ベッドの上でそのままできるヨガ。起き上がる前に体のスイッチをON。"
+      },
+      {
+        "title": "【朝＆出勤前に】立ったまま全身温まるストレッチで代謝を上げよう！",
+        "channel": "Marina Takewaki",
+        "duration": "7:18",
+        "views": "144万",
+        "videoId": "ANO2ZxflspE",
+        "comment": "朝の運動習慣は1日の代謝を上げます。軽いストレッチだけでも効果あり。"
+      },
+      {
+        "title": "朝ストレッチで1日の消費カロリーを上げて痩せる",
+        "channel": "のがちゃんねる/nogachannel",
+        "duration": "8:27",
+        "views": "354万",
+        "videoId": "5gFiEoahUFU",
+        "comment": "朝日を浴びることが最高の目覚まし。カーテンを開ける習慣をつけて。"
+      },
+      {
+        "title": "【朝のストレッチエクササイズ】2週間で-5kgモーニングルーティン",
+        "channel": "美容整体アピアランスTV",
+        "duration": "8:15",
+        "views": "185万",
+        "videoId": "S1_1Zmy9BNs",
+        "comment": "冷水で顔を洗うと交感神経が刺激されてスッキリ目覚められます。"
+      },
+      {
+        "title": "【人生を変える5分ヨガ】腸活デトックスで内臓機能が改善！ #597",
+        "channel": "B-Flow",
+        "duration": "7:24",
+        "views": "116万",
+        "videoId": "7xK0WSveK9Q",
+        "comment": "朝の白湯は内臓を温めて代謝を促進。レモンを絞るとさらに◎"
+      },
+      {
+        "title": "【朝用5分】老廃物がドバドバ流れる簡単体操で代謝アップ!!",
+        "channel": "Marina Takewaki",
+        "duration": "5:49",
+        "views": "431万",
+        "videoId": "glxcRUKh_n0",
+        "comment": "寝起きの体は脱水状態。コップ1杯の水を飲むことから1日を始めて。"
       }
     ],
     "fatigue": [
@@ -507,6 +1515,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "4万",
         "videoId": "quwAF8vENCc",
         "comment": "マグネシウムとビタミンCの摂取を意識してみてください。サプリでもOKです。"
+      },
+      {
+        "title": "【超必見】疲労を100％抜く休脚日の過ごし方3選",
+        "channel": "【タカヤマラソン】チャンネル",
+        "duration": "9:17",
+        "views": "2万",
+        "videoId": "t4qTJsGivqo",
+        "comment": "アクティブレストの具体的なやり方。散歩やヨガが最適です。"
+      },
+      {
+        "title": "積極的休養? アクティブレストについてご紹介!!",
+        "channel": "フィットネストレーナー野上",
+        "duration": "6:59",
+        "views": "5.7千",
+        "videoId": "s2kjPnJJptc",
+        "comment": "トレーニング後のクールダウン方法。静的ストレッチで筋肉をほぐして。"
+      },
+      {
+        "title": "休みの日は完全休養？疲労回復に効果的なアクティブレスト",
+        "channel": "SAKI RUN サキラン",
+        "duration": "5:45",
+        "views": "4万",
+        "videoId": "MeY24mgzI_A",
+        "comment": "入浴は38〜40度で15分がベスト。熱すぎると逆に疲れます。"
+      },
+      {
+        "title": "ジョグで疲労が劇的に回復する方法が判明",
+        "channel": "【タカヤマラソン】チャンネル",
+        "duration": "9:42",
+        "views": "6万",
+        "videoId": "Bn1bjNbSQ9Y",
+        "comment": "睡眠の質が回復の8割を決めます。7〜8時間は確保したい。"
+      },
+      {
+        "title": "疲労回復するには、長く寝るより○○をしてください。",
+        "channel": "ゆっくりは健康になりたい。",
+        "duration": "16:42",
+        "views": "11万",
+        "videoId": "sxcE5cqqpBM",
+        "comment": "タンパク質だけでなくビタミン・ミネラルも回復に不可欠。"
+      },
+      {
+        "title": "【アクティブレスト】動いて疲れを取る１日",
+        "channel": "おうちトレーナーひがし",
+        "duration": "7:46",
+        "views": "249",
+        "videoId": "_y51-H-cODg",
+        "comment": "フォームローラーを使ったセルフ筋膜リリース。翌日の筋肉痛が軽減。"
+      },
+      {
+        "title": "疲労を科学的に回復させる方法10選",
+        "channel": "毎日が楽しくなる雑学",
+        "duration": "18:32",
+        "views": "175万",
+        "videoId": "nKQXHt1F-co",
+        "comment": "オーバートレーニングの兆候を見逃さないで。休む勇気も大切です。"
       }
     ],
     "daytime": [
@@ -533,6 +1597,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "233万",
         "videoId": "LRyDvgEIpcg",
         "comment": "季節の変わり目に特に効きます。胸を開く動きで交感神経にスイッチを入れて。"
+      },
+      {
+        "title": "一瞬で眠気を吹き飛ばす昼寝のやり方。パワーナップ",
+        "channel": "昼寝専門家 Nap Lab",
+        "duration": "6:03",
+        "views": "284",
+        "videoId": "CKilrCwvA3A",
+        "comment": "正しい昼寝（パワーナップ）のやり方。15〜20分がベスト。"
+      },
+      {
+        "title": "明日から人生変わる最高の昼寝",
+        "channel": "メンタリスト DaiGo",
+        "duration": "7:46",
+        "views": "11万",
+        "videoId": "RarcurP9xMc",
+        "comment": "椅子に座ったままできる眠気覚ましストレッチ。オフィスでもバレにくい。"
+      },
+      {
+        "title": "【一瞬で】集中力MAX｜科学が証明したパワーナップ法",
+        "channel": "昼寝専門家 Nap Lab",
+        "duration": "9:53",
+        "views": "136",
+        "videoId": "cnTBD95TYso",
+        "comment": "食後の血糖値スパイクを防ぐ食事の順番。野菜→タンパク質→炭水化物。"
+      },
+      {
+        "title": "適切なパワーナップで寝不足を解消する方法",
+        "channel": "わんチャンネルの身体講座",
+        "duration": "7:53",
+        "views": "173",
+        "videoId": "hKmvgDgbcN8",
+        "comment": "午後の眠気対策には軽い散歩も効果的。5分歩くだけで頭がスッキリ。"
+      },
+      {
+        "title": "【実証済み】昼寝で仕事も健康も充実させる方法",
+        "channel": "ドクターすぎおか",
+        "duration": "5:28",
+        "views": "1万",
+        "videoId": "Aht29hgpt60",
+        "comment": "ガムを噛むことで脳への血流が増加。集中力回復の簡単テクニック。"
+      },
+      {
+        "title": "GoogleやNASAも取り入れているパワーナップとは",
+        "channel": "佐藤隆也の人生100年大学",
+        "duration": "6:08",
+        "views": "184",
+        "videoId": "NyeDbG71Tb0",
+        "comment": "ミントティーやレモン水はカフェインなしでもリフレッシュ効果あり。"
+      },
+      {
+        "title": "最強の昼寝法スーパーパワーナップ",
+        "channel": "【一息雑学チャンネル】",
+        "duration": "13:09",
+        "views": "164",
+        "videoId": "P1pmVqp6BCE",
+        "comment": "深呼吸を5回するだけでも眠気が和らぎます。酸素を脳に送りましょう。"
       }
     ]
   },
@@ -561,6 +1681,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "167万",
         "videoId": "slspGIMcK2Q",
         "comment": "ポーズより先に呼吸を覚えると上達が早いです。腹式呼吸から始めましょう。"
+      },
+      {
+        "title": "【ヨガ基本ポーズ】初心者におすすめの7つの基礎ポーズ",
+        "channel": "KAORI ヨガ",
+        "duration": "12:21",
+        "views": "18万",
+        "videoId": "yKXCWFYtTDQ",
+        "comment": "基本ポーズの名前と効果を解説。ヨガの全体像が掴めます。"
+      },
+      {
+        "title": "PARK YOGA♪ポーズの名前付き",
+        "channel": "美BODYフィットネス",
+        "duration": "8:59",
+        "views": "145",
+        "videoId": "sLDMjG0n0X8",
+        "comment": "呼吸法だけを丁寧に教える動画。ポーズの前にまず呼吸から。"
+      },
+      {
+        "title": "【ヨガ初心者向け解説付き】基本の立位ヨガポーズ",
+        "channel": "時のヨガ通信",
+        "duration": "12:35",
+        "views": "7.0千",
+        "videoId": "jcZW7DLR4OM",
+        "comment": "リラックス系ヨガ。無理なく心地よく体を動かせます。"
+      },
+      {
+        "title": "これだけは押さえたい！初心者向け基本ヨガポーズ10選",
+        "channel": "ヨガの架け橋",
+        "duration": "8:47",
+        "views": "3.4千",
+        "videoId": "tcKu1iWYILc",
+        "comment": "男性にもおすすめのヨガ入門。柔軟性は後からついてきます。"
+      },
+      {
+        "title": "ポーズが深まる理由、説明できますか？ヨガを変える解剖学入門",
+        "channel": "ヨガの架け橋",
+        "duration": "8:20",
+        "views": "1.6千",
+        "videoId": "w-zBNuFCjzI",
+        "comment": "5分でできるミニヨガ。まずは短い時間から習慣化を目指して。"
+      },
+      {
+        "title": "【ヨガ基礎立ちポーズ】初心者におすすめの4つの基本ポーズ",
+        "channel": "KAORI ヨガ",
+        "duration": "7:39",
+        "views": "7万",
+        "videoId": "VVpYeC9630k",
+        "comment": "ヨガマットがなくてもカーペットの上でOK。まずは始めることが大事。"
+      },
+      {
+        "title": "【10分でととのう】呼吸を深めて自律神経を整えるやさしいヨガ #732",
+        "channel": "B-Flow",
+        "duration": "12:11",
+        "views": "51万",
+        "videoId": "D9L4__SdLFg",
+        "comment": "チェアヨガで椅子に座ったままポーズを取れます。オフィスでもできる。"
       }
     ],
     "morningyoga": [
@@ -587,6 +1763,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "409万",
         "videoId": "gLCd-E8ekEg",
         "comment": "しっかり動きたい朝に。呼吸に合わせた流れるような動きが気持ちいいです。"
+      },
+      {
+        "title": "【人生を変える5分ヨガ】寝たまま朝ヨガで1日を気持ちよくスタート！ #591",
+        "channel": "B-Flow",
+        "duration": "7:08",
+        "views": "300万",
+        "videoId": "KXe07sNk9uc",
+        "comment": "5分の朝ヨガ。ベッドから出たくない朝でもこれなら続けられます。"
+      },
+      {
+        "title": "【人生を変える5分ヨガ】これ1本で全身の不調がみるみる改善！ #596",
+        "channel": "B-Flow",
+        "duration": "7:10",
+        "views": "395万",
+        "videoId": "8FX9ZwDvf_0",
+        "comment": "ヴィンヤサフローで全身にエネルギーを巡らせる。動く瞑想のような感覚。"
+      },
+      {
+        "title": "【毎朝５分】初心者さん向け朝ヨガで毎日スッキリ!!",
+        "channel": "Marina Takewaki",
+        "duration": "6:26",
+        "views": "437万",
+        "videoId": "kJ9MYjz-nQg",
+        "comment": "太陽礼拝のゆっくり解説版。初心者でもフォームを確認しながらできます。"
+      },
+      {
+        "title": "【毎日5分】朝ヨガで柔軟性を高め、しなやかな体をつくる！ #640",
+        "channel": "B-Flow",
+        "duration": "6:47",
+        "views": "219万",
+        "videoId": "xvrIxDH6REM",
+        "comment": "朝ヨガ+瞑想の組み合わせ。メンタルも整えて1日をスタート。"
+      },
+      {
+        "title": "【5分朝ヨガ】目覚めスッキリ！全身をやさしくリセット #744",
+        "channel": "B-Flow",
+        "duration": "6:43",
+        "views": "68万",
+        "videoId": "BlJpibXWjzs",
+        "comment": "立ちポーズ中心の朝ヨガ。下半身の活性化で代謝もアップ。"
+      },
+      {
+        "title": "【毎日5分】朝ヨガはメリットだらけ☆ #369",
+        "channel": "B-Flow",
+        "duration": "7:05",
+        "views": "754万",
+        "videoId": "GuxDXXYUjn0",
+        "comment": "背骨を動かす朝のフローで体の目覚めを促進。気持ちの良い1日に。"
+      },
+      {
+        "title": "毎朝5分だけ！自律神経を整える朝のヨガ習慣 #643",
+        "channel": "B-Flow",
+        "duration": "8:28",
+        "views": "88万",
+        "videoId": "ZTzyKyATBlQ",
+        "comment": "呼吸に合わせたゆったりペース。朝の静かな時間を大切にできます。"
       }
     ],
     "nightyoga": [
@@ -613,6 +1845,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "775万",
         "videoId": "te3y-dU57Eg",
         "comment": "1ポーズ3〜5分キープ。筋膜や結合組織にアプローチするのでストレッチとは別の効果。"
+      },
+      {
+        "title": "【毎日10分 夜ストレッチ】腰痛改善、疲労回復、安眠に効果的！ #523",
+        "channel": "B-Flow",
+        "duration": "11:33",
+        "views": "906万",
+        "videoId": "GISUPMLKtak",
+        "comment": "陰ヨガで深いリラックス。1ポーズ長くキープするのが特徴です。"
+      },
+      {
+        "title": "【毎晩8分】寝たままできる骨盤調整 #567",
+        "channel": "B-Flow",
+        "duration": "9:43",
+        "views": "209万",
+        "videoId": "Bo6Anz4hsTM",
+        "comment": "リストラティブヨガはクッション等を使って完全に力を抜くスタイル。"
+      },
+      {
+        "title": "【毎日10分 夜のストレッチ】骨盤調整、全身の疲労回復 #644",
+        "channel": "B-Flow",
+        "duration": "11:26",
+        "views": "371万",
+        "videoId": "shhGflhYFfk",
+        "comment": "5分でできる夜のミニヨガ。短くても続けることに意味があります。"
+      },
+      {
+        "title": "カラダ喜ぶ〜！寝たまま13分間ヨガで股関節がほぐれ疲労回復！",
+        "channel": "JapaneseYOGA",
+        "duration": "13:54",
+        "views": "24万",
+        "videoId": "24BnPCiZMC0",
+        "comment": "寝ながらできるポーズだけ集めたメニュー。ベッドの上でOK。"
+      },
+      {
+        "title": "【毎日10分】疲労回復ストレッチヨガ #543",
+        "channel": "B-Flow",
+        "duration": "11:31",
+        "views": "351万",
+        "videoId": "Z5uaxJBUGeM",
+        "comment": "月の礼拝は太陽礼拝の夜版。落ち着いた動きで心を鎮めます。"
+      },
+      {
+        "title": "【寝る前10分】骨盤リラックスヨガ #745",
+        "channel": "B-Flow",
+        "duration": "11:22",
+        "views": "36万",
+        "videoId": "1kdoIm9gIGs",
+        "comment": "ヨガニドラで究極のリラクゼーション。ガイド瞑想付き。"
+      },
+      {
+        "title": "【10分】寝たままデトックスヨガ #584",
+        "channel": "B-Flow",
+        "duration": "11:36",
+        "views": "88万",
+        "videoId": "W4Y5Vb3FxBA",
+        "comment": "自律神経を整える陰ヨガフロー。トレーニング後の興奮を鎮めてくれます。"
       }
     ],
     "pilatescore": [
@@ -639,6 +1927,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "11万",
         "videoId": "gplqarNH08Q",
         "comment": "骨盤底筋群は意識しにくい部位。この動画の誘導がとてもわかりやすいです。"
+      },
+      {
+        "title": "腹筋ピラティスでお腹痩せ・くびれ・インナーマッスル・体幹強化",
+        "channel": "Hinafit",
+        "duration": "6:09",
+        "views": "21万",
+        "videoId": "GWR3NwEs5u0",
+        "comment": "腹筋に特化したピラティスメニュー。インナーマッスルを確実に刺激。"
+      },
+      {
+        "title": "【お腹なかなか痩せない人必見！腹筋割るお腹痩せピラティス】",
+        "channel": "YUMI TAKAMI",
+        "duration": "6:45",
+        "views": "11万",
+        "videoId": "67ToutNdfPA",
+        "comment": "背骨のストレッチ要素もあるピラティス。猫背改善にも効果的。"
+      },
+      {
+        "title": "【毎日10分】2週間で腹筋を割る！ BEST FIT #490",
+        "channel": "B-Flow",
+        "duration": "11:25",
+        "views": "1508万",
+        "videoId": "wtRzBlpadU0",
+        "comment": "骨盤底筋エクササイズ。産後の方や尿漏れ予防にもおすすめ。"
+      },
+      {
+        "title": "【ピラティスでお腹痩せ】インナーマッスルを強化してウエスト引き締め",
+        "channel": "YUMI TAKAMI",
+        "duration": "13:24",
+        "views": "34万",
+        "videoId": "J3QnM8kUg6o",
+        "comment": "ハンドレッドなどクラシカルなピラティスの基本動作を網羅。"
+      },
+      {
+        "title": "【最強10分ピラティスで脂肪燃焼】初心者OK体幹強化",
+        "channel": "YUMI TAKAMI",
+        "duration": "9:48",
+        "views": "23万",
+        "videoId": "EbLfkIBBu_E",
+        "comment": "呼吸法が独特なピラティス。胸式呼吸のやり方をマスターしましょう。"
+      },
+      {
+        "title": "【毎日10分】2週間で腹筋を割る！ RISE #526",
+        "channel": "B-Flow",
+        "duration": "11:09",
+        "views": "184万",
+        "videoId": "lWCm4yCM8cM",
+        "comment": "全身を使うマットピラティス30分。しっかりやりたい日にどうぞ。"
+      },
+      {
+        "title": "【全身ピラティス】これなら続く！10分の音楽で腹筋・お尻・下半身スッキリ",
+        "channel": "リナ・オオクマ ピラティスチャンネル",
+        "duration": "11:17",
+        "views": "3万",
+        "videoId": "0rwIckIjq4Y",
+        "comment": "サイドプランクやスワンなど、中級者向けのチャレンジメニューも。"
       }
     ],
     "flexibility": [
@@ -665,6 +2009,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "578万",
         "videoId": "SX2FsECzB24",
         "comment": "シリーズものなので続けるモチベーションになります。Day1から始めてみて。"
+      },
+      {
+        "title": "【毎日7分】前屈が深まる魔法のストレッチ #511",
+        "channel": "B-Flow",
+        "duration": "8:52",
+        "views": "197万",
+        "videoId": "U7EpYjkW7_M",
+        "comment": "前屈が苦手な方向けのプログラム。ハムストリングスを重点的にケア。"
+      },
+      {
+        "title": "開脚できるようになるストレッチ！【2週間で開脚ベターっになる方法】",
+        "channel": "オガトレ",
+        "duration": "14:11",
+        "views": "2807万",
+        "videoId": "Re5FPU5_37g",
+        "comment": "毎日10分の柔軟ルーティン。1ヶ月続けた変化を実感してください。"
+      },
+      {
+        "title": "【毎日10分】2週間でベターっと開脚できる魔法のストレッチ #510",
+        "channel": "B-Flow",
+        "duration": "12:59",
+        "views": "868万",
+        "videoId": "hS_BRoS5euw",
+        "comment": "開脚を目指す方のためのステップバイステップガイド。焦らず着実に。"
+      },
+      {
+        "title": "もも裏が硬い人これやって!!前屈が苦手な人向けストレッチ",
+        "channel": "Marina Takewaki",
+        "duration": "10:57",
+        "views": "50万",
+        "videoId": "-_jqbTqH-Lk",
+        "comment": "ストレッチ+ヨガの融合メニュー。静的・動的の両方を取り入れて。"
+      },
+      {
+        "title": "【身体が硬い人必見】長座ができるようになるポイント",
+        "channel": "さきヨガちゃんねる",
+        "duration": "4:43",
+        "views": "136万",
+        "videoId": "vPwoF23mbmU",
+        "comment": "PNFストレッチの要素も入った上級者向け。さらに柔軟性を高めたい方に。"
+      },
+      {
+        "title": "体が硬い人必見！長座ができない人がやるべき本当のストレッチ",
+        "channel": "SAKI エレコアメソッド",
+        "duration": "13:18",
+        "views": "83万",
+        "videoId": "ivwjYtGynnk",
+        "comment": "体が硬い原因は筋肉だけでなく筋膜にもある。その解説と対策。"
+      },
+      {
+        "title": "前屈は柔軟性だけじゃない⁉ ○○を改善せよ",
+        "channel": "フィットネス&パフォーマンス向上委員会",
+        "duration": "5:13",
+        "views": "761",
+        "videoId": "9A-rxRS9FXw",
+        "comment": "年齢を問わず柔軟性は改善できます。諦めずに続けることが唯一のコツ。"
       }
     ]
   },
@@ -693,6 +2093,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "22万",
         "videoId": "idsGfRbJQ6M",
         "comment": "オメガ3脂肪酸を意識的に。サバ缶やアマニ油を日常に取り入れてみてください。"
+      },
+      {
+        "title": "【減量】マクロ栄養素の計算の仕方",
+        "channel": "DAIKICHI",
+        "duration": "10:09",
+        "views": "58",
+        "videoId": "cIctGlH8pAc",
+        "comment": "マクロ栄養素の計算方法を実践的に解説。自分の数値を出してみましょう。"
+      },
+      {
+        "title": "減量のためのカロリー計算とマクロ栄養素",
+        "channel": "ys fitness",
+        "duration": "10:04",
+        "views": "111",
+        "videoId": "UthaAl0by0U",
+        "comment": "糖質制限と脂質制限の比較。自分に合った方法を選ぶための判断材料に。"
+      },
+      {
+        "title": "最強の食べ方！マクロ管理法を徹底解説！",
+        "channel": "ヒサノ自重筋トレ道場",
+        "duration": "7:08",
+        "views": "3.1千",
+        "videoId": "2KpE_e_M03o",
+        "comment": "食事管理アプリの使い方。あすけんやMyFitnessPalが便利です。"
+      },
+      {
+        "title": "減量期のマクロ栄養素、カロリーについて",
+        "channel": "Shimon Mochizuki",
+        "duration": "7:56",
+        "views": "2万",
+        "videoId": "0dFOZP8Ex0A",
+        "comment": "外食時のPFC管理テクニック。メニュー選びのポイントがわかります。"
+      },
+      {
+        "title": "カロリー計算は不要！ダイエットで痩せる食事違い",
+        "channel": "お米チャンネル",
+        "duration": "10:01",
+        "views": "1万",
+        "videoId": "vAD-jmmsIZQ",
+        "comment": "炭水化物は悪者ではありません。適量と質の選び方が重要です。"
+      },
+      {
+        "title": "ダイエットで最も重要な要素【カロリー計算・マクロ栄養素】",
+        "channel": "haku",
+        "duration": "11:37",
+        "views": "2.3千",
+        "videoId": "mF3hxBgLB0o",
+        "comment": "脂質の種類と選び方。飽和脂肪酸と不飽和脂肪酸の違いを理解して。"
+      },
+      {
+        "title": "【タンパク質・脂質・糖質】PFCバランス計算法 一日の食事について！",
+        "channel": "Miyako's Channel",
+        "duration": "12:07",
+        "views": "14万",
+        "videoId": "IGpCJyHQSgw",
+        "comment": "水分摂取量の目安も栄養管理の一部。体重×30mlを目指しましょう。"
       }
     ],
     "muscle": [
@@ -719,6 +2175,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "4万",
         "videoId": "AIh7G_GIxzI",
         "comment": "漸進性過負荷・適切な栄養・十分な休息。この3つを押さえれば確実に変わります。"
+      },
+      {
+        "title": "【筋トレ】その情報間違いかもしれません。筋肥大の間違った10の知識",
+        "channel": "VALX 山本義徳",
+        "duration": "18:33",
+        "views": "29万",
+        "videoId": "NrskgGIaclo",
+        "comment": "筋トレ初心者がやりがちなNG行動。効率的な成長のために知っておいて。"
+      },
+      {
+        "title": "【筋トレ】初心者さんに多いよくある間違い3選",
+        "channel": "トレーニングラボ｜ノリ",
+        "duration": "10:28",
+        "views": "2.1千",
+        "videoId": "cXCQDoA3cjg",
+        "comment": "筋肉痛の正しい理解。痛みがなくても筋肥大はしている場合があります。"
+      },
+      {
+        "title": "筋トレ初心者によくある勘違い5選",
+        "channel": "6畳筋トレタカ",
+        "duration": "11:55",
+        "views": "6.2千",
+        "videoId": "3lknkcBhcp4",
+        "comment": "漸進性過負荷の具体的なやり方。毎回少しずつ負荷を上げるコツ。"
+      },
+      {
+        "title": "筋トレ間違いあるある【全人類に伝えたい】",
+        "channel": "サラリーマッチョ ニッシー",
+        "duration": "15:27",
+        "views": "5万",
+        "videoId": "c__c3BSY8yM",
+        "comment": "年齢と筋肥大の関係。何歳からでも筋肉は成長します。"
+      },
+      {
+        "title": "【運動が苦手なあなたへ】筋トレ初心者が本当にやるべきトレーニング",
+        "channel": "タロー・トレーニング強化書",
+        "duration": "9:01",
+        "views": "1万",
+        "videoId": "XrIEkwXplKI",
+        "comment": "マインドマッスルコネクション。意識するだけで効果が変わる。"
+      },
+      {
+        "title": "筋トレよくある勘違い、間違い10選",
+        "channel": "齋藤圭輔",
+        "duration": "8:46",
+        "views": "80",
+        "videoId": "PERB60t5Nms",
+        "comment": "1セットの回数と効果の関係。目的に応じた回数設定を学べます。"
+      },
+      {
+        "title": "【初心者の方へ】筋トレ1年目に知っておけばよかった事６選。",
+        "channel": "ザ・きんにくTV",
+        "duration": "13:03",
+        "views": "182万",
+        "videoId": "KhxFvg9bK4s",
+        "comment": "遅筋と速筋の違い。トレーニング目的に応じた使い分けが大事。"
       }
     ],
     "fatburn": [
@@ -745,6 +2257,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "64万",
         "videoId": "N1gKKWoEPBQ",
         "comment": "部分痩せはできない、という事実の科学的根拠。焦らず全体の体脂肪を落としましょう。"
+      },
+      {
+        "title": "ダイエットで代謝を上げるために筋トレよりやるべき3つの事",
+        "channel": "ダイエットコーチ計太",
+        "duration": "13:30",
+        "views": "32万",
+        "videoId": "zqDKW7dqvic",
+        "comment": "基礎代謝を上げる最も効果的な方法は筋肉量を増やすこと。"
+      },
+      {
+        "title": "基礎代謝を高めるには筋肉を増やす？内臓の代謝を高める？",
+        "channel": "ダイエットコーチ計太",
+        "duration": "12:20",
+        "views": "3万",
+        "videoId": "KsBBFlK7GzU",
+        "comment": "内臓脂肪と皮下脂肪の違いと落とし方。それぞれアプローチが異なります。"
+      },
+      {
+        "title": "【知らなきゃ損する】痩せるための基礎代謝とは？",
+        "channel": "Dr.宋のダウンタイム研究所",
+        "duration": "8:06",
+        "views": "6.4千",
+        "videoId": "msOk5Mqs6Lc",
+        "comment": "停滞期の乗り越え方。チートデイの正しい使い方を解説。"
+      },
+      {
+        "title": "運動よりも基礎代謝を上げるなら〇〇をやれ！",
+        "channel": "藤井筋トレチャンネル",
+        "duration": "13:30",
+        "views": "5.4千",
+        "videoId": "GaSiWy_Gyds",
+        "comment": "有酸素と筋トレの順番。脂肪燃焼を最大化する組み合わせとは。"
+      },
+      {
+        "title": "食事を変えるだけで基礎代謝を上げ脂肪を燃焼させる方法",
+        "channel": "松田リエ・食べ痩せダイエット",
+        "duration": "17:02",
+        "views": "8万",
+        "videoId": "zd23mqGFCXU",
+        "comment": "空腹時の有酸素は本当に効果的？最新のエビデンスを確認して。"
+      },
+      {
+        "title": "代謝を上げる筋トレのやり方",
+        "channel": "アトピー整体師しゅくちゃん",
+        "duration": "5:04",
+        "views": "1.7千",
+        "videoId": "ZXT4EL7JP-A",
+        "comment": "NEAT（非運動性熱産生）を増やすだけでもカロリー消費は上がります。"
+      },
+      {
+        "title": "基礎代謝とは？基礎代謝を上げる3つのコツ",
+        "channel": "前田のまいにちセルフケア by GronG",
+        "duration": "6:47",
+        "views": "1万",
+        "videoId": "Y0EdJhSHlLI",
+        "comment": "体重が減らなくても体組成は変わっている場合がある。体脂肪率を見よう。"
       }
     ],
     "frequency": [
@@ -771,6 +2339,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "22万",
         "videoId": "XjCfk-mQL94",
         "comment": "完全休養とアクティブレストの使い分けがわかります。散歩やストレッチがおすすめ。"
+      },
+      {
+        "title": "分割法の選び方｜初心者卒業のタイミングと効果的な組み合わせ",
+        "channel": "ニトベさん",
+        "duration": "8:04",
+        "views": "3万",
+        "videoId": "Q1hjH4s9XwA",
+        "comment": "分割法のスケジュール例。初心者は全身法から始めるのがおすすめ。"
+      },
+      {
+        "title": "確実にデカくなる分割法の極意",
+        "channel": "横川くんの筋肉ちゃんねる",
+        "duration": "8:37",
+        "views": "45万",
+        "videoId": "IfMbluU6lIk",
+        "comment": "朝トレvs夜トレ。それぞれのメリット・デメリットを比較。"
+      },
+      {
+        "title": "筋肉が大きくなる分割法とは？",
+        "channel": "VALX 山本義徳",
+        "duration": "9:12",
+        "views": "27万",
+        "videoId": "1qvhhPI-QaU",
+        "comment": "休息日の過ごし方。完全休養日とアクティブレスト日の使い分け。"
+      },
+      {
+        "title": "【筋トレ初心者】全身法から分割法に変えるタイミング",
+        "channel": "マサキ 筋トレ1年目",
+        "duration": "7:40",
+        "views": "2万",
+        "videoId": "mx-0c5Ygfh4",
+        "comment": "ディロード（減量期）の必要性。4〜6週ごとに強度を落とす理由。"
+      },
+      {
+        "title": "トレーニングは全身を一度にやるか部位ごとに分けるか",
+        "channel": "VALX 山本義徳",
+        "duration": "8:48",
+        "views": "18万",
+        "videoId": "peiX7VBTjPg",
+        "comment": "週2回でも効果は出ます。大事なのは頻度より継続です。"
+      },
+      {
+        "title": "筋トレ初心者は絶対押さえるべき！最短で効果を出すためのポイント",
+        "channel": "今古賀翔【トレーニング科学】",
+        "duration": "11:20",
+        "views": "51万",
+        "videoId": "9W0aACjimho",
+        "comment": "筋肉痛が残っている時のトレーニング。部位を変えればOK。"
+      },
+      {
+        "title": "一週間の筋トレメニューはどうやって作るのか？",
+        "channel": "ザ・きんにくTV",
+        "duration": "10:50",
+        "views": "154万",
+        "videoId": "nSpiLUOB_A4",
+        "comment": "トレーニング時間は1回45〜60分がベスト。長すぎは逆効果。"
       }
     ],
     "supplement": [
@@ -797,6 +2421,62 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "views": "4万",
         "videoId": "01L9CjQDPEI",
         "comment": "広告に踊らされないために。エビデンスのあるものだけを選ぶ目を養えます。"
+      },
+      {
+        "title": "筋肉をつけたいなら絶対に飲むべきクレアチンを徹底解説！",
+        "channel": "VALX 山本義徳",
+        "duration": "10:38",
+        "views": "52万",
+        "videoId": "v1-ZOCyF1mY",
+        "comment": "クレアチンの効果と飲み方。科学的根拠が最も豊富なサプリの一つ。"
+      },
+      {
+        "title": "絶対飲むべきクレアチン！6つの面から徹底解説",
+        "channel": "今古賀翔【トレーニング科学】",
+        "duration": "10:37",
+        "views": "78万",
+        "videoId": "C_ZFxv4CsqI",
+        "comment": "BCAAとEAAの違い。どちらを選ぶべきか、目的別に解説。"
+      },
+      {
+        "title": "NGなクレアチンの飲み方2選【効果・摂取タイミング】",
+        "channel": "マイプロテイン公式",
+        "duration": "7:25",
+        "views": "10万",
+        "videoId": "v9Gr8rJpe_E",
+        "comment": "ビタミンDは筋力にも影響する。日本人の多くが不足している栄養素。"
+      },
+      {
+        "title": "私がクレアチンのサプリを勧める理由",
+        "channel": "高須幹弥（高須クリニック）",
+        "duration": "13:27",
+        "views": "50万",
+        "videoId": "GZ68Vy8I9KA",
+        "comment": "マルチビタミンは保険として。食事だけで完璧に摂るのは難しいから。"
+      },
+      {
+        "title": "クレアチンの効果や飲み方・おすすめの摂取タイミング",
+        "channel": "澤原魁門 / かいと",
+        "duration": "10:05",
+        "views": "10万",
+        "videoId": "18LY4szlqsw",
+        "comment": "カフェインはパフォーマンス向上効果あり。トレ前30分に摂ると◎"
+      },
+      {
+        "title": "【筋肥大】クレアチンの効果と摂取タイミングを徹底解説！",
+        "channel": "マイプロテイン公式",
+        "duration": "4:56",
+        "views": "7万",
+        "videoId": "7JPvtwOPBPM",
+        "comment": "グルタミンは免疫力維持に。ハードなトレーニングをする方向け。"
+      },
+      {
+        "title": "筋トレと組み合わせたクレアチンの効果、摂取量、飲み方",
+        "channel": "YouTubeフィットネス",
+        "duration": "9:31",
+        "views": "14万",
+        "videoId": "JDeslr4VYb4",
+        "comment": "サプリは食事の補助。基本はリアルフードからの栄養摂取が最優先。"
       }
     ]
   }
