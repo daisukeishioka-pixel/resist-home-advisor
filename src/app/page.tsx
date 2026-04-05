@@ -10,45 +10,147 @@ function VideoCard({ video, index }: { video: Video; index: number }) {
 
   return (
     <div
-      className="bg-white rounded-2xl overflow-hidden border border-gray-100"
-      style={{ animation: `fadeSlideUp 0.4s ease ${index * 0.1}s both` }}
+      style={{
+        background: "#fff",
+        borderRadius: 16,
+        overflow: "hidden",
+        border: "1px solid #f0f0f0",
+        animation: `fadeSlideUp 0.4s ease ${index * 0.1}s both`,
+      }}
     >
-      <a href={ytLink} target="_blank" rel="noopener noreferrer" className="block">
-        <div className="relative">
+      <a
+        href={ytLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ textDecoration: "none", display: "block" }}
+      >
+        <div style={{ position: "relative" }}>
           <img
             src={thumbUrl}
             alt={video.title}
-            className="w-full h-[180px] object-cover block"
+            style={{
+              width: "100%",
+              height: 180,
+              objectFit: "cover",
+              display: "block",
+            }}
           />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-14 h-14 bg-black/70 rounded-full flex items-center justify-center">
-            <div className="w-0 h-0 border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent border-l-[18px] border-l-white ml-[3px]" />
+          <div
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%,-50%)",
+              width: 56,
+              height: 56,
+              background: "rgba(0,0,0,0.7)",
+              borderRadius: "50%",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <div
+              style={{
+                width: 0,
+                height: 0,
+                borderTop: "10px solid transparent",
+                borderBottom: "10px solid transparent",
+                borderLeft: "18px solid #fff",
+                marginLeft: 3,
+              }}
+            />
           </div>
           <div
-            className="absolute bottom-2 right-2 bg-black/75 text-white px-2 py-0.5 rounded text-xs"
-            style={{ fontFamily: "'DM Mono', monospace" }}
+            style={{
+              position: "absolute",
+              bottom: 8,
+              right: 8,
+              background: "rgba(0,0,0,0.75)",
+              color: "#fff",
+              padding: "2px 8px",
+              borderRadius: 4,
+              fontSize: 12,
+              fontFamily: "'DM Mono', monospace",
+            }}
           >
             {video.duration}
           </div>
         </div>
-        <div className="px-4 pt-3.5 pb-2">
-          <h3 className="text-sm font-bold leading-relaxed text-gray-900 line-clamp-2">
+        <div style={{ padding: "14px 16px 8px" }}>
+          <h3
+            style={{
+              fontSize: 14,
+              fontWeight: 700,
+              lineHeight: 1.5,
+              margin: 0,
+              color: "#1a1a1a",
+              fontFamily: "'Noto Sans JP', sans-serif",
+              display: "-webkit-box",
+              WebkitLineClamp: 2,
+              WebkitBoxOrient: "vertical" as const,
+              overflow: "hidden",
+            }}
+          >
             {video.title}
           </h3>
-          <div className="text-xs text-gray-400 mt-1 flex items-center gap-1">
-            <span className="text-[#E53E3E] text-sm">▶</span>
+          <div
+            style={{
+              fontSize: 12,
+              color: "#999",
+              marginTop: 4,
+              fontFamily: "'Noto Sans JP', sans-serif",
+              display: "flex",
+              alignItems: "center",
+              gap: 4,
+            }}
+          >
+            <span style={{ color: "#E53E3E", fontSize: 14 }}>▶</span>
             {video.channel}　•　{video.views}回再生
           </div>
         </div>
       </a>
-      <div className="mx-4 mb-3.5 p-3 bg-[#FFF9F5] rounded-lg border-l-[3px] border-l-[#E8623E]">
+      <div
+        style={{
+          margin: "0 16px 14px",
+          padding: "12px 14px",
+          background: "#FFF9F5",
+          borderRadius: 10,
+          borderLeft: "3px solid #E8623E",
+        }}
+      >
         <div
-          className="text-[10px] font-bold text-[#E8623E] mb-1 tracking-widest"
-          style={{ fontFamily: "'DM Mono', monospace" }}
+          style={{
+            fontSize: 10,
+            fontWeight: 700,
+            color: "#E8623E",
+            marginBottom: 4,
+            letterSpacing: 1,
+            fontFamily: "'DM Mono', monospace",
+          }}
         >
           TRAINER&apos;S ADVICE
         </div>
-        <p className="text-[13px] text-gray-600 leading-7">{video.comment}</p>
-        <div className="text-[11px] text-gray-300 mt-1.5 text-right">
+        <p
+          style={{
+            fontSize: 13,
+            color: "#444",
+            lineHeight: 1.7,
+            margin: 0,
+            fontFamily: "'Noto Sans JP', sans-serif",
+          }}
+        >
+          {video.comment}
+        </p>
+        <div
+          style={{
+            fontSize: 11,
+            color: "#bbb",
+            marginTop: 6,
+            textAlign: "right",
+            fontFamily: "'Noto Sans JP', sans-serif",
+          }}
+        >
           — RESIST トレーナー
         </div>
       </div>
@@ -57,20 +159,22 @@ function VideoCard({ video, index }: { video: Video; index: number }) {
 }
 
 export default function HomePage() {
-  const [step, setStep] = useState<"category" | "concern" | "results">("category");
-  const [selectedCategory, setSelectedCategory] = useState<Category | null>(null);
+  const [step, setStep] = useState<"category" | "concern" | "results">(
+    "category"
+  );
+  const [selectedCategory, setSelectedCategory] = useState<Category | null>(
+    null
+  );
   const [selectedConcern, setSelectedConcern] = useState<Concern | null>(null);
 
   const handleCategorySelect = (cat: Category) => {
     setSelectedCategory(cat);
     setStep("concern");
   };
-
   const handleConcernSelect = (concern: Concern) => {
     setSelectedConcern(concern);
     setStep("results");
   };
-
   const handleBack = () => {
     if (step === "results") {
       setSelectedConcern(null);
@@ -80,7 +184,6 @@ export default function HomePage() {
       setStep("category");
     }
   };
-
   const handleReset = () => {
     setStep("category");
     setSelectedCategory(null);
@@ -93,163 +196,383 @@ export default function HomePage() {
       : [];
 
   return (
-    <div className="min-h-screen bg-white">
-      {/* Header */}
+    <>
+      <style>{`
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=DM+Mono:wght@400;500&display=swap');
+        @keyframes fadeSlideUp {
+          from { opacity: 0; transform: translateY(16px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #E8E8E8; }
+        @media (max-width: 480px) {
+          body { background: #ffffff; }
+        }
+      `}</style>
+
+      {/* Desktop: centered phone frame / Mobile: full width */}
       <div
-        className="px-5 pt-6 pb-7 relative overflow-hidden"
         style={{
-          background: "linear-gradient(135deg, #E8623E 0%, #F2994A 100%)",
+          maxWidth: 430,
+          margin: "0 auto",
+          minHeight: "100vh",
+          background: "#ffffff",
+          boxShadow: "0 0 40px rgba(0,0,0,0.08)",
+          fontFamily: "'Noto Sans JP', sans-serif",
+          position: "relative",
         }}
       >
-        <div className="absolute -top-10 -right-10 w-40 h-40 rounded-full bg-white/10" />
-        <div className="absolute -bottom-5 -left-5 w-24 h-24 rounded-full bg-white/[0.06]" />
-
-        <div className="flex items-center gap-2.5 mb-1.5">
+        {/* Header */}
+        <div
+          style={{
+            background: "linear-gradient(135deg, #E8623E 0%, #F2994A 100%)",
+            padding: "24px 20px 28px",
+            position: "relative",
+            overflow: "hidden",
+          }}
+        >
           <div
-            className="w-[34px] h-[34px] rounded-[9px] bg-white/95 flex items-center justify-center text-[#E8623E] font-black text-base"
-            style={{ fontFamily: "'DM Mono', monospace" }}
+            style={{
+              position: "absolute",
+              top: -40,
+              right: -40,
+              width: 160,
+              height: 160,
+              background:
+                "radial-gradient(circle, rgba(255,255,255,0.12) 0%, transparent 70%)",
+              borderRadius: "50%",
+            }}
+          />
+          <div
+            style={{
+              position: "absolute",
+              bottom: -20,
+              left: -20,
+              width: 100,
+              height: 100,
+              background:
+                "radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 70%)",
+              borderRadius: "50%",
+            }}
+          />
+
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: 10,
+              marginBottom: 6,
+            }}
           >
-            R
+            <div
+              style={{
+                width: 34,
+                height: 34,
+                borderRadius: 9,
+                background: "rgba(255,255,255,0.95)",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontSize: 16,
+                fontWeight: 900,
+                color: "#E8623E",
+                fontFamily: "'DM Mono', monospace",
+              }}
+            >
+              R
+            </div>
+            <span
+              style={{
+                color: "rgba(255,255,255,0.9)",
+                fontSize: 11,
+                letterSpacing: 3,
+                fontFamily: "'DM Mono', monospace",
+                fontWeight: 500,
+              }}
+            >
+              RESIST HOME ADVISOR
+            </span>
           </div>
-          <span
-            className="text-white/90 text-[11px] tracking-[3px] font-medium"
-            style={{ fontFamily: "'DM Mono', monospace" }}
+
+          <h1
+            style={{
+              color: "#fff",
+              fontSize: 22,
+              fontWeight: 900,
+              margin: "8px 0 0",
+              lineHeight: 1.4,
+              textShadow: "0 1px 2px rgba(0,0,0,0.1)",
+              fontFamily: "'Noto Sans JP', sans-serif",
+            }}
           >
-            RESIST HOME ADVISOR
-          </span>
+            {step === "category" && "今日はどんなケアをしますか？"}
+            {step === "concern" &&
+              `${selectedCategory?.emoji} ${selectedCategory?.label}`}
+            {step === "results" &&
+              `${selectedConcern?.icon} ${selectedConcern?.label}`}
+          </h1>
+
+          {step === "category" && (
+            <p
+              style={{
+                color: "rgba(255,255,255,0.85)",
+                fontSize: 13,
+                margin: "6px 0 0",
+                lineHeight: 1.6,
+              }}
+            >
+              トレーナーが厳選したおすすめコンテンツをお届けします
+            </p>
+          )}
         </div>
 
-        <h1 className="text-white text-[22px] font-black mt-2 leading-snug drop-shadow-sm">
-          {step === "category" && "今日はどんなケアをしますか？"}
-          {step === "concern" &&
-            `${selectedCategory?.emoji} ${selectedCategory?.label}`}
-          {step === "results" &&
-            `${selectedConcern?.icon} ${selectedConcern?.label}`}
-        </h1>
+        {/* Content */}
+        <div style={{ padding: "20px 16px 40px" }}>
+          {/* Back button */}
+          {step !== "category" && (
+            <button
+              onClick={handleBack}
+              style={{
+                background: "none",
+                border: "none",
+                cursor: "pointer",
+                display: "flex",
+                alignItems: "center",
+                gap: 6,
+                fontSize: 13,
+                color: "#E8623E",
+                fontWeight: 600,
+                marginBottom: 16,
+                padding: 0,
+                fontFamily: "'Noto Sans JP', sans-serif",
+              }}
+            >
+              ← 戻る
+            </button>
+          )}
 
-        {step === "category" && (
-          <p className="text-white/80 text-[13px] mt-1.5 leading-relaxed">
-            トレーナーが厳選したおすすめコンテンツをお届けします
-          </p>
-        )}
-      </div>
-
-      {/* Content */}
-      <div className="px-4 pt-5 pb-10 max-w-[480px] mx-auto">
-        {step !== "category" && (
-          <button
-            onClick={handleBack}
-            className="flex items-center gap-1.5 text-[13px] text-[#E8623E] font-semibold mb-4 bg-transparent border-none cursor-pointer"
-          >
-            ← 戻る
-          </button>
-        )}
-
-        {/* Step 1: Category Grid */}
-        {step === "category" && (
-          <div className="grid grid-cols-2 gap-3">
-            {CATEGORIES.map((cat, i) => (
-              <button
-                key={cat.id}
-                onClick={() => handleCategorySelect(cat)}
-                className="bg-white border border-gray-100 rounded-2xl py-5 px-3.5 cursor-pointer flex flex-col items-center gap-2 shadow-sm text-center transition-all duration-150 hover:-translate-y-0.5 hover:shadow-md hover:border-[#F2994A] active:scale-[0.98]"
-                style={{
-                  animation: `fadeSlideUp 0.4s ease ${i * 0.06}s both`,
-                }}
-              >
-                <div
-                  className="w-[52px] h-[52px] rounded-[14px] flex items-center justify-center text-[28px]"
+          {/* Step 1: Category — 2x3 grid */}
+          {step === "category" && (
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "1fr 1fr",
+                gap: 12,
+              }}
+            >
+              {CATEGORIES.map((cat, i) => (
+                <button
+                  key={cat.id}
+                  onClick={() => handleCategorySelect(cat)}
                   style={{
-                    background: "linear-gradient(135deg, #FFF0EB, #FFF5F0)",
+                    background: "#fff",
+                    border: "1px solid #f0f0f0",
+                    borderRadius: 16,
+                    padding: "22px 14px 18px",
+                    cursor: "pointer",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    gap: 8,
+                    boxShadow: "0 1px 4px rgba(0,0,0,0.04)",
+                    animation: `fadeSlideUp 0.4s ease ${i * 0.06}s both`,
+                    textAlign: "center",
                   }}
                 >
-                  {cat.emoji}
-                </div>
-                <div>
-                  <div className="text-sm font-bold text-gray-900 leading-snug">
-                    {cat.label}
+                  <div
+                    style={{
+                      width: 52,
+                      height: 52,
+                      borderRadius: 14,
+                      background:
+                        "linear-gradient(135deg, #FFF0EB, #FFF5F0)",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      fontSize: 28,
+                    }}
+                  >
+                    {cat.emoji}
                   </div>
-                  <div className="text-[11px] text-gray-400 mt-0.5 leading-snug">
-                    {cat.subtitle}
+                  <div>
+                    <div
+                      style={{
+                        fontSize: 14,
+                        fontWeight: 700,
+                        color: "#1a1a1a",
+                        lineHeight: 1.4,
+                      }}
+                    >
+                      {cat.label}
+                    </div>
+                    <div
+                      style={{
+                        fontSize: 11,
+                        color: "#999",
+                        marginTop: 2,
+                        lineHeight: 1.4,
+                      }}
+                    >
+                      {cat.subtitle}
+                    </div>
                   </div>
-                </div>
-              </button>
-            ))}
-          </div>
-        )}
-
-        {/* Step 2: Concern List */}
-        {step === "concern" && selectedCategory && (
-          <div className="flex flex-col gap-2.5">
-            <p className="text-sm text-gray-500 mb-2 leading-relaxed">
-              どんなお悩みがありますか？
-            </p>
-            {selectedCategory.concerns.map((concern, i) => (
-              <button
-                key={concern.id}
-                onClick={() => handleConcernSelect(concern)}
-                className="bg-white border border-gray-100 rounded-[14px] py-4 px-[18px] cursor-pointer flex items-center gap-3.5 text-left transition-all duration-150 hover:-translate-y-px hover:shadow-md hover:border-[#F2994A] active:scale-[0.99]"
-                style={{
-                  animation: `fadeSlideUp 0.3s ease ${i * 0.06}s both`,
-                }}
-              >
-                <span className="text-[22px]">{concern.icon}</span>
-                <span className="text-[15px] font-semibold text-gray-900">
-                  {concern.label}
-                </span>
-                <div className="ml-auto text-[#F2994A] text-base font-bold">
-                  ›
-                </div>
-              </button>
-            ))}
-          </div>
-        )}
-
-        {/* Step 3: Results */}
-        {step === "results" && selectedCategory && selectedConcern && (
-          <div>
-            <div
-              className="rounded-xl px-4 py-3 mb-5 border border-[#FDDDD2]"
-              style={{
-                animation: "fadeIn 0.3s ease",
-                background: "linear-gradient(135deg, #FFF0EB, #FFF8F5)",
-              }}
-            >
-              <p className="text-[13px] text-gray-600 leading-relaxed">
-                <strong className="text-[#E8623E]">
-                  {selectedCategory.emoji} {selectedCategory.label}
-                </strong>
-                {" ＞ "}
-                <strong>{selectedConcern.label}</strong>　のおすすめ
-              </p>
-            </div>
-
-            <div className="flex flex-col gap-4">
-              {videos.map((video, i) => (
-                <VideoCard key={i} video={video} index={i} />
+                </button>
               ))}
             </div>
+          )}
 
-            <p className="text-center text-[11px] text-gray-300 mt-4 leading-relaxed">
-              ※ タップするとYouTubeで再生されます
-            </p>
-
-            <button
-              onClick={handleReset}
-              className="w-full mt-3 py-3.5 text-white border-none rounded-xl text-sm font-bold cursor-pointer tracking-wider shadow-lg shadow-[#E8623E]/25 active:scale-[0.98] transition-transform"
-              style={{
-                background: "linear-gradient(135deg, #E8623E, #F2994A)",
-              }}
+          {/* Step 2: Concern List */}
+          {step === "concern" && selectedCategory && (
+            <div
+              style={{ display: "flex", flexDirection: "column", gap: 10 }}
             >
-              他の悩みも探す
-            </button>
+              <p
+                style={{
+                  fontSize: 14,
+                  color: "#666",
+                  margin: "0 0 8px",
+                  lineHeight: 1.6,
+                }}
+              >
+                どんなお悩みがありますか？
+              </p>
+              {selectedCategory.concerns.map((concern, i) => (
+                <button
+                  key={concern.id}
+                  onClick={() => handleConcernSelect(concern)}
+                  style={{
+                    background: "#fff",
+                    border: "1px solid #f0f0f0",
+                    borderRadius: 14,
+                    padding: "16px 18px",
+                    cursor: "pointer",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: 14,
+                    animation: `fadeSlideUp 0.3s ease ${i * 0.06}s both`,
+                    textAlign: "left",
+                  }}
+                >
+                  <span style={{ fontSize: 22 }}>{concern.icon}</span>
+                  <span
+                    style={{
+                      fontSize: 15,
+                      fontWeight: 600,
+                      color: "#1a1a1a",
+                    }}
+                  >
+                    {concern.label}
+                  </span>
+                  <div
+                    style={{
+                      marginLeft: "auto",
+                      color: "#F2994A",
+                      fontSize: 16,
+                      fontWeight: 700,
+                    }}
+                  >
+                    ›
+                  </div>
+                </button>
+              ))}
+            </div>
+          )}
 
-            <p className="text-center text-[11px] text-gray-300 mt-4 leading-relaxed">
-              ※ 痛みがある場合は無理せずトレーナーにご相談ください
-            </p>
-          </div>
-        )}
+          {/* Step 3: Results */}
+          {step === "results" && selectedCategory && selectedConcern && (
+            <div>
+              <div
+                style={{
+                  background:
+                    "linear-gradient(135deg, #FFF0EB, #FFF8F5)",
+                  border: "1px solid #FDDDD2",
+                  borderRadius: 12,
+                  padding: "12px 16px",
+                  marginBottom: 20,
+                  animation: "fadeIn 0.3s ease",
+                }}
+              >
+                <p
+                  style={{
+                    fontSize: 13,
+                    color: "#555",
+                    margin: 0,
+                    lineHeight: 1.6,
+                  }}
+                >
+                  <strong style={{ color: "#E8623E" }}>
+                    {selectedCategory.emoji} {selectedCategory.label}
+                  </strong>
+                  {" ＞ "}
+                  <strong>{selectedConcern.label}</strong>　のおすすめ
+                </p>
+              </div>
+
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: 16,
+                }}
+              >
+                {videos.map((video, i) => (
+                  <VideoCard key={i} video={video} index={i} />
+                ))}
+              </div>
+
+              <p
+                style={{
+                  textAlign: "center",
+                  fontSize: 11,
+                  color: "#ccc",
+                  margin: "16px 0 4px",
+                  lineHeight: 1.5,
+                }}
+              >
+                ※ タップするとYouTubeで再生されます
+              </p>
+
+              <button
+                onClick={handleReset}
+                style={{
+                  width: "100%",
+                  marginTop: 12,
+                  padding: 14,
+                  background:
+                    "linear-gradient(135deg, #E8623E, #F2994A)",
+                  color: "#fff",
+                  border: "none",
+                  borderRadius: 12,
+                  fontSize: 14,
+                  fontWeight: 700,
+                  cursor: "pointer",
+                  fontFamily: "'Noto Sans JP', sans-serif",
+                  letterSpacing: 1,
+                  boxShadow: "0 4px 12px rgba(232,98,62,0.25)",
+                }}
+              >
+                他の悩みも探す
+              </button>
+
+              <p
+                style={{
+                  textAlign: "center",
+                  fontSize: 11,
+                  color: "#ccc",
+                  marginTop: 16,
+                  lineHeight: 1.6,
+                }}
+              >
+                ※ 痛みがある場合は無理せずトレーナーにご相談ください
+              </p>
+            </div>
+          )}
+        </div>
       </div>
-    </div>
+    </>
   );
 }

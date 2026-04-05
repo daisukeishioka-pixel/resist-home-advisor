@@ -3,12 +3,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "RESIST HOME ADVISOR | トレーナーが選ぶホームケア",
-  description: "あなたの悩みに合わせて、RESISTトレーナーが厳選したストレッチ・トレーニング・レシピ動画をお届けします。",
-  openGraph: {
-    title: "RESIST HOME ADVISOR",
-    description: "トレーナーが選ぶホームケア動画",
-    type: "website",
-  },
+  description:
+    "あなたの悩みに合わせて、RESISTトレーナーが厳選したストレッチ・トレーニング・レシピ動画をお届けします。",
 };
 
 export const viewport: Viewport = {
