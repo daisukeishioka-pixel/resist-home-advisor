@@ -208,11 +208,7 @@ export default function HomePage() {
           to { opacity: 1; }
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        html, body { overscroll-behavior: none; }
-        body { background: #E8E8E8; }
-        @media (max-width: 480px) {
-          body { background: #ffffff; }
-        }
+        html, body { overscroll-behavior: none; background: #ffffff; }
       `}</style>
 
       {/* Desktop: centered phone frame / Mobile: full width */}
@@ -221,7 +217,6 @@ export default function HomePage() {
           maxWidth: 430,
           margin: "0 auto",
           background: "#ffffff",
-          boxShadow: "0 0 40px rgba(0,0,0,0.08)",
           fontFamily: "'Noto Sans JP', sans-serif",
           position: "relative",
         }}
