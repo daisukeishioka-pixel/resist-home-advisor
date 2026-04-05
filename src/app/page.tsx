@@ -208,6 +208,7 @@ export default function HomePage() {
           to { opacity: 1; }
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body { overscroll-behavior: none; }
         body { background: #E8E8E8; }
         @media (max-width: 480px) {
           body { background: #ffffff; }
@@ -219,7 +220,6 @@ export default function HomePage() {
         style={{
           maxWidth: 430,
           margin: "0 auto",
-          minHeight: "100vh",
           background: "#ffffff",
           boxShadow: "0 0 40px rgba(0,0,0,0.08)",
           fontFamily: "'Noto Sans JP', sans-serif",
@@ -331,7 +331,7 @@ export default function HomePage() {
         </div>
 
         {/* Content */}
-        <div style={{ padding: "20px 16px 40px" }}>
+        <div style={{ padding: "20px 16px 20px" }}>
           {/* Back button */}
           {step !== "category" && (
             <button
