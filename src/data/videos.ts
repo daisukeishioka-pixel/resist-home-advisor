@@ -1001,31 +1001,6 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         ]
       },
       {
-        "title": "【懇願】騙されたと思って10回やって！数多のお尻を変えた最強トレーニング🍑再編集編",
-        "channel": "のがちゃんねる/nogachannel",
-        "duration": "8:25",
-        "views": "71万",
-        "videoId": "RZDpwU0EOtg",
-        "comment": "ヒップスラストの自重版が入っています。お尻の収縮を毎回しっかり感じて。",
-        "tags": [
-          "5〜8分",
-          "上級者向け",
-          "器具なし"
-        ]
-      },
-      {
-        "title": "Sub)【5日で変化】30日で効率良くお尻を上げ引締めるトレーニング",
-        "channel": "のがちゃんねる/nogachannel",
-        "duration": "6:26",
-        "views": "2577万",
-        "videoId": "yL9yRJIMqQ8",
-        "comment": "クラムシェルは中臀筋に効きます。ゴムバンドがあるとさらに効果的。",
-        "tags": [
-          "5〜8分",
-          "バンド使用"
-        ]
-      },
-      {
         "title": "【1日4分】３週間でたるんだお尻と太ももを引き締める🔥最強ヒップアップトレーニング！Get Round Booty and Toned Legs in 3 WEEKS!!!!",
         "channel": "Momomi",
         "duration": "4:33",
