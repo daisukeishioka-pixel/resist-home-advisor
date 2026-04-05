@@ -5,6 +5,7 @@ export interface Video {
   views: string;
   videoId: string;
   comment: string;
+  tags: string[];
 }
 
 export const VIDEOS: Record<string, Record<string, Video[]>> = {
@@ -16,7 +17,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:01",
         "views": "297万",
         "videoId": "x4UHQaRVc44",
-        "comment": "デスクワーク後に毎日やってほしいメニューです。僧帽筋と肩甲骨周りをしっかりほぐしましょう。"
+        "comment": "デスクワーク後に毎日やってほしいメニューです。僧帽筋と肩甲骨周りをしっかりほぐしましょう。",
+        "tags": [
+          "3〜5分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【しっかり６分】ガチガチの肩こりを解消するしっかりストレッチ！",
@@ -24,7 +29,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:58",
         "views": "1320万",
         "videoId": "4zC3TO8DQms",
-        "comment": "肩甲骨の可動域を広げたい方に。壁を使うバージョンも試してみてください。"
+        "comment": "肩甲骨の可動域を広げたい方に。壁を使うバージョンも試してみてください。",
+        "tags": [
+          "5〜8分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【毎日8分】 ガチガチ肩こりが１回で解消！ 座ったままでもOK #607",
@@ -32,7 +41,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:22",
         "views": "286万",
         "videoId": "To1yijqZCCE",
-        "comment": "寝る前のルーティンに最適。リラックス効果も高いので睡眠の質も上がります。"
+        "comment": "寝る前のルーティンに最適。リラックス効果も高いので睡眠の質も上がります。",
+        "tags": [
+          "8〜12分",
+          "寝ながら",
+          "夜におすすめ",
+          "リラックス"
+        ]
       },
       {
         "title": "【8分で肩こり＆自律神経ケア】寝たまま簡単リラックスストレッチ #702",
@@ -40,7 +55,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:32",
         "views": "80万",
         "videoId": "tgUuVWpL9gY",
-        "comment": "寝ながらできるので就寝前のルーティンにぴったり。力を抜いてゆっくりやりましょう。"
+        "comment": "寝ながらできるので就寝前のルーティンにぴったり。力を抜いてゆっくりやりましょう。",
+        "tags": [
+          "8〜12分",
+          "寝ながら",
+          "初心者向け",
+          "リラックス"
+        ]
       },
       {
         "title": "寝ながら肩こり対策ストレッチ【10分間】",
@@ -48,7 +69,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:34",
         "views": "13万",
         "videoId": "A_6rh6OmKB0",
-        "comment": "肩甲骨を大きく動かすことで血流が改善します。デスクワークの合間にも。"
+        "comment": "肩甲骨を大きく動かすことで血流が改善します。デスクワークの合間にも。",
+        "tags": [
+          "8〜12分",
+          "寝ながら"
+        ]
       },
       {
         "title": "【寝たまま10分】姿勢改善ヨガ　疲労回復・肩こり解消にもおすすめ #642",
@@ -56,7 +81,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:26",
         "views": "101万",
         "videoId": "v2YwcuW8rQs",
-        "comment": "座ったままできるので仕事中にもおすすめ。こまめにやることが大事です。"
+        "comment": "座ったままできるので仕事中にもおすすめ。こまめにやることが大事です。",
+        "tags": [
+          "8〜12分",
+          "寝ながら",
+          "ヨガ系"
+        ]
       },
       {
         "title": "【肩こり解消ストレッチ】座ったままできる！体が硬いあなたにおすすめ！肩こり・首こり解消法！",
@@ -64,7 +94,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:09",
         "views": "45万",
         "videoId": "I1oLy06PcfI",
-        "comment": "タオルを使うとさらに効果的。可動域が自然と広がります。"
+        "comment": "タオルを使うとさらに効果的。可動域が自然と広がります。",
+        "tags": [
+          "8〜12分",
+          "座ったまま",
+          "タオル使用"
+        ]
       },
       {
         "title": "【肩甲骨ストレッチ】ガチガチ肩こりが１回で解消！座ったままできる肩こり解消ストレッチ BY417",
@@ -72,7 +107,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:39",
         "views": "83万",
         "videoId": "fy_tSeT51LM",
-        "comment": "ガチガチの人ほど効果を実感しやすいメニュー。最初は痛気持ちいい程度で。"
+        "comment": "ガチガチの人ほど効果を実感しやすいメニュー。最初は痛気持ちいい程度で。",
+        "tags": [
+          "5〜8分",
+          "座ったまま"
+        ]
       },
       {
         "title": "ガチガチ背中とがっしり肩幅は肩甲骨が原因だった！簡単なのに1回で姿勢が変わって続けるほど背中が痩せるトレーニング",
@@ -80,7 +119,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:03",
         "views": "1865万",
         "videoId": "WuMZ3Ejnv88",
-        "comment": "首と肩は連動しているので、首のストレッチも合わせてやると効果倍増。"
+        "comment": "首と肩は連動しているので、首のストレッチも合わせてやると効果倍増。",
+        "tags": [
+          "5〜8分",
+          "初心者向け"
+        ]
       },
       {
         "title": "【1回で変わる】ガチガチ肩甲骨を徹底的にほぐせば、背中・腕・姿勢・肩幅・顔のたるみ、上半身の悩みが一気に解決する！大人気トレーニング",
@@ -88,7 +131,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:22",
         "views": "273万",
         "videoId": "_1kyQbCMWTE",
-        "comment": "肩甲骨を寄せる動きは背中の筋肉も刺激します。姿勢改善にもつながります。"
+        "comment": "肩甲骨を寄せる動きは背中の筋肉も刺激します。姿勢改善にもつながります。",
+        "tags": [
+          "5〜8分",
+          "おすすめ"
+        ]
       }
     ],
     "back": [
@@ -98,7 +145,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:17",
         "views": "401万",
         "videoId": "p6kIUBFCnV0",
-        "comment": "反り腰の方はまずこれから。キャットカウの動きを丁寧にやってください。"
+        "comment": "反り腰の方はまずこれから。キャットカウの動きを丁寧にやってください。",
+        "tags": [
+          "5〜8分",
+          "寝ながら"
+        ]
       },
       {
         "title": "【腰痛改善ストレッチ】４分",
@@ -106,7 +157,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:13",
         "views": "104万",
         "videoId": "sSvjjJSDSyo",
-        "comment": "骨盤の前傾が気になる方に。腹横筋の意識がポイントです。"
+        "comment": "骨盤の前傾が気になる方に。腹横筋の意識がポイントです。",
+        "tags": [
+          "3〜5分",
+          "おすすめ"
+        ]
       },
       {
         "title": "立ったまま腰痛対策ストレッチ【9分間】",
@@ -114,7 +169,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:46",
         "views": "52万",
         "videoId": "koelvnexy3g",
-        "comment": "朝起きて腰が重い方に。ベッドの上でできるので続けやすいです。"
+        "comment": "朝起きて腰が重い方に。ベッドの上でできるので続けやすいです。",
+        "tags": [
+          "8〜12分",
+          "立ったまま",
+          "朝におすすめ"
+        ]
       },
       {
         "title": "寝ながら腰痛体操｜ゆっくり身体をほぐそう【7分間】",
@@ -122,7 +182,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:38",
         "views": "29万",
         "videoId": "DquQqTZiKy0",
-        "comment": "朝ベッドの上でそのままできます。腰が重い日のルーティンにしてください。"
+        "comment": "朝ベッドの上でそのままできます。腰が重い日のルーティンにしてください。",
+        "tags": [
+          "5〜8分",
+          "寝ながら",
+          "朝におすすめ"
+        ]
       },
       {
         "title": "寝たままできる腰痛改善ヨガ☆　初心者におすすめ #310",
@@ -130,7 +195,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "15:41",
         "views": "633万",
         "videoId": "zCHw2fWcnw4",
-        "comment": "反り腰の方はお腹に力を入れる意識を持つだけで腰の負担が減ります。"
+        "comment": "反り腰の方はお腹に力を入れる意識を持つだけで腰の負担が減ります。",
+        "tags": [
+          "12〜20分",
+          "寝ながら",
+          "初心者向け",
+          "ヨガ系"
+        ]
       },
       {
         "title": "【9分間】寝ながら腰痛対策・予防ストレッチ【身体のプロと一緒に】",
@@ -138,7 +209,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:52",
         "views": "5万",
         "videoId": "iGJdbTNrpUo",
-        "comment": "立ったままできるバージョンなのでオフィスでも実践しやすいです。"
+        "comment": "立ったままできるバージョンなのでオフィスでも実践しやすいです。",
+        "tags": [
+          "8〜12分",
+          "寝ながら"
+        ]
       },
       {
         "title": "寝ながら腰痛対策ストレッチ【寝る前に9分間】",
@@ -146,7 +221,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:34",
         "views": "136万",
         "videoId": "anHktHYc3cA",
-        "comment": "骨盤周りの筋肉をほぐすと腰痛予防に効果的。特にお尻のストレッチが大事。"
+        "comment": "骨盤周りの筋肉をほぐすと腰痛予防に効果的。特にお尻のストレッチが大事。",
+        "tags": [
+          "8〜12分",
+          "寝ながら",
+          "夜におすすめ"
+        ]
       },
       {
         "title": "【朝夜8分】寝たまま全身ストレッチでガチガチの体をほぐそう！【疲労回復/反り腰改善/腰痛予防】",
@@ -154,7 +234,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:28",
         "views": "59万",
         "videoId": "6rTnwWhJzN4",
-        "comment": "体幹を鍛えることが最大の腰痛予防。このメニューは筋トレ要素もあって◎"
+        "comment": "体幹を鍛えることが最大の腰痛予防。このメニューは筋トレ要素もあって◎",
+        "tags": [
+          "8〜12分",
+          "寝ながら",
+          "朝におすすめ"
+        ]
       },
       {
         "title": "寝ながら腰痛予防ヨガストレッチ｜５分で腰の張りをとる",
@@ -162,7 +247,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:59",
         "views": "10万",
         "videoId": "7hwZUzfMnTo",
-        "comment": "ヘルニアなど痛みが強い方は無理せず。痛みがない範囲で行ってください。"
+        "comment": "ヘルニアなど痛みが強い方は無理せず。痛みがない範囲で行ってください。",
+        "tags": [
+          "5〜8分",
+          "寝ながら",
+          "ヨガ系"
+        ]
       },
       {
         "title": "【 腰痛改善 】たった一回で効く！寝ながら腰痛改善ストレッチ！ BY389",
@@ -170,7 +260,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:11",
         "views": "16万",
         "videoId": "2kc7OXhF0F0",
-        "comment": "腰痛は姿勢と直結しています。このエクササイズで根本原因にアプローチ。"
+        "comment": "腰痛は姿勢と直結しています。このエクササイズで根本原因にアプローチ。",
+        "tags": [
+          "8〜12分",
+          "寝ながら"
+        ]
       }
     ],
     "hip": [
@@ -180,7 +274,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:35",
         "views": "818万",
         "videoId": "-Y5bOC_ecB0",
-        "comment": "スクワットのフォーム改善にも直結します。毎日少しずつ可動域を広げましょう。"
+        "comment": "スクワットのフォーム改善にも直結します。毎日少しずつ可動域を広げましょう。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【8分で劇的変化！】 股関節がみるみる柔らかくなる魔法のストレッチ　骨盤調整・脚の冷え・むくみに効果的 #508",
@@ -188,7 +286,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:54",
         "views": "598万",
         "videoId": "qqfTG6mpX0E",
-        "comment": "体が硬い方でも無理なくできる内容です。お風呂上がりがベストタイミング。"
+        "comment": "体が硬い方でも無理なくできる内容です。お風呂上がりがベストタイミング。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【股関節ストレッチ】５分！ガチガチに硬くなった股関節を柔らかく！",
@@ -196,7 +298,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "5:36",
         "views": "161万",
         "videoId": "9cXEAPmgc5A",
-        "comment": "開脚が目標の方に。2週間続けると変化を感じられるはずです。"
+        "comment": "開脚が目標の方に。2週間続けると変化を感じられるはずです。",
+        "tags": [
+          "3〜5分",
+          "おすすめ"
+        ]
       },
       {
         "title": "開脚ベターが30日で出来るようになるストレッチ【毎日10分】",
@@ -204,7 +310,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:32",
         "views": "193万",
         "videoId": "-FwOX9nna5g",
-        "comment": "開脚チャレンジ系の動画ですが、焦らず自分のペースで進めてOK。"
+        "comment": "開脚チャレンジ系の動画ですが、焦らず自分のペースで進めてOK。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       },
       {
         "title": "股関節の可動域をじっくり広げるストレッチ【7分間】",
@@ -212,7 +322,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:13",
         "views": "100万",
         "videoId": "yOmrTfTg4hg",
-        "comment": "ヨガベースのアプローチで股関節を優しくほぐせます。呼吸が大切。"
+        "comment": "ヨガベースのアプローチで股関節を優しくほぐせます。呼吸が大切。",
+        "tags": [
+          "5〜8分",
+          "ヨガ系"
+        ]
       },
       {
         "title": "開脚できるようになるストレッチ！【2週間で開脚ベターっになる方法】",
@@ -220,7 +334,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "14:11",
         "views": "2807万",
         "videoId": "Re5FPU5_37g",
-        "comment": "あぐらがつらい方はまずここから。日常動作が楽になりますよ。"
+        "comment": "あぐらがつらい方はまずここから。日常動作が楽になりますよ。",
+        "tags": [
+          "12〜20分",
+          "おすすめ"
+        ]
       },
       {
         "title": "開脚できるようになるストレッチ！180度も余裕！超柔らかいプロのチアリーダーと一緒にやってみた",
@@ -228,7 +346,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:44",
         "views": "392万",
         "videoId": "NJgUP7P1Fsg",
-        "comment": "股関節が硬いとスクワットのフォームが崩れやすい。柔軟性は筋トレの基礎です。"
+        "comment": "股関節が硬いとスクワットのフォームが崩れやすい。柔軟性は筋トレの基礎です。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【毎日９分】劇的に開脚ができるようになるスペシャルストレッチ!!",
@@ -236,7 +358,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:23",
         "views": "637万",
         "videoId": "HY1q6e-6rjc",
-        "comment": "お風呂上がりにやると効果倍増。体が温まっているうちがチャンス。"
+        "comment": "お風呂上がりにやると効果倍増。体が温まっているうちがチャンス。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【毎日10分】 2週間でベターっと開脚できる魔法のストレッチ #510",
@@ -244,7 +370,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:59",
         "views": "868万",
         "videoId": "hS_BRoS5euw",
-        "comment": "片側ずつ丁寧にやると左右差に気づけます。バランスを整えましょう。"
+        "comment": "片側ずつ丁寧にやると左右差に気づけます。バランスを整えましょう。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【初心者向け股関節ストレッチ】太りやすいのは股関節が硬いから！ BY305",
@@ -252,7 +382,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:23",
         "views": "53万",
         "videoId": "6lDfHv4-_F8",
-        "comment": "毎日5分でも続けることが最重要。2週間で明確な変化を感じるはずです。"
+        "comment": "毎日5分でも続けることが最重要。2週間で明確な変化を感じるはずです。",
+        "tags": [
+          "8〜12分",
+          "初心者向け"
+        ]
       }
     ],
     "leg": [
@@ -262,7 +396,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:37",
         "views": "32万",
         "videoId": "4SsJx5W8hNQ",
-        "comment": "立ち仕事の方に。ふくらはぎのポンプ機能を回復させる内容です。"
+        "comment": "立ち仕事の方に。ふくらはぎのポンプ機能を回復させる内容です。",
+        "tags": [
+          "8〜12分",
+          "寝ながら",
+          "夜におすすめ"
+        ]
       },
       {
         "title": "【毎日5分】ふくらはぎをスッキリほぐすルーティン【疲労回復/むくみ解消/柔軟性UP/マッサージ効果】",
@@ -270,7 +409,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "5:57",
         "views": "276万",
         "videoId": "gdvjMR61Z4k",
-        "comment": "むくみ解消+脚の疲労回復に。壁に脚を上げるポーズも取り入れてください。"
+        "comment": "むくみ解消+脚の疲労回復に。壁に脚を上げるポーズも取り入れてください。",
+        "tags": [
+          "3〜5分",
+          "マッサージ"
+        ]
       },
       {
         "title": "【夜やると脚が激変!!】ダイエット中欠かさなかった８分間の足のマッサージ!!〜見た目を変えるダイエット〜",
@@ -278,7 +421,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:12",
         "views": "168万",
         "videoId": "2ipaAMYxGm4",
-        "comment": "ヒールを履く方は特にやってほしい。アキレス腱周りのケアがポイントです。"
+        "comment": "ヒールを履く方は特にやってほしい。アキレス腱周りのケアがポイントです。",
+        "tags": [
+          "5〜8分",
+          "夜におすすめ",
+          "マッサージ"
+        ]
       },
       {
         "title": "【ふくらはぎ むくみ取り】寝ながら足のむくみ解消！足痩せにも効果大！",
@@ -286,7 +434,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:52",
         "views": "13万",
         "videoId": "2mGMFZPU8Co",
-        "comment": "フォームローラーを使ったセルフマッサージ。持っている方はぜひ試して。"
+        "comment": "フォームローラーを使ったセルフマッサージ。持っている方はぜひ試して。",
+        "tags": [
+          "8〜12分",
+          "寝ながら",
+          "ローラー使用",
+          "マッサージ"
+        ]
       },
       {
         "title": "ふくらはぎのセルフマッサージとストレッチ｜めざせふわふわ【10分間】",
@@ -294,7 +448,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:22",
         "views": "4万",
         "videoId": "NniLWYRBhLs",
-        "comment": "太もものストレッチも脚のむくみ解消に効果的。ふくらはぎだけじゃないんです。"
+        "comment": "太もものストレッチも脚のむくみ解消に効果的。ふくらはぎだけじゃないんです。",
+        "tags": [
+          "8〜12分",
+          "マッサージ"
+        ]
       },
       {
         "title": "【むくみ撃退でふくらはぎ痩せ】脚やせ最短最強リンパマッサージ",
@@ -302,7 +460,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:00",
         "views": "114万",
         "videoId": "7IMUnKR-MSE",
-        "comment": "足首の柔軟性は全身のバランスに影響します。意外と見落としがちなポイント。"
+        "comment": "足首の柔軟性は全身のバランスに影響します。意外と見落としがちなポイント。",
+        "tags": [
+          "5〜8分",
+          "マッサージ"
+        ]
       },
       {
         "title": "【毎日8分】ふくらはぎを細くする最強に効率的なマッサージ方法",
@@ -310,7 +472,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:30",
         "views": "23万",
         "videoId": "vVNi7jhGBpU",
-        "comment": "デスクワーク後の脚の重さがスッキリ取れます。毎日の習慣にしてほしい。"
+        "comment": "デスクワーク後の脚の重さがスッキリ取れます。毎日の習慣にしてほしい。",
+        "tags": [
+          "5〜8分",
+          "マッサージ"
+        ]
       },
       {
         "title": "【ふくらはぎ痩せ、坐骨神経痛も改善】寝る前のリンパマッサージ！",
@@ -318,7 +484,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:07",
         "views": "241万",
         "videoId": "y5Wzyf2dNSU",
-        "comment": "寝ながらできるので、テレビを見ながらでもOK。続けやすさが魅力。"
+        "comment": "寝ながらできるので、テレビを見ながらでもOK。続けやすさが魅力。",
+        "tags": [
+          "8〜12分",
+          "寝ながら",
+          "夜におすすめ",
+          "マッサージ"
+        ]
       },
       {
         "title": "【脚やせマッサージ】太もも〜ふくらはぎの脚痩せリンパマッサージ完全保存版",
@@ -326,7 +498,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "17:48",
         "views": "720万",
         "videoId": "HfneuOlC4es",
-        "comment": "冷え性の方にもおすすめ。血流が改善されて足先まで温まります。"
+        "comment": "冷え性の方にもおすすめ。血流が改善されて足先まで温まります。",
+        "tags": [
+          "12〜20分",
+          "マッサージ"
+        ]
       },
       {
         "title": "【座ったまま脚痩せ】60分の運動よりも脚やせリンパでみるみる細くなる！",
@@ -334,7 +510,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:59",
         "views": "188万",
         "videoId": "v3uHauBWh0Y",
-        "comment": "立ち仕事が多い方は特に重点的に。ふくらはぎは第二の心臓です。"
+        "comment": "立ち仕事が多い方は特に重点的に。ふくらはぎは第二の心臓です。",
+        "tags": [
+          "8〜12分",
+          "座ったまま",
+          "マッサージ"
+        ]
       }
     ],
     "fullbody": [
@@ -344,7 +525,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "17:38",
         "views": "185万",
         "videoId": "zzpuTm0lROQ",
-        "comment": "迷ったらまずこれ。全身まんべんなくほぐせる万能メニューです。"
+        "comment": "迷ったらまずこれ。全身まんべんなくほぐせる万能メニューです。",
+        "tags": [
+          "12〜20分",
+          "ヨガ系"
+        ]
       },
       {
         "title": "【初心者向け】全身ストレッチ｜ストレッチを始めたばかりの方にオススメ【15分間】",
@@ -352,7 +537,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "15:46",
         "views": "16万",
         "videoId": "6aFNAl3NZwc",
-        "comment": "ストレスが溜まっている時に。呼吸を意識しながらゆっくり行ってください。"
+        "comment": "ストレスが溜まっている時に。呼吸を意識しながらゆっくり行ってください。",
+        "tags": [
+          "12〜20分",
+          "初心者向け"
+        ]
       },
       {
         "title": "お風呂上がりのストレッチ｜ゆったり全身ほぐし【15分間】",
@@ -360,7 +549,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "15:20",
         "views": "55万",
         "videoId": "ayfMmOblHAI",
-        "comment": "フォームローラーをお持ちの方に。筋膜リリースで翌朝の体が全然違います。"
+        "comment": "フォームローラーをお持ちの方に。筋膜リリースで翌朝の体が全然違います。",
+        "tags": [
+          "12〜20分",
+          "朝におすすめ",
+          "ローラー使用"
+        ]
       },
       {
         "title": "朝ストレッチで1日の消費カロリーを上げて痩せる",
@@ -368,7 +562,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:27",
         "views": "354万",
         "videoId": "5gFiEoahUFU",
-        "comment": "朝のルーティンにすると1日の調子が全然違います。10分で十分です。"
+        "comment": "朝のルーティンにすると1日の調子が全然違います。10分で十分です。",
+        "tags": [
+          "5〜8分",
+          "朝におすすめ"
+        ]
       },
       {
         "title": "【朝＆出勤前に】立ったまま全身温まるストレッチで代謝を上げよう！",
@@ -376,7 +574,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:18",
         "views": "144万",
         "videoId": "ANO2ZxflspE",
-        "comment": "疲れた日の夜に。全身をゆっくり伸ばすと翌朝の体が軽くなります。"
+        "comment": "疲れた日の夜に。全身をゆっくり伸ばすと翌朝の体が軽くなります。",
+        "tags": [
+          "5〜8分",
+          "立ったまま",
+          "朝におすすめ"
+        ]
       },
       {
         "title": "【朝専用】疲れないカラダを作る極上10分ストレッチルーティン",
@@ -384,7 +587,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:47",
         "views": "162万",
         "videoId": "Jz7WdjFV5aw",
-        "comment": "ヨガベースの全身ストレッチ。呼吸と動きを合わせることで効果アップ。"
+        "comment": "ヨガベースの全身ストレッチ。呼吸と動きを合わせることで効果アップ。",
+        "tags": [
+          "8〜12分",
+          "朝におすすめ",
+          "ヨガ系"
+        ]
       },
       {
         "title": "代謝を上げたい方にオススメ｜1日の始まりストレッチ【9分間】",
@@ -392,7 +600,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:44",
         "views": "138万",
         "videoId": "0Ag0loKekpU",
-        "comment": "初心者の方はまずこの動画から。無理なく全身をまんべんなくほぐせます。"
+        "comment": "初心者の方はまずこの動画から。無理なく全身をまんべんなくほぐせます。",
+        "tags": [
+          "8〜12分",
+          "初心者向け"
+        ]
       },
       {
         "title": "【毎朝10分】 朝のストレッチで1日が劇的に変わる！ #631",
@@ -400,7 +612,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:20",
         "views": "356万",
         "videoId": "m5j9hIK2rT0",
-        "comment": "ストレッチは毎日の積み重ねが大事。完璧じゃなくても続けることが正解。"
+        "comment": "ストレッチは毎日の積み重ねが大事。完璧じゃなくても続けることが正解。",
+        "tags": [
+          "8〜12分",
+          "朝におすすめ"
+        ]
       },
       {
         "title": "柔軟体操で全身がスッキリ！家で簡単にできるストレッチで運動不足が解消",
@@ -408,7 +624,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:11",
         "views": "42万",
         "videoId": "UKwr906458g",
-        "comment": "フォームローラーやテニスボールを使ったセルフケア。道具があると効果的。"
+        "comment": "フォームローラーやテニスボールを使ったセルフケア。道具があると効果的。",
+        "tags": [
+          "8〜12分",
+          "初心者向け",
+          "ローラー使用"
+        ]
       },
       {
         "title": "【寝る前12分】全身の疲れを癒すヨガストレッチ",
@@ -416,7 +637,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:24",
         "views": "11万",
         "videoId": "EXvg4VvsqXc",
-        "comment": "自律神経を整える効果も。メンタルが不安定な時にもおすすめです。"
+        "comment": "自律神経を整える効果も。メンタルが不安定な時にもおすすめです。",
+        "tags": [
+          "8〜12分",
+          "寝ながら",
+          "夜におすすめ",
+          "ヨガ系"
+        ]
       }
     ]
   },
@@ -428,7 +655,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:59",
         "views": "644万",
         "videoId": "7E-JAyzbj7o",
-        "comment": "短時間で追い込めます。フォームが大事なので、動画をよく見てから始めてください。"
+        "comment": "短時間で追い込めます。フォームが大事なので、動画をよく見てから始めてください。",
+        "tags": [
+          "3〜5分",
+          "上級者向け",
+          "器具なし"
+        ]
       },
       {
         "title": "【下腹部＆くびれ】10種目10分間で下腹を引き締めて、くびれのあるウエストを作りましょう。目指せ最速シックスパック。初心者の方用のやり方あり。",
@@ -436,7 +668,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:50",
         "views": "1473万",
         "videoId": "o5vb430_m38",
-        "comment": "下腹部に効かせるコツは骨盤を後傾させること。腰が浮かないように注意。"
+        "comment": "下腹部に効かせるコツは骨盤を後傾させること。腰が浮かないように注意。",
+        "tags": [
+          "8〜12分",
+          "初心者向け",
+          "器具なし"
+        ]
       },
       {
         "title": "【お腹痩せ】1日4分で脂肪燃焼🔥筋トレ＋ストレッチまでコレ一本‼︎成功者続出で600万回再生された最強腹筋！！",
@@ -444,7 +681,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:51",
         "views": "1935万",
         "videoId": "31X6hVi4LKQ",
-        "comment": "体幹の基礎作りに最適。お尻が上がりすぎないよう一直線を意識してください。"
+        "comment": "体幹の基礎作りに最適。お尻が上がりすぎないよう一直線を意識してください。",
+        "tags": [
+          "5〜8分",
+          "上級者向け",
+          "器具なし"
+        ]
       },
       {
         "title": "【3分下腹】寝たまま下腹のお肉をごっそり落とす簡単筋トレ！",
@@ -452,7 +694,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:11",
         "views": "124万",
         "videoId": "3nUau9MO2e8",
-        "comment": "初心者の方はまずこのレベルから。正しいフォームを覚えることが最優先。"
+        "comment": "初心者の方はまずこのレベルから。正しいフォームを覚えることが最優先。",
+        "tags": [
+          "3〜5分",
+          "初心者向け",
+          "器具なし",
+          "寝ながら"
+        ]
       },
       {
         "title": "【3035万回再生突破！】短期集中型【１日２分だけ】耐久戦腹筋",
@@ -460,7 +708,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:20",
         "views": "3569万",
         "videoId": "sM3W0b1PdOY",
-        "comment": "立ったままできる腹筋エクササイズ。マットがなくてもどこでもできます。"
+        "comment": "立ったままできる腹筋エクササイズ。マットがなくてもどこでもできます。",
+        "tags": [
+          "3〜5分",
+          "器具なし",
+          "立ったまま"
+        ]
       },
       {
         "title": "【地獄の3分】腹筋を最速で割るトレーニング",
@@ -468,7 +721,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "5:09",
         "views": "1928万",
         "videoId": "b-TFz42PRsk",
-        "comment": "プランクは体幹トレの王道。まずは20秒キープから始めましょう。"
+        "comment": "プランクは体幹トレの王道。まずは20秒キープから始めましょう。",
+        "tags": [
+          "3〜5分",
+          "上級者向け",
+          "器具なし"
+        ]
       },
       {
         "title": "【1日3分】2種目でシックスパックを作る腹筋トレーニング！",
@@ -476,7 +734,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:28",
         "views": "825万",
         "videoId": "2wY41fBnJ8o",
-        "comment": "くびれを作りたいなら腹斜筋を意識。ひねる動きがポイントです。"
+        "comment": "くびれを作りたいなら腹斜筋を意識。ひねる動きがポイントです。",
+        "tags": [
+          "3〜5分",
+          "器具なし"
+        ]
       },
       {
         "title": "【3分お腹痩せ】松岡茉優さんが腹筋をバキバキに割ったトレーニング",
@@ -484,7 +746,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:04",
         "views": "425万",
         "videoId": "BDuRd1CW3Ng",
-        "comment": "腰が痛くなる方はフォームを確認して。骨盤のポジションが重要です。"
+        "comment": "腰が痛くなる方はフォームを確認して。骨盤のポジションが重要です。",
+        "tags": [
+          "3〜5分",
+          "器具なし"
+        ]
       },
       {
         "title": "【3分だけ!!】立ったままやる立ち腹筋がくびれに効く!!!",
@@ -492,7 +758,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:05",
         "views": "599万",
         "videoId": "-IcHwS728tM",
-        "comment": "下腹部は意識しにくい部位。この動画のように呼吸と連動させると効きます。"
+        "comment": "下腹部は意識しにくい部位。この動画のように呼吸と連動させると効きます。",
+        "tags": [
+          "3〜5分",
+          "器具なし",
+          "立ったまま"
+        ]
       },
       {
         "title": "【腹筋】最速で腹筋を割る方法＆3分半で追い込む７種類の腹筋メニュー",
@@ -500,7 +771,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:33",
         "views": "1996万",
         "videoId": "u-wS8jABqQI",
-        "comment": "毎日少しずつでOK。腹筋は回復が早い筋肉なので頻度を上げられます。"
+        "comment": "毎日少しずつでOK。腹筋は回復が早い筋肉なので頻度を上げられます。",
+        "tags": [
+          "8〜12分",
+          "器具なし"
+        ]
       }
     ],
     "arms": [
@@ -510,7 +785,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:31",
         "views": "10164万",
         "videoId": "uveZX-71OUw",
-        "comment": "器具不要でできます。上腕三頭筋を意識して、ゆっくり動かすのがコツ。"
+        "comment": "器具不要でできます。上腕三頭筋を意識して、ゆっくり動かすのがコツ。",
+        "tags": [
+          "3〜5分",
+          "器具なし"
+        ]
       },
       {
         "title": "【3分で叶える】猫背・巻き肩 ＆ 二の腕引き締めエクササイズ #697",
@@ -518,7 +797,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:12",
         "views": "84万",
         "videoId": "hI9XRg4uaLY",
-        "comment": "500mlペットボトルで十分です。回数より丁寧なフォームを優先して。"
+        "comment": "500mlペットボトルで十分です。回数より丁寧なフォームを優先して。",
+        "tags": [
+          "3〜5分",
+          "器具あり"
+        ]
       },
       {
         "title": "【1日5分】7日間で変わった二の腕痩せトレーニング | 5 Min Upper Body & Arms Workout【ダイエット】",
@@ -526,7 +809,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "5:57",
         "views": "2234万",
         "videoId": "3HFAd1LLjxU",
-        "comment": "スキマ時間にサクッとできます。肩がすくまないよう注意してください。"
+        "comment": "スキマ時間にサクッとできます。肩がすくまないよう注意してください。",
+        "tags": [
+          "3〜5分",
+          "器具なし"
+        ]
       },
       {
         "title": "【めちゃ効く９分＋タオル】二の腕・ハミ肉・肩・背中〜上半身攻め",
@@ -534,7 +821,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:42",
         "views": "18万",
         "videoId": "TjV4UKy6BzY",
-        "comment": "タオルを使った二の腕エクササイズ。家にあるもので十分効果が出ます。"
+        "comment": "タオルを使った二の腕エクササイズ。家にあるもので十分効果が出ます。",
+        "tags": [
+          "8〜12分",
+          "タオル使用"
+        ]
       },
       {
         "title": "【３分】二の腕・肩こりに効く簡単タオルダンス！",
@@ -542,7 +833,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:18",
         "views": "452万",
         "videoId": "r26YFOI7XcU",
-        "comment": "腕立て伏せが苦手な方は膝つきから。それでもしっかり効きます。"
+        "comment": "腕立て伏せが苦手な方は膝つきから。それでもしっかり効きます。",
+        "tags": [
+          "3〜5分",
+          "初心者向け",
+          "タオル使用",
+          "ダンス系"
+        ]
       },
       {
         "title": "【1日1回のバンザイだけで】みるみる痩せる！",
@@ -550,7 +847,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:02",
         "views": "48万",
         "videoId": "zx1Cb3pQ0EA",
-        "comment": "ダンベルがなくてもペットボトルで代用可能。500mlから始めましょう。"
+        "comment": "ダンベルがなくてもペットボトルで代用可能。500mlから始めましょう。",
+        "tags": [
+          "5〜8分",
+          "器具あり"
+        ]
       },
       {
         "title": "【着実に背中痩せ】座ったまま2週間で背中と二の腕を引き締め",
@@ -558,7 +859,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:43",
         "views": "2483万",
         "videoId": "20ygs9VXxh0",
-        "comment": "上腕三頭筋を集中的に鍛えるメニュー。二の腕のたるみ解消に直結。"
+        "comment": "上腕三頭筋を集中的に鍛えるメニュー。二の腕のたるみ解消に直結。",
+        "tags": [
+          "5〜8分",
+          "器具なし",
+          "座ったまま"
+        ]
       },
       {
         "title": "【8分】美しい背中をつくる毎日のタオルエクササイズ",
@@ -566,7 +872,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:57",
         "views": "45万",
         "videoId": "jaRnXujNwWA",
-        "comment": "肩まわりの筋肉も一緒に鍛えると姿勢改善+二の腕引き締めの一石二鳥。"
+        "comment": "肩まわりの筋肉も一緒に鍛えると姿勢改善+二の腕引き締めの一石二鳥。",
+        "tags": [
+          "5〜8分",
+          "タオル使用"
+        ]
       },
       {
         "title": "【K-POPアイドルのような二の腕＆背中痩せ！】タオルを使った筋トレ",
@@ -574,7 +884,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:02",
         "views": "10万",
         "videoId": "GnO61HRcSOo",
-        "comment": "短時間で追い込むタイプ。時間がない日にサクッとやりたい方向け。"
+        "comment": "短時間で追い込むタイプ。時間がない日にサクッとやりたい方向け。",
+        "tags": [
+          "5〜8分",
+          "タオル使用"
+        ]
       },
       {
         "title": "【8分】背肉を撃退！引き締まった背中をつくる立ちエクササイズ",
@@ -582,7 +896,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:14",
         "views": "2622万",
         "videoId": "SAeZjHAkSo8",
-        "comment": "背中側の筋肉も意識すると腕全体が引き締まります。バランスが大事。"
+        "comment": "背中側の筋肉も意識すると腕全体が引き締まります。バランスが大事。",
+        "tags": [
+          "5〜8分",
+          "器具なし",
+          "立ったまま"
+        ]
       }
     ],
     "glutes": [
@@ -592,7 +911,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:25",
         "views": "71万",
         "videoId": "RZDpwU0EOtg",
-        "comment": "ヒップスラストの自重版が入っています。お尻の収縮を毎回しっかり感じて。"
+        "comment": "ヒップスラストの自重版が入っています。お尻の収縮を毎回しっかり感じて。",
+        "tags": [
+          "5〜8分",
+          "上級者向け",
+          "器具なし"
+        ]
       },
       {
         "title": "Sub)【5日で変化】30日で効率良くお尻を上げ引締めるトレーニング",
@@ -600,7 +924,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:26",
         "views": "2577万",
         "videoId": "yL9yRJIMqQ8",
-        "comment": "クラムシェルは中臀筋に効きます。ゴムバンドがあるとさらに効果的。"
+        "comment": "クラムシェルは中臀筋に効きます。ゴムバンドがあるとさらに効果的。",
+        "tags": [
+          "5〜8分",
+          "バンド使用"
+        ]
       },
       {
         "title": "【1日4分】３週間でたるんだお尻と太ももを引き締める🔥最強ヒップアップトレーニング！Get Round Booty and Toned Legs in 3 WEEKS!!!!",
@@ -608,7 +936,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:33",
         "views": "1053万",
         "videoId": "4JizH4SPYU8",
-        "comment": "ワイドスクワットを中心に。膝がつま先より内に入らないよう気をつけて。"
+        "comment": "ワイドスクワットを中心に。膝がつま先より内に入らないよう気をつけて。",
+        "tags": [
+          "3〜5分",
+          "上級者向け",
+          "器具なし"
+        ]
       },
       {
         "title": "【2weeks】寝たまま！丸く上向きのお尻を作る5分間のヒップアップ筋トレ",
@@ -616,7 +949,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "5:35",
         "views": "407万",
         "videoId": "nh6-kKP8lTw",
-        "comment": "寝ながらできるお尻トレ。テレビを見ながらでもできる手軽さが魅力。"
+        "comment": "寝ながらできるお尻トレ。テレビを見ながらでもできる手軽さが魅力。",
+        "tags": [
+          "3〜5分",
+          "器具なし",
+          "寝ながら"
+        ]
       },
       {
         "title": "【毎日4分】寝たまま太ももとお尻を鍛える筋トレ",
@@ -624,7 +962,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:25",
         "views": "888万",
         "videoId": "VGqLNzCHdCo",
-        "comment": "スクワットの正しいフォームを学べます。膝を痛めないコツがわかる。"
+        "comment": "スクワットの正しいフォームを学べます。膝を痛めないコツがわかる。",
+        "tags": [
+          "3〜5分",
+          "器具なし",
+          "寝ながら"
+        ]
       },
       {
         "title": "【まずは7日やってみて！】寝たまま30日でお尻と脚が変わる3種目",
@@ -632,7 +975,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:39",
         "views": "75万",
         "videoId": "sNaFaXfPc_k",
-        "comment": "ゴムバンドを使うと負荷がアップ。中臀筋にピンポイントで効きます。"
+        "comment": "ゴムバンドを使うと負荷がアップ。中臀筋にピンポイントで効きます。",
+        "tags": [
+          "5〜8分",
+          "バンド使用",
+          "寝ながら"
+        ]
       },
       {
         "title": "【8分お尻】寝たままごろごろしながらお尻も太ももも鍛えられる",
@@ -640,7 +988,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:07",
         "views": "42万",
         "videoId": "OdX0qOI9HEE",
-        "comment": "お尻と太ももを同時に鍛えるメニュー。下半身全体の引き締めに。"
+        "comment": "お尻と太ももを同時に鍛えるメニュー。下半身全体の引き締めに。",
+        "tags": [
+          "8〜12分",
+          "器具なし",
+          "寝ながら"
+        ]
       },
       {
         "title": "【ノリノリ４分】最強のお尻トレーニング!!",
@@ -648,7 +1001,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:48",
         "views": "498万",
         "videoId": "N2dRjj4sUVE",
-        "comment": "ヒップリフトは寝ながらできて効果抜群。お尻の上部を意識して。"
+        "comment": "ヒップリフトは寝ながらできて効果抜群。お尻の上部を意識して。",
+        "tags": [
+          "3〜5分",
+          "上級者向け",
+          "器具なし",
+          "寝ながら"
+        ]
       },
       {
         "title": "【８分寝たまま】４つの動きでしっかりお尻に効くプリケツ筋トレ",
@@ -656,7 +1015,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:55",
         "views": "77万",
         "videoId": "QKQVVMZfG2c",
-        "comment": "片脚ずつやると左右差の改善にも。バランスのとれた美尻を目指して。"
+        "comment": "片脚ずつやると左右差の改善にも。バランスのとれた美尻を目指して。",
+        "tags": [
+          "5〜8分",
+          "器具なし",
+          "寝ながら"
+        ]
       },
       {
         "title": "【自宅筋トレ】なかやまきんに君の正しいスクワットを学ぼう。",
@@ -664,7 +1028,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:33",
         "views": "245万",
         "videoId": "SFnfYPktYBU",
-        "comment": "週3回このメニューを続ければ1ヶ月で変化を実感できるはずです。"
+        "comment": "週3回このメニューを続ければ1ヶ月で変化を実感できるはずです。",
+        "tags": [
+          "5〜8分",
+          "器具なし"
+        ]
       }
     ],
     "cardio": [
@@ -674,7 +1042,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "14:50",
         "views": "1037万",
         "videoId": "wP27i_ZksZ8",
-        "comment": "ジャンプなしで心拍数を上げられます。マンション住まいの方に最適。"
+        "comment": "ジャンプなしで心拍数を上げられます。マンション住まいの方に最適。",
+        "tags": [
+          "12〜20分",
+          "マンションOK",
+          "器具なし"
+        ]
       },
       {
         "title": "【筋トレ前後や朝に】15分の有酸素運動で効率よく体脂肪を燃やそう!!~マンション OK飛ばないトレーニング〜",
@@ -682,7 +1055,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "15:23",
         "views": "694万",
         "videoId": "hXyamPHNhkk",
-        "comment": "きつかったら休憩を長めにとってOK。週2〜3回が理想です。"
+        "comment": "きつかったら休憩を長めにとってOK。週2〜3回が理想です。",
+        "tags": [
+          "12〜20分",
+          "マンションOK",
+          "器具なし"
+        ]
       },
       {
         "title": "【地獄の11分】マンションOK！飛ばない脂肪燃焼ダンスで全身の脂肪をみるみる燃やす！",
@@ -690,7 +1068,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:06",
         "views": "5256万",
         "videoId": "KxzZJwmB8qc",
-        "comment": "楽しみながら動きたい方に。完璧に踊れなくても動き続ければOKです。"
+        "comment": "楽しみながら動きたい方に。完璧に踊れなくても動き続ければOKです。",
+        "tags": [
+          "8〜12分",
+          "上級者向け",
+          "マンションOK",
+          "器具なし"
+        ]
       },
       {
         "title": "【確実に身体が引き締まる】自宅で静かに立ったままできる有酸素運動！【20分】",
@@ -698,7 +1082,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "19:34",
         "views": "10万",
         "videoId": "tbj_QJyTqyQ",
-        "comment": "20分の有酸素で脂肪燃焼効果をしっかり出せます。ペース配分が大事。"
+        "comment": "20分の有酸素で脂肪燃焼効果をしっかり出せます。ペース配分が大事。",
+        "tags": [
+          "12〜20分",
+          "マンションOK",
+          "器具なし",
+          "立ったまま"
+        ]
       },
       {
         "title": "【有酸素運動】静かに自宅でできる有酸素運動！飛ばない脂肪がすぐに燃えるダイエット",
@@ -706,7 +1096,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:03",
         "views": "693万",
         "videoId": "iKWmRIflEhc",
-        "comment": "ダンス系の有酸素。音楽に乗って楽しくカロリー消費できます。"
+        "comment": "ダンス系の有酸素。音楽に乗って楽しくカロリー消費できます。",
+        "tags": [
+          "8〜12分",
+          "マンションOK",
+          "器具なし",
+          "ダンス系"
+        ]
       },
       {
         "title": "【有酸素運動ダイエット】音を立てずに自宅で静かにできる有酸素運動！（20分）",
@@ -714,7 +1110,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "19:56",
         "views": "5万",
         "videoId": "ofIDz9VJL5k",
-        "comment": "タバタ式4分間。短時間で追い込みたい時に最適。上級者向け。"
+        "comment": "タバタ式4分間。短時間で追い込みたい時に最適。上級者向け。",
+        "tags": [
+          "12〜20分",
+          "上級者向け",
+          "マンションOK",
+          "器具なし"
+        ]
       },
       {
         "title": "【本気の人専用】飛ばないHIITで限界を越えろ!!",
@@ -722,7 +1124,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:46",
         "views": "174万",
         "videoId": "pJyq_CReq8g",
-        "comment": "ウォーキング感覚でできる低強度有酸素。運動習慣がない方のスタートに。"
+        "comment": "ウォーキング感覚でできる低強度有酸素。運動習慣がない方のスタートに。",
+        "tags": [
+          "8〜12分",
+          "上級者向け",
+          "マンションOK",
+          "器具なし"
+        ]
       },
       {
         "title": "運動不足を自宅で静かに解消しよう！飛ばない自宅エクササイズ（20分）",
@@ -730,7 +1138,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "19:55",
         "views": "2万",
         "videoId": "Rpex8BvGgeE",
-        "comment": "休憩を挟みながらのインターバル形式。自分のペースで調整できます。"
+        "comment": "休憩を挟みながらのインターバル形式。自分のペースで調整できます。",
+        "tags": [
+          "12〜20分",
+          "マンションOK",
+          "器具なし"
+        ]
       },
       {
         "title": "【地獄の19分】三日坊主でも良い！超きついけど楽しく痩せるダンス",
@@ -738,7 +1151,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "19:33",
         "views": "3129万",
         "videoId": "9UX7XUBMJnc",
-        "comment": "ステップ系の動きで楽しく有酸素。単調になりがちな運動に変化を。"
+        "comment": "ステップ系の動きで楽しく有酸素。単調になりがちな運動に変化を。",
+        "tags": [
+          "12〜20分",
+          "上級者向け",
+          "器具なし",
+          "ダンス系"
+        ]
       },
       {
         "title": "【静かにできるHIIT】スクワットだけ!!脂肪がガンガン燃える自宅トレ!!",
@@ -746,7 +1165,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:59",
         "views": "84万",
         "videoId": "iWlpOVUTjag",
-        "comment": "音楽に合わせたエアロビクス系。気分転換にもなって一石二鳥。"
+        "comment": "音楽に合わせたエアロビクス系。気分転換にもなって一石二鳥。",
+        "tags": [
+          "3〜5分",
+          "マンションOK",
+          "器具なし",
+          "HIIT"
+        ]
       }
     ],
     "posture": [
@@ -756,7 +1181,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:48",
         "views": "180万",
         "videoId": "t_mmDRvWd18",
-        "comment": "胸椎の伸展がメインです。デスクワークの合間にもやってみてください。"
+        "comment": "胸椎の伸展がメインです。デスクワークの合間にもやってみてください。",
+        "tags": [
+          "8〜12分",
+          "器具なし"
+        ]
       },
       {
         "title": "【7分】巻き肩&猫背を改善して細見え！座って出来る毎日エクササイズ",
@@ -764,7 +1193,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:13",
         "views": "52万",
         "videoId": "cGzQ0GOLxqE",
-        "comment": "インナーマッスルを鍛えて姿勢をキープ。呼吸を止めないのがポイント。"
+        "comment": "インナーマッスルを鍛えて姿勢をキープ。呼吸を止めないのがポイント。",
+        "tags": [
+          "5〜8分",
+          "器具なし",
+          "座ったまま"
+        ]
       },
       {
         "title": "顔のたるみと猫背の原因！ストレートネックを自力で改善するストレッチ🐈",
@@ -772,7 +1206,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "5:54",
         "views": "799万",
         "videoId": "yfyejTh4kZc",
-        "comment": "スマホ首の方に。胸鎖乳突筋と大胸筋のストレッチが特に重要です。"
+        "comment": "スマホ首の方に。胸鎖乳突筋と大胸筋のストレッチが特に重要です。",
+        "tags": [
+          "3〜5分",
+          "器具なし"
+        ]
       },
       {
         "title": "【90秒で巻き肩を改善】顔のたるみ・肩こり・首こりを根本的に治す方法",
@@ -780,7 +1218,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "5:19",
         "views": "68万",
         "videoId": "v8EDqn9k23M",
-        "comment": "壁を使った巻き肩改善エクササイズ。道具なしでどこでもできます。"
+        "comment": "壁を使った巻き肩改善エクササイズ。道具なしでどこでもできます。",
+        "tags": [
+          "3〜5分",
+          "器具なし"
+        ]
       },
       {
         "title": "簡単3分！壁を使ってできる巻き肩解消ストレッチ",
@@ -788,7 +1230,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "19:16",
         "views": "665",
         "videoId": "JVN3VF7WUMc",
-        "comment": "反り腰と猫背を同時に改善。骨盤のニュートラルポジションを覚えましょう。"
+        "comment": "反り腰と猫背を同時に改善。骨盤のニュートラルポジションを覚えましょう。",
+        "tags": [
+          "12〜20分",
+          "初心者向け",
+          "器具なし"
+        ]
       },
       {
         "title": "【500万再生】肩甲骨が原因！背面が痩せるトレーニング・ストレッチ",
@@ -796,7 +1243,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:46",
         "views": "638万",
         "videoId": "DHfqYMts4pE",
-        "comment": "背中の筋肉を鍛えることで自然と良い姿勢がキープできます。"
+        "comment": "背中の筋肉を鍛えることで自然と良い姿勢がキープできます。",
+        "tags": [
+          "8〜12分",
+          "器具なし"
+        ]
       },
       {
         "title": "【伸び〜る10分】巻き肩改善！壁ヨガストレッチで美姿勢へ",
@@ -804,7 +1255,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:19",
         "views": "1.9千",
         "videoId": "fmW8wuPbThw",
-        "comment": "デスクワーク中にできる30秒ストレッチ。1時間に1回やるのが理想。"
+        "comment": "デスクワーク中にできる30秒ストレッチ。1時間に1回やるのが理想。",
+        "tags": [
+          "8〜12分",
+          "器具なし"
+        ]
       },
       {
         "title": "３分肩甲骨を動かして猫背・巻き肩・肩こり改善！代謝アップも！",
@@ -812,7 +1267,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:25",
         "views": "46万",
         "videoId": "OTM_K1RDXK0",
-        "comment": "ストレートネックの改善は首だけでなく胸椎の動きが重要です。"
+        "comment": "ストレートネックの改善は首だけでなく胸椎の動きが重要です。",
+        "tags": [
+          "3〜5分",
+          "器具なし"
+        ]
       },
       {
         "title": "痩せない原因の巻き肩をしっかり解消するストレッチ",
@@ -820,7 +1279,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:01",
         "views": "291万",
         "videoId": "YfK_r3PeP6Q",
-        "comment": "姿勢改善は見た目だけでなく肩こり・腰痛予防にも直結します。"
+        "comment": "姿勢改善は見た目だけでなく肩こり・腰痛予防にも直結します。",
+        "tags": [
+          "8〜12分",
+          "器具なし"
+        ]
       },
       {
         "title": "壁を使った挙上運動 肩関節周囲炎の運動療法",
@@ -828,7 +1291,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:55",
         "views": "9万",
         "videoId": "i55EpfDdbUU",
-        "comment": "立ち姿勢のチェックポイントを解説。自分の姿勢を客観的に見直せます。"
+        "comment": "立ち姿勢のチェックポイントを解説。自分の姿勢を客観的に見直せます。",
+        "tags": [
+          "5〜8分",
+          "器具なし",
+          "立ったまま"
+        ]
       }
     ]
   },
@@ -840,7 +1308,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:43",
         "views": "66万",
         "videoId": "zRsORgW7EMs",
-        "comment": "鶏むね肉をパサつかせないコツが詰まっています。塩麹漬けが個人的イチオシ。"
+        "comment": "鶏むね肉をパサつかせないコツが詰まっています。塩麹漬けが個人的イチオシ。",
+        "tags": [
+          "5〜8分",
+          "作り置きOK",
+          "時短",
+          "高タンパク"
+        ]
       },
       {
         "title": "【作り置き筋肉飯】材料3つだけ。鶏胸肉で作る高タンパク・低脂質なトマト煮弁当5日分！ミールプレップ、ダイエット、カチャトーラ",
@@ -848,7 +1322,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:25",
         "views": "166万",
         "videoId": "2N9agFFKwTk",
-        "comment": "お弁当にすると昼食のPFCバランスが安定します。週末にまとめて仕込むのが楽。"
+        "comment": "お弁当にすると昼食のPFCバランスが安定します。週末にまとめて仕込むのが楽。",
+        "tags": [
+          "5〜8分",
+          "作り置きOK",
+          "高タンパク",
+          "ヘルシー"
+        ]
       },
       {
         "title": "「高タンパク」で痩せる！作り置きレシピ５品【管理栄養士のダイエットレシピ】",
@@ -856,7 +1336,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "16:24",
         "views": "81万",
         "videoId": "QV1lEO38LLc",
-        "comment": "朝時間がない方に。バナナ+プロテイン+豆乳の組み合わせが飲みやすいです。"
+        "comment": "朝時間がない方に。バナナ+プロテイン+豆乳の組み合わせが飲みやすいです。",
+        "tags": [
+          "12〜20分",
+          "作り置きOK",
+          "高タンパク"
+        ]
       },
       {
         "title": "【体脂肪30%→18％】旨くて超簡単！痩せるささみ作り置き３品",
@@ -864,7 +1349,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "15:13",
         "views": "6万",
         "videoId": "rU7vwboqlh0",
-        "comment": "ささみを使った時短レシピ。パサつかないコツは下処理にあります。"
+        "comment": "ささみを使った時短レシピ。パサつかないコツは下処理にあります。",
+        "tags": [
+          "12〜20分",
+          "作り置きOK",
+          "時短",
+          "鶏肉"
+        ]
       },
       {
         "title": "レンジで３分ささみの絶品蒸し しっとりふっくら！",
@@ -872,7 +1363,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:17",
         "views": "16万",
         "videoId": "5semhEzPmG8",
-        "comment": "卵は最強のタンパク源。アレンジ無限大で飽きません。"
+        "comment": "卵は最強のタンパク源。アレンジ無限大で飽きません。",
+        "tags": [
+          "5〜8分",
+          "レンジだけ",
+          "鶏肉",
+          "卵"
+        ]
       },
       {
         "title": "正直何回食べてもこれが1番美味しい鶏ササミの最高の調理法",
@@ -880,7 +1377,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "13:14",
         "views": "113万",
         "videoId": "0ICwRPrK5fs",
-        "comment": "豆腐は植物性タンパク質の優秀食材。満腹感もあってダイエットの味方。"
+        "comment": "豆腐は植物性タンパク質の優秀食材。満腹感もあってダイエットの味方。",
+        "tags": [
+          "12〜20分",
+          "高タンパク",
+          "鶏肉",
+          "豆腐"
+        ]
       },
       {
         "title": "どう考えても痩せるし安いしウマすぎる痩せささみサラダ",
@@ -888,7 +1391,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:07",
         "views": "136万",
         "videoId": "V40ANxY9SMs",
-        "comment": "魚のタンパク質も重要。サバ缶なら手軽に良質な脂質も摂れます。"
+        "comment": "魚のタンパク質も重要。サバ缶なら手軽に良質な脂質も摂れます。",
+        "tags": [
+          "8〜12分",
+          "高タンパク",
+          "鶏肉",
+          "節約"
+        ]
       },
       {
         "title": "絶対作ってほしいささみレシピ２選！ダイエット神レシピ",
@@ -896,7 +1405,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:48",
         "views": "14万",
         "videoId": "SQ9rCfz407I",
-        "comment": "プロテインを料理に活用するレシピ。パンケーキやスムージーに。"
+        "comment": "プロテインを料理に活用するレシピ。パンケーキやスムージーに。",
+        "tags": [
+          "3〜5分",
+          "高タンパク",
+          "鶏肉"
+        ]
       },
       {
         "title": "【筋取り不要】箸で切れる柔らかさ超柔ささみステーキ",
@@ -904,7 +1418,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:23",
         "views": "241万",
         "videoId": "VmIseMBSQH0",
-        "comment": "コンビニでも買える高タンパク食品の選び方。忙しい日の参考に。"
+        "comment": "コンビニでも買える高タンパク食品の選び方。忙しい日の参考に。",
+        "tags": [
+          "5〜8分",
+          "高タンパク",
+          "鶏肉"
+        ]
       },
       {
         "title": "【焼くだけ5分】ササミが驚くほどしっとり！ササマヨ焼き",
@@ -912,7 +1431,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:11",
         "views": "32万",
         "videoId": "Qmqq5_zcHkI",
-        "comment": "1食30g以上のタンパク質を目指しましょう。このレシピなら楽にクリア。"
+        "comment": "1食30g以上のタンパク質を目指しましょう。このレシピなら楽にクリア。",
+        "tags": [
+          "5〜8分",
+          "時短",
+          "高タンパク"
+        ]
       }
     ],
     "snack": [
@@ -922,7 +1446,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:25",
         "views": "172万",
         "videoId": "hbzd7_BBVy8",
-        "comment": "間食は悪ではありません。血糖値を安定させるための戦略的な間食を覚えましょう。"
+        "comment": "間食は悪ではありません。血糖値を安定させるための戦略的な間食を覚えましょう。",
+        "tags": [
+          "8〜12分",
+          "レンジだけ",
+          "低糖質",
+          "豆腐"
+        ]
       },
       {
         "title": "【ダイエット】低糖質ブラウニー作り方。洗いものなし！5分で作れる！簡単レンジだけ♪ low carb & gluten free Banana brownie",
@@ -930,7 +1460,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "5:57",
         "views": "7万",
         "videoId": "aG4ZtTobaf8",
-        "comment": "甘いものが食べたくなった時に。食物繊維も摂れて腹持ちが良いです。"
+        "comment": "甘いものが食べたくなった時に。食物繊維も摂れて腹持ちが良いです。",
+        "tags": [
+          "3〜5分",
+          "レンジだけ",
+          "時短",
+          "低糖質"
+        ]
       },
       {
         "title": "【ダイエット】材料３つ！低糖質バナナケーキ作り方。まぜてレンジにかけるだけ！低カロリー低脂質のヘルシースイーツlow carb & gluten free Oatmeal Banana cake",
@@ -938,7 +1474,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:18",
         "views": "160万",
         "videoId": "3xfGNpa-kTM",
-        "comment": "自炊が難しい時の参考に。ギリシャヨーグルト+ナッツが最強の組み合わせ。"
+        "comment": "自炊が難しい時の参考に。ギリシャヨーグルト+ナッツが最強の組み合わせ。",
+        "tags": [
+          "5〜8分",
+          "レンジだけ",
+          "低糖質",
+          "ヘルシー"
+        ]
       },
       {
         "title": "【神回】簡単プロテインバーの作り方！減量レシピ！",
@@ -946,7 +1488,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:15",
         "views": "14万",
         "videoId": "m9hhz9NR93k",
-        "comment": "手作りプロテインバー。市販品より安くて添加物なしで安心。"
+        "comment": "手作りプロテインバー。市販品より安くて添加物なしで安心。",
+        "tags": [
+          "8〜12分",
+          "時短",
+          "高タンパク"
+        ]
       },
       {
         "title": "【持ち歩きに便利】オーミールプロテインバー！",
@@ -954,7 +1501,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:07",
         "views": "15万",
         "videoId": "hCUE98gChcc",
-        "comment": "オートミールを使ったヘルシースイーツ。食物繊維も摂れて一石二鳥。"
+        "comment": "オートミールを使ったヘルシースイーツ。食物繊維も摂れて一石二鳥。",
+        "tags": [
+          "3〜5分",
+          "高タンパク",
+          "ヘルシー",
+          "オートミール"
+        ]
       },
       {
         "title": "【オイル･砂糖･小麦粉不使用】オートミールプロテインバー",
@@ -962,7 +1515,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:28",
         "views": "8.7千",
         "videoId": "TZiFgxzuA2A",
-        "comment": "ギリシャヨーグルトのアレンジレシピ。タンパク質が豊富で腹持ち抜群。"
+        "comment": "ギリシャヨーグルトのアレンジレシピ。タンパク質が豊富で腹持ち抜群。",
+        "tags": [
+          "8〜12分",
+          "レンジだけ",
+          "高タンパク",
+          "オートミール"
+        ]
       },
       {
         "title": "【ダイエット】焼かないスタバ風プロテインバーの作り方",
@@ -970,7 +1529,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:41",
         "views": "5万",
         "videoId": "62924uO7PfM",
-        "comment": "ナッツは良質な脂質の宝庫。ただし食べ過ぎ注意。1日25g程度が目安。"
+        "comment": "ナッツは良質な脂質の宝庫。ただし食べ過ぎ注意。1日25g程度が目安。",
+        "tags": [
+          "5〜8分",
+          "高タンパク"
+        ]
       },
       {
         "title": "【No.1おやつレシピ】オーバーナイト・オートミール・プロテインバー",
@@ -978,7 +1541,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:35",
         "views": "14万",
         "videoId": "kBUoiJiV6EA",
-        "comment": "フルーツを使った低カロリースイーツ。冷凍バナナのアイスが簡単で美味しい。"
+        "comment": "フルーツを使った低カロリースイーツ。冷凍バナナのアイスが簡単で美味しい。",
+        "tags": [
+          "5〜8分",
+          "作り置きOK",
+          "時短",
+          "高タンパク"
+        ]
       },
       {
         "title": "爆速５分！！超簡単に出来るプロテインバーの作り方",
@@ -986,7 +1555,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:59",
         "views": "6.3千",
         "videoId": "Cwlho16B-HY",
-        "comment": "するめやビーフジャーキーも優秀なタンパク質おやつ。噛む回数も増えて◎"
+        "comment": "するめやビーフジャーキーも優秀なタンパク質おやつ。噛む回数も増えて◎",
+        "tags": [
+          "5〜8分",
+          "時短",
+          "高タンパク"
+        ]
       },
       {
         "title": "【オイル無し】高タンパク＆乳酸菌オートミールプロテインバー",
@@ -994,7 +1568,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:40",
         "views": "1万",
         "videoId": "hiQozrSpI0k",
-        "comment": "小腹が空いた時は茹で卵かチーズ。手軽で栄養バランスも良いです。"
+        "comment": "小腹が空いた時は茹で卵かチーズ。手軽で栄養バランスも良いです。",
+        "tags": [
+          "8〜12分",
+          "高タンパク",
+          "オートミール",
+          "卵"
+        ]
       }
     ],
     "mealprep": [
@@ -1004,7 +1584,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "16:16",
         "views": "320万",
         "videoId": "V-algc2lPeQ",
-        "comment": "日曜2時間で1週間分。食事管理は準備が9割です。"
+        "comment": "日曜2時間で1週間分。食事管理は準備が9割です。",
+        "tags": [
+          "12〜20分",
+          "低糖質",
+          "節約"
+        ]
       },
       {
         "title": "【痩せるダイエット弁当】運動なしで2ヶ月で10kg痩せた私の低糖質・高タンパクな1週間お弁当レシピ  | ダイエット中の食事",
@@ -1012,7 +1597,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:34",
         "views": "314万",
         "videoId": "zb8AoFIZVjY",
-        "comment": "冷凍ストックがあると外食やコンビニ弁当に頼る頻度が激減します。"
+        "comment": "冷凍ストックがあると外食やコンビニ弁当に頼る頻度が激減します。",
+        "tags": [
+          "8〜12分",
+          "作り置きOK",
+          "高タンパク",
+          "低糖質"
+        ]
       },
       {
         "title": "【1週間ダイエット弁当】お気に入りTOP5でまるごと冷凍弁当を作り置き | タンパク質30g以上/1食",
@@ -1020,7 +1611,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "17:02",
         "views": "205万",
         "videoId": "Rq1taW6LVOI",
-        "comment": "完璧を目指さなくてOK。まずは真似できるところから取り入れてみてください。"
+        "comment": "完璧を目指さなくてOK。まずは真似できるところから取り入れてみてください。",
+        "tags": [
+          "12〜20分",
+          "作り置きOK",
+          "高タンパク"
+        ]
       },
       {
         "title": "お弁当は毎朝作らなくていい。週末に作り置きして平日が楽になる",
@@ -1028,7 +1624,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "19:05",
         "views": "13万",
         "videoId": "MPLkTduOwEg",
-        "comment": "鶏むね肉の下味冷凍バリエーション。5種類作っておけば1週間飽きない。"
+        "comment": "鶏むね肉の下味冷凍バリエーション。5種類作っておけば1週間飽きない。",
+        "tags": [
+          "12〜20分",
+          "作り置きOK",
+          "鶏肉"
+        ]
       },
       {
         "title": "【1食150円】同じ食材で5日間全部違うおかず！鶏むね肉メイン",
@@ -1036,7 +1637,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "13:56",
         "views": "15万",
         "videoId": "aEgawScD-kI",
-        "comment": "野菜たっぷりのヘルシー作り置き。ビタミン・ミネラルも忘れずに。"
+        "comment": "野菜たっぷりのヘルシー作り置き。ビタミン・ミネラルも忘れずに。",
+        "tags": [
+          "12〜20分",
+          "作り置きOK",
+          "ヘルシー",
+          "鶏肉"
+        ]
       },
       {
         "title": "鶏もも肉の下味冷凍｜毎日の食事作りの負担を減らす",
@@ -1044,7 +1651,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:08",
         "views": "21万",
         "videoId": "Ea2U_97lYF4",
-        "comment": "筋肉弁当の組み立て方。PFCバランスを意識した詰め方のコツ。"
+        "comment": "筋肉弁当の組み立て方。PFCバランスを意識した詰め方のコツ。",
+        "tags": [
+          "5〜8分",
+          "作り置きOK",
+          "鶏肉"
+        ]
       },
       {
         "title": "秋冬の美味しい7品1週間の下味冷凍献立！",
@@ -1052,7 +1664,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:19",
         "views": "63万",
         "videoId": "eTQQpZA8MnE",
-        "comment": "休日2時間で平日5日分。まとめて作る効率的な段取りを学べます。"
+        "comment": "休日2時間で平日5日分。まとめて作る効率的な段取りを学べます。",
+        "tags": [
+          "8〜12分",
+          "作り置きOK"
+        ]
       },
       {
         "title": "【まるごと冷凍弁当】5日分2人前計10食作り置き",
@@ -1060,7 +1676,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "19:43",
         "views": "347万",
         "videoId": "3lREcMBwMCY",
-        "comment": "冷凍保存のコツとおすすめ容器。品質を保つ保存方法も重要。"
+        "comment": "冷凍保存のコツとおすすめ容器。品質を保つ保存方法も重要。",
+        "tags": [
+          "12〜20分",
+          "作り置きOK"
+        ]
       },
       {
         "title": "【1食130円】鶏むね肉を反則級に美味しくする！鶏チリ",
@@ -1068,7 +1688,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:07",
         "views": "24万",
         "videoId": "aetGUzw9XPo",
-        "comment": "調味料を変えるだけで同じ食材でもバリエーション無限。飽き対策に。"
+        "comment": "調味料を変えるだけで同じ食材でもバリエーション無限。飽き対策に。",
+        "tags": [
+          "5〜8分",
+          "鶏肉",
+          "節約"
+        ]
       },
       {
         "title": "1週間の野菜＆肉たっぷり冷凍おかずの作り置き",
@@ -1076,7 +1701,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:01",
         "views": "85万",
         "videoId": "XCqhB2svDrk",
-        "comment": "ご飯の量の目安も解説。糖質も適量は必要です。極端なカットはNG。"
+        "comment": "ご飯の量の目安も解説。糖質も適量は必要です。極端なカットはNG。",
+        "tags": [
+          "8〜12分",
+          "作り置きOK"
+        ]
       }
     ],
     "breakfast": [
@@ -1086,7 +1715,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:23",
         "views": "6万",
         "videoId": "ZKc-GDMflO4",
-        "comment": "朝のタンパク質摂取は1日の代謝に影響します。卵2個は最低ラインです。"
+        "comment": "朝のタンパク質摂取は1日の代謝に影響します。卵2個は最低ラインです。",
+        "tags": [
+          "5〜8分",
+          "時短",
+          "高タンパク",
+          "卵"
+        ]
       },
       {
         "title": "【朝の最強５分献立】年末までに体整える朝のタンパク質20gレシピ",
@@ -1094,7 +1729,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "14:20",
         "views": "38万",
         "videoId": "6UgPIJvJIZ0",
-        "comment": "オーバーナイトオーツは前日夜に仕込むだけ。忙しい朝の味方です。"
+        "comment": "オーバーナイトオーツは前日夜に仕込むだけ。忙しい朝の味方です。",
+        "tags": [
+          "12〜20分",
+          "高タンパク"
+        ]
       },
       {
         "title": "【朝ご飯はコレ】ズボラ向け朝食セットを作り置き！忙しい朝のおすすめレシピ5選とその理由【1週間の朝ごはん】",
@@ -1102,7 +1741,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:02",
         "views": "41万",
         "videoId": "eGEA0cmLJBs",
-        "comment": "朝食を抜くと筋分解が進みやすいです。少量でもいいので何か口にしましょう。"
+        "comment": "朝食を抜くと筋分解が進みやすいです。少量でもいいので何か口にしましょう。",
+        "tags": [
+          "8〜12分",
+          "作り置きOK",
+          "時短"
+        ]
       },
       {
         "title": "【マグカップで5分】オートミールの朝食レシピ1週間分",
@@ -1110,7 +1754,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:47",
         "views": "81万",
         "videoId": "Upw_RnktXCs",
-        "comment": "オートミールは腹持ち抜群。レンジで2分のお手軽レシピ。"
+        "comment": "オートミールは腹持ち抜群。レンジで2分のお手軽レシピ。",
+        "tags": [
+          "8〜12分",
+          "レンジだけ",
+          "時短",
+          "オートミール"
+        ]
       },
       {
         "title": "【ダイエット料理】超簡単で美味しいオートミールレシピ３選！",
@@ -1118,7 +1768,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:48",
         "views": "200万",
         "videoId": "kQxTrMbffTs",
-        "comment": "卵かけご飯にプロテインをプラス。日本人の朝食の最適解かも。"
+        "comment": "卵かけご飯にプロテインをプラス。日本人の朝食の最適解かも。",
+        "tags": [
+          "8〜12分",
+          "時短",
+          "高タンパク",
+          "オートミール"
+        ]
       },
       {
         "title": "オートミール嫌いを克服した簡単5分で作る朝ご飯レシピ6選",
@@ -1126,7 +1782,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:41",
         "views": "34万",
         "videoId": "MxPRdGTxpyo",
-        "comment": "スムージーなら忙しい朝でもタンパク質20g以上摂れます。"
+        "comment": "スムージーなら忙しい朝でもタンパク質20g以上摂れます。",
+        "tags": [
+          "8〜12分",
+          "時短",
+          "高タンパク",
+          "オートミール"
+        ]
       },
       {
         "title": "【忙しい朝に最適】レンジで作る超簡単オートミール朝ごはん4日分！",
@@ -1134,7 +1796,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:08",
         "views": "4万",
         "videoId": "RG-u2Gc_3UQ",
-        "comment": "前日夜に仕込むオーバーナイトオーツ。朝は冷蔵庫から出すだけ。"
+        "comment": "前日夜に仕込むオーバーナイトオーツ。朝は冷蔵庫から出すだけ。",
+        "tags": [
+          "5〜8分",
+          "レンジだけ",
+          "時短",
+          "オートミール"
+        ]
       },
       {
         "title": "【オートミールレンジレシピ集】レンジで出来る！朝食にも♪",
@@ -1142,7 +1810,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:42",
         "views": "61万",
         "videoId": "hNIwLCXJOGo",
-        "comment": "納豆+卵+ご飯は黄金の組み合わせ。和食の朝ごはんも優秀です。"
+        "comment": "納豆+卵+ご飯は黄金の組み合わせ。和食の朝ごはんも優秀です。",
+        "tags": [
+          "8〜12分",
+          "レンジだけ",
+          "オートミール",
+          "卵"
+        ]
       },
       {
         "title": "【痩せる朝食】ズボラで簡単な定番オートミールのレシピ3品！",
@@ -1150,7 +1824,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:35",
         "views": "43万",
         "videoId": "yluhcZAgyJY",
-        "comment": "トーストにチーズとハムを乗せるだけでもタンパク質量がアップ。"
+        "comment": "トーストにチーズとハムを乗せるだけでもタンパク質量がアップ。",
+        "tags": [
+          "3〜5分",
+          "時短",
+          "高タンパク",
+          "オートミール"
+        ]
       },
       {
         "title": "【超簡単】レンジだけでオートミール朝ごはん！",
@@ -1158,7 +1838,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:41",
         "views": "81万",
         "videoId": "NSTMQXkVD10",
-        "comment": "朝食を抜くと昼に血糖値が急上昇しやすい。少量でも食べましょう。"
+        "comment": "朝食を抜くと昼に血糖値が急上昇しやすい。少量でも食べましょう。",
+        "tags": [
+          "5〜8分",
+          "レンジだけ",
+          "時短",
+          "オートミール"
+        ]
       }
     ],
     "recovery": [
@@ -1168,7 +1854,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:36",
         "views": "5万",
         "videoId": "Bh5dTptUhwA",
-        "comment": "トレーニング後はタンパク質+糖質のセットが鉄則。おにぎり+プロテインが最強。"
+        "comment": "トレーニング後はタンパク質+糖質のセットが鉄則。おにぎり+プロテインが最強。",
+        "tags": [
+          "8〜12分",
+          "高タンパク"
+        ]
       },
       {
         "title": "【時間別徹底解説】プロテインだけではない!! 筋トレ前の食事は何を食べる？特に減量中はこれを摂って下さい。",
@@ -1176,7 +1866,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:04",
         "views": "29万",
         "videoId": "YVglfeShnmM",
-        "comment": "トレーニング日の夕食に。ビタミンB群を意識したメニューが揃っています。"
+        "comment": "トレーニング日の夕食に。ビタミンB群を意識したメニューが揃っています。",
+        "tags": [
+          "8〜12分",
+          "高タンパク"
+        ]
       },
       {
         "title": "【必見】運動直後はプロテインと一緒に摂るのを避けるべき食べ物【ビーレジェンド プロテイン】",
@@ -1184,7 +1878,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:43",
         "views": "9.4千",
         "videoId": "96RoUNh3ocQ",
-        "comment": "ご褒美感がありつつ栄養もしっかり。トレーニング後の楽しみにしてください。"
+        "comment": "ご褒美感がありつつ栄養もしっかり。トレーニング後の楽しみにしてください。",
+        "tags": [
+          "3〜5分",
+          "高タンパク"
+        ]
       },
       {
         "title": "【徹底解説】プロテインっていつ飲めばいいのか",
@@ -1192,7 +1890,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:27",
         "views": "94万",
         "videoId": "xB9isYGZfJc",
-        "comment": "プロテインの効果的な飲み方。タイミングと量の最新エビデンス。"
+        "comment": "プロテインの効果的な飲み方。タイミングと量の最新エビデンス。",
+        "tags": [
+          "8〜12分",
+          "高タンパク"
+        ]
       },
       {
         "title": "筋肥大を最適化するプロテインの飲み方",
@@ -1200,7 +1902,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:09",
         "views": "9万",
         "videoId": "fPjYNvkcY70",
-        "comment": "トレーニング直後の栄養補給。糖質も一緒に摂ることが重要な理由。"
+        "comment": "トレーニング直後の栄養補給。糖質も一緒に摂ることが重要な理由。",
+        "tags": [
+          "8〜12分",
+          "高タンパク"
+        ]
       },
       {
         "title": "【2024年最新版】筋合成を活発にさせるベストなプロテインの飲むタイミング",
@@ -1208,7 +1914,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:19",
         "views": "26万",
         "videoId": "nt0mXOB_ajs",
-        "comment": "疲労回復に効く食材と栄養素。ビタミンB群と鉄分がカギ。"
+        "comment": "疲労回復に効く食材と栄養素。ビタミンB群と鉄分がカギ。",
+        "tags": [
+          "8〜12分",
+          "高タンパク"
+        ]
       },
       {
         "title": "【真実or嘘】30分以内は守るべき？筋トレ後のタンパク質摂取",
@@ -1216,7 +1926,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "14:28",
         "views": "5万",
         "videoId": "rvO4f9pXrOc",
-        "comment": "運動後の食事メニュー実例。タンパク質+糖質のベストバランスとは。"
+        "comment": "運動後の食事メニュー実例。タンパク質+糖質のベストバランスとは。",
+        "tags": [
+          "12〜20分",
+          "高タンパク"
+        ]
       },
       {
         "title": "【筋トレ科学】筋トレ前VS筋トレ後 プロテインパウダーの効果",
@@ -1224,7 +1938,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:12",
         "views": "1万",
         "videoId": "ZhWO1UzIYz4",
-        "comment": "コンビニで買えるリカバリー食。プロテインドリンク+おにぎりが最強。"
+        "comment": "コンビニで買えるリカバリー食。プロテインドリンク+おにぎりが最強。",
+        "tags": [
+          "8〜12分",
+          "高タンパク"
+        ]
       },
       {
         "title": "プロテインの効果を高める飲むタイミング&飲み方を徹底解説",
@@ -1232,7 +1950,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:53",
         "views": "10万",
         "videoId": "ZsuEVWM00_Y",
-        "comment": "寝る前のプロテインは太る？最新研究に基づく回答がわかります。"
+        "comment": "寝る前のプロテインは太る？最新研究に基づく回答がわかります。",
+        "tags": [
+          "5〜8分",
+          "高タンパク"
+        ]
       },
       {
         "title": "【要注意】痩せない原因はプロテインのこの飲み方です",
@@ -1240,7 +1962,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:27",
         "views": "72万",
         "videoId": "qzkaPFTZOv8",
-        "comment": "トレーニング強度に応じた食事量の調整方法。やりすぎもNG。"
+        "comment": "トレーニング強度に応じた食事量の調整方法。やりすぎもNG。",
+        "tags": [
+          "5〜8分",
+          "高タンパク"
+        ]
       }
     ]
   },
@@ -1252,7 +1978,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:59",
         "views": "402万",
         "videoId": "09C7ti0xY4k",
-        "comment": "副交感神経を優位にするメニューです。部屋を暗くしてやるのがポイント。"
+        "comment": "副交感神経を優位にするメニューです。部屋を暗くしてやるのがポイント。",
+        "tags": [
+          "8〜12分",
+          "寝ながら",
+          "夜におすすめ"
+        ]
       },
       {
         "title": "自律神経を整えたい方にオススメ｜寝る前ストレッチでリラックス【7分間】",
@@ -1260,7 +1991,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:36",
         "views": "179万",
         "videoId": "kwDtQwrLD0Q",
-        "comment": "4-7-8呼吸法が紹介されています。布団に入ってからでもできるので試してみて。"
+        "comment": "4-7-8呼吸法が紹介されています。布団に入ってからでもできるので試してみて。",
+        "tags": [
+          "5〜8分",
+          "寝ながら",
+          "夜におすすめ",
+          "リラックス"
+        ]
       },
       {
         "title": "【寝る前 専用】9分で副交感神経が高まり深い眠りへ。寝ても疲れが取れない、なかなか眠れない方向け呼吸を深めるヨガBY283",
@@ -1268,7 +2005,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:07",
         "views": "109万",
         "videoId": "WY7L052hiPY",
-        "comment": "トレーニング日の夜に特におすすめ。興奮した神経を落ち着かせてくれます。"
+        "comment": "トレーニング日の夜に特におすすめ。興奮した神経を落ち着かせてくれます。",
+        "tags": [
+          "8〜12分",
+          "寝ながら",
+          "夜におすすめ"
+        ]
       },
       {
         "title": "【寝たまま10分】自律神経を整え安眠したい方におすすめのヨガ #649",
@@ -1276,7 +2018,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:13",
         "views": "208万",
         "videoId": "z4h3OH_VcVU",
-        "comment": "不眠に効くヨガポーズを厳選。リラックス効果の高い動きだけを集めています。"
+        "comment": "不眠に効くヨガポーズを厳選。リラックス効果の高い動きだけを集めています。",
+        "tags": [
+          "8〜12分",
+          "寝ながら",
+          "夜におすすめ",
+          "リラックス"
+        ]
       },
       {
         "title": "【寝る前10分】寝たまま全身の疲れを取る簡単ヨガストレッチ #586",
@@ -1284,7 +2032,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:02",
         "views": "320万",
         "videoId": "ZdoECl5OznE",
-        "comment": "ASMR要素のあるストレッチ動画。音声も心地よくて自然と眠くなります。"
+        "comment": "ASMR要素のあるストレッチ動画。音声も心地よくて自然と眠くなります。",
+        "tags": [
+          "8〜12分",
+          "寝ながら",
+          "夜におすすめ",
+          "初心者向け"
+        ]
       },
       {
         "title": "【10分】寝たままデトックスヨガ #584",
@@ -1292,7 +2046,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:36",
         "views": "88万",
         "videoId": "W4Y5Vb3FxBA",
-        "comment": "4-7-8呼吸法のやり方を丁寧に解説。不眠で悩む方の第一歩に。"
+        "comment": "4-7-8呼吸法のやり方を丁寧に解説。不眠で悩む方の第一歩に。",
+        "tags": [
+          "8〜12分",
+          "寝ながら"
+        ]
       },
       {
         "title": "寝たままできる自律神経を整えるヨガ #109",
@@ -1300,7 +2058,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "16:15",
         "views": "591万",
         "videoId": "k7ju5ykeoV8",
-        "comment": "寝る前のスマホは睡眠の大敵。代わりにこのストレッチを習慣にして。"
+        "comment": "寝る前のスマホは睡眠の大敵。代わりにこのストレッチを習慣にして。",
+        "tags": [
+          "12〜20分",
+          "寝ながら",
+          "夜におすすめ",
+          "リラックス"
+        ]
       },
       {
         "title": "【寝たまま10分】姿勢改善ヨガ #642",
@@ -1308,7 +2072,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:26",
         "views": "101万",
         "videoId": "v2YwcuW8rQs",
-        "comment": "マットレスや枕の選び方も睡眠の質に大きく影響します。参考にしてみて。"
+        "comment": "マットレスや枕の選び方も睡眠の質に大きく影響します。参考にしてみて。",
+        "tags": [
+          "8〜12分",
+          "寝ながら"
+        ]
       },
       {
         "title": "【8分で肩こり＆自律神経ケア】寝たまま簡単リラックスストレッチ #702",
@@ -1316,7 +2084,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:32",
         "views": "80万",
         "videoId": "tgUuVWpL9gY",
-        "comment": "体の緊張をひとつずつ解いていくボディスキャン瞑想。初心者にもおすすめ。"
+        "comment": "体の緊張をひとつずつ解いていくボディスキャン瞑想。初心者にもおすすめ。",
+        "tags": [
+          "8〜12分",
+          "寝ながら",
+          "初心者向け",
+          "リラックス"
+        ]
       },
       {
         "title": "【9分寝たまま】全身の疲れを取る寝る前のストレッチ",
@@ -1324,7 +2098,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:00",
         "views": "38万",
         "videoId": "fyfhkmF0zLo",
-        "comment": "カフェインの影響は8時間以上続くことも。14時以降は控えめに。"
+        "comment": "カフェインの影響は8時間以上続くことも。14時以降は控えめに。",
+        "tags": [
+          "8〜12分",
+          "寝ながら",
+          "夜におすすめ"
+        ]
       }
     ],
     "wakeup": [
@@ -1334,7 +2113,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "19:42",
         "views": "181万",
         "videoId": "Hbv-3zBB3gk",
-        "comment": "夕方以降のカフェインと寝室の温度管理がカギ。すぐ実践できる内容です。"
+        "comment": "夕方以降のカフェインと寝室の温度管理がカギ。すぐ実践できる内容です。",
+        "tags": [
+          "12〜20分",
+          "おすすめ"
+        ]
       },
       {
         "title": "睡眠の質を上げる心理学的ナイトルーティンTOP3",
@@ -1342,7 +2125,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "13:29",
         "views": "24万",
         "videoId": "qFyNKVLE-dg",
-        "comment": "目が覚めてもスマホは見ないでください。この動画の方法を試してみて。"
+        "comment": "目が覚めてもスマホは見ないでください。この動画の方法を試してみて。",
+        "tags": [
+          "12〜20分",
+          "夜におすすめ"
+        ]
       },
       {
         "title": "【9分】熟睡できる！最高の寝る前専用ストレッチ【快眠/睡眠の質向上/疲労回復】",
@@ -1350,7 +2137,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:59",
         "views": "402万",
         "videoId": "09C7ti0xY4k",
-        "comment": "寝る90分前の入浴がゴールデンタイム。深部体温の低下が入眠を促します。"
+        "comment": "寝る90分前の入浴がゴールデンタイム。深部体温の低下が入眠を促します。",
+        "tags": [
+          "8〜12分",
+          "寝ながら",
+          "夜におすすめ"
+        ]
       },
       {
         "title": "【科学的根拠】体力がチートで増える睡眠の雑学",
@@ -1358,7 +2150,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:21",
         "views": "218万",
         "videoId": "9kUu2IVvBjw",
-        "comment": "科学的根拠に基づいた睡眠改善法。実践しやすいものから試してみて。"
+        "comment": "科学的根拠に基づいた睡眠改善法。実践しやすいものから試してみて。",
+        "tags": [
+          "5〜8分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【要約】スタンフォード式 最高の睡眠",
@@ -1366,7 +2162,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "18:26",
         "views": "48万",
         "videoId": "PuLXl_Le2Pc",
-        "comment": "食事と睡眠の関係を詳しく解説。トリプトファンを含む食品を意識して。"
+        "comment": "食事と睡眠の関係を詳しく解説。トリプトファンを含む食品を意識して。",
+        "tags": [
+          "12〜20分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【睡眠革命】30％睡眠時間を減らしても大丈夫!?",
@@ -1374,7 +2174,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "5:58",
         "views": "13",
         "videoId": "UfkT1PrZoAA",
-        "comment": "寝室の温度・湿度・光の最適条件を解説。環境整備が第一歩。"
+        "comment": "寝室の温度・湿度・光の最適条件を解説。環境整備が第一歩。",
+        "tags": [
+          "3〜5分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【寝付きの悪い方へ】試して欲しい入眠方法５選",
@@ -1382,7 +2186,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:08",
         "views": "10万",
         "videoId": "234F4YqvYqQ",
-        "comment": "アルコールは睡眠の質を下げる。飲むなら寝る3時間前までに。"
+        "comment": "アルコールは睡眠の質を下げる。飲むなら寝る3時間前までに。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【超熟睡法！】薬に頼らず最高の睡眠を得る方法",
@@ -1390,7 +2198,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "16:30",
         "views": "26万",
         "videoId": "yf5oysNb1Yw",
-        "comment": "睡眠のサイクル（90分周期）を意識した就寝時間の設定方法。"
+        "comment": "睡眠のサイクル（90分周期）を意識した就寝時間の設定方法。",
+        "tags": [
+          "12〜20分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【ポケモンスリープ監修】専門家に聞く睡眠の新常識",
@@ -1398,7 +2210,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:22",
         "views": "52万",
         "videoId": "3KuY5E6Yfdk",
-        "comment": "枕の高さと寝姿勢の関係。自分に合った枕選びのポイント。"
+        "comment": "枕の高さと寝姿勢の関係。自分に合った枕選びのポイント。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       },
       {
         "title": "睡眠学者、柳沢正史だけど質問ある？",
@@ -1406,7 +2222,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "16:08",
         "views": "282万",
         "videoId": "fOsaVft0Mtw",
-        "comment": "ブルーライトカットだけでは不十分。寝る1時間前のスクリーンタイムを減らそう。"
+        "comment": "ブルーライトカットだけでは不十分。寝る1時間前のスクリーンタイムを減らそう。",
+        "tags": [
+          "12〜20分",
+          "おすすめ"
+        ]
       }
     ],
     "morning": [
@@ -1416,7 +2236,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:00",
         "views": "472万",
         "videoId": "gMIlRS_lbYA",
-        "comment": "ベッドの上でできます。血流を促して体のスイッチを入れましょう。"
+        "comment": "ベッドの上でできます。血流を促して体のスイッチを入れましょう。",
+        "tags": [
+          "5〜8分",
+          "朝におすすめ"
+        ]
       },
       {
         "title": "【朝専用】疲れないカラダを作る極上10分ストレッチ！【Morning routine】",
@@ -1424,7 +2248,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:41",
         "views": "1355万",
         "videoId": "2EfFlQev4rg",
-        "comment": "起きたら15分以内に日光を浴びる。これだけで体内時計がリセットされます。"
+        "comment": "起きたら15分以内に日光を浴びる。これだけで体内時計がリセットされます。",
+        "tags": [
+          "8〜12分",
+          "朝におすすめ"
+        ]
       },
       {
         "title": "朝のストレッチ｜寝たまま目覚めの6分間",
@@ -1432,7 +2260,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:01",
         "views": "65万",
         "videoId": "h8bvc10n3sk",
-        "comment": "急に起き上がらず、まず手足をグーパーする。段階的に体を起こすのがコツ。"
+        "comment": "急に起き上がらず、まず手足をグーパーする。段階的に体を起こすのがコツ。",
+        "tags": [
+          "5〜8分",
+          "寝ながら",
+          "朝におすすめ"
+        ]
       },
       {
         "title": "【朝晩5分だけ!!】これさえやればOK!!運動前後にも最適な簡単ストレッチルーティン",
@@ -1440,7 +2273,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:03",
         "views": "580万",
         "videoId": "fj8CbDE9Keo",
-        "comment": "5分で終わる朝のルーティン。忙しい朝でも続けられるのが最大の魅力。"
+        "comment": "5分で終わる朝のルーティン。忙しい朝でも続けられるのが最大の魅力。",
+        "tags": [
+          "5〜8分",
+          "朝におすすめ",
+          "初心者向け"
+        ]
       },
       {
         "title": "【朝活5分】1日これだけでOK。朝のリンパストレッチルーティン",
@@ -1448,7 +2286,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:44",
         "views": "20万",
         "videoId": "nuuTkTfn5pQ",
-        "comment": "ベッドの上でそのままできるヨガ。起き上がる前に体のスイッチをON。"
+        "comment": "ベッドの上でそのままできるヨガ。起き上がる前に体のスイッチをON。",
+        "tags": [
+          "5〜8分",
+          "朝におすすめ",
+          "マッサージ"
+        ]
       },
       {
         "title": "【朝＆出勤前に】立ったまま全身温まるストレッチで代謝を上げよう！",
@@ -1456,7 +2299,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:18",
         "views": "144万",
         "videoId": "ANO2ZxflspE",
-        "comment": "朝の運動習慣は1日の代謝を上げます。軽いストレッチだけでも効果あり。"
+        "comment": "朝の運動習慣は1日の代謝を上げます。軽いストレッチだけでも効果あり。",
+        "tags": [
+          "5〜8分",
+          "立ったまま",
+          "朝におすすめ"
+        ]
       },
       {
         "title": "朝ストレッチで1日の消費カロリーを上げて痩せる",
@@ -1464,7 +2312,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:27",
         "views": "354万",
         "videoId": "5gFiEoahUFU",
-        "comment": "朝日を浴びることが最高の目覚まし。カーテンを開ける習慣をつけて。"
+        "comment": "朝日を浴びることが最高の目覚まし。カーテンを開ける習慣をつけて。",
+        "tags": [
+          "5〜8分",
+          "朝におすすめ"
+        ]
       },
       {
         "title": "【朝のストレッチエクササイズ】2週間で-5kgモーニングルーティン",
@@ -1472,7 +2324,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:15",
         "views": "185万",
         "videoId": "S1_1Zmy9BNs",
-        "comment": "冷水で顔を洗うと交感神経が刺激されてスッキリ目覚められます。"
+        "comment": "冷水で顔を洗うと交感神経が刺激されてスッキリ目覚められます。",
+        "tags": [
+          "5〜8分",
+          "朝におすすめ"
+        ]
       },
       {
         "title": "【人生を変える5分ヨガ】腸活デトックスで内臓機能が改善！ #597",
@@ -1480,7 +2336,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:24",
         "views": "116万",
         "videoId": "7xK0WSveK9Q",
-        "comment": "朝の白湯は内臓を温めて代謝を促進。レモンを絞るとさらに◎"
+        "comment": "朝の白湯は内臓を温めて代謝を促進。レモンを絞るとさらに◎",
+        "tags": [
+          "5〜8分",
+          "朝におすすめ"
+        ]
       },
       {
         "title": "【朝用5分】老廃物がドバドバ流れる簡単体操で代謝アップ!!",
@@ -1488,7 +2348,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "5:49",
         "views": "431万",
         "videoId": "glxcRUKh_n0",
-        "comment": "寝起きの体は脱水状態。コップ1杯の水を飲むことから1日を始めて。"
+        "comment": "寝起きの体は脱水状態。コップ1杯の水を飲むことから1日を始めて。",
+        "tags": [
+          "3〜5分",
+          "朝におすすめ",
+          "初心者向け"
+        ]
       }
     ],
     "fatigue": [
@@ -1498,7 +2363,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:45",
         "views": "12万",
         "videoId": "ktF9LfAPKn0",
-        "comment": "トレーニング後の栄養・入浴・睡眠の3点セットが回復の基本です。"
+        "comment": "トレーニング後の栄養・入浴・睡眠の3点セットが回復の基本です。",
+        "tags": [
+          "8〜12分",
+          "初心者向け"
+        ]
       },
       {
         "title": "40代50代のリカバリー・疲労回復。具体的な日常生活でのリカバリー方法やサプリメントの摂取について解説",
@@ -1506,7 +2375,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:17",
         "views": "680",
         "videoId": "YZHz1aqMJhQ",
-        "comment": "休息日にじっとしているより、軽く動いた方が回復が早い。この動画の強度が理想的。"
+        "comment": "休息日にじっとしているより、軽く動いた方が回復が早い。この動画の強度が理想的。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       },
       {
         "title": "疲れが取れない人必見！運動後の疲労回復を早める飲み物とは？翌日に疲れを残さない方法",
@@ -1514,7 +2387,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:06",
         "views": "4万",
         "videoId": "quwAF8vENCc",
-        "comment": "マグネシウムとビタミンCの摂取を意識してみてください。サプリでもOKです。"
+        "comment": "マグネシウムとビタミンCの摂取を意識してみてください。サプリでもOKです。",
+        "tags": [
+          "5〜8分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【超必見】疲労を100％抜く休脚日の過ごし方3選",
@@ -1522,7 +2399,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:17",
         "views": "2万",
         "videoId": "t4qTJsGivqo",
-        "comment": "アクティブレストの具体的なやり方。散歩やヨガが最適です。"
+        "comment": "アクティブレストの具体的なやり方。散歩やヨガが最適です。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       },
       {
         "title": "積極的休養? アクティブレストについてご紹介!!",
@@ -1530,7 +2411,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:59",
         "views": "5.7千",
         "videoId": "s2kjPnJJptc",
-        "comment": "トレーニング後のクールダウン方法。静的ストレッチで筋肉をほぐして。"
+        "comment": "トレーニング後のクールダウン方法。静的ストレッチで筋肉をほぐして。",
+        "tags": [
+          "5〜8分",
+          "おすすめ"
+        ]
       },
       {
         "title": "休みの日は完全休養？疲労回復に効果的なアクティブレスト",
@@ -1538,7 +2423,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "5:45",
         "views": "4万",
         "videoId": "MeY24mgzI_A",
-        "comment": "入浴は38〜40度で15分がベスト。熱すぎると逆に疲れます。"
+        "comment": "入浴は38〜40度で15分がベスト。熱すぎると逆に疲れます。",
+        "tags": [
+          "3〜5分",
+          "おすすめ"
+        ]
       },
       {
         "title": "ジョグで疲労が劇的に回復する方法が判明",
@@ -1546,7 +2435,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:42",
         "views": "6万",
         "videoId": "Bn1bjNbSQ9Y",
-        "comment": "睡眠の質が回復の8割を決めます。7〜8時間は確保したい。"
+        "comment": "睡眠の質が回復の8割を決めます。7〜8時間は確保したい。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       },
       {
         "title": "疲労回復するには、長く寝るより○○をしてください。",
@@ -1554,7 +2447,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "16:42",
         "views": "11万",
         "videoId": "sxcE5cqqpBM",
-        "comment": "タンパク質だけでなくビタミン・ミネラルも回復に不可欠。"
+        "comment": "タンパク質だけでなくビタミン・ミネラルも回復に不可欠。",
+        "tags": [
+          "12〜20分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【アクティブレスト】動いて疲れを取る１日",
@@ -1562,7 +2459,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:46",
         "views": "249",
         "videoId": "_y51-H-cODg",
-        "comment": "フォームローラーを使ったセルフ筋膜リリース。翌日の筋肉痛が軽減。"
+        "comment": "フォームローラーを使ったセルフ筋膜リリース。翌日の筋肉痛が軽減。",
+        "tags": [
+          "5〜8分",
+          "ローラー使用"
+        ]
       },
       {
         "title": "疲労を科学的に回復させる方法10選",
@@ -1570,7 +2471,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "18:32",
         "views": "175万",
         "videoId": "nKQXHt1F-co",
-        "comment": "オーバートレーニングの兆候を見逃さないで。休む勇気も大切です。"
+        "comment": "オーバートレーニングの兆候を見逃さないで。休む勇気も大切です。",
+        "tags": [
+          "12〜20分",
+          "おすすめ"
+        ]
       }
     ],
     "daytime": [
@@ -1580,7 +2485,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:08",
         "views": "23万",
         "videoId": "b5Uzpc9xJX4",
-        "comment": "デスクでもできる動きが中心。血糖値スパイクを防ぐ食事法とセットで効果倍増。"
+        "comment": "デスクでもできる動きが中心。血糖値スパイクを防ぐ食事法とセットで効果倍増。",
+        "tags": [
+          "3〜5分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【8分全身ストレッチ】ガチガチのカラダを解放！寝る前や朝に最適の簡単ストレッチ",
@@ -1588,7 +2497,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:29",
         "views": "271万",
         "videoId": "L9puWqX2BoQ",
-        "comment": "15〜20分の昼寝は科学的に推奨されています。30分以上は逆効果なので注意。"
+        "comment": "15〜20分の昼寝は科学的に推奨されています。30分以上は逆効果なので注意。",
+        "tags": [
+          "8〜12分",
+          "寝ながら",
+          "朝におすすめ",
+          "初心者向け"
+        ]
       },
       {
         "title": "【疲労回復・集中力アップ！】 呼吸が深まり、血流が良くなるリフレッシュヨガ☆ #405",
@@ -1596,7 +2511,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "14:19",
         "views": "233万",
         "videoId": "LRyDvgEIpcg",
-        "comment": "季節の変わり目に特に効きます。胸を開く動きで交感神経にスイッチを入れて。"
+        "comment": "季節の変わり目に特に効きます。胸を開く動きで交感神経にスイッチを入れて。",
+        "tags": [
+          "12〜20分",
+          "リラックス"
+        ]
       },
       {
         "title": "一瞬で眠気を吹き飛ばす昼寝のやり方。パワーナップ",
@@ -1604,7 +2523,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:03",
         "views": "284",
         "videoId": "CKilrCwvA3A",
-        "comment": "正しい昼寝（パワーナップ）のやり方。15〜20分がベスト。"
+        "comment": "正しい昼寝（パワーナップ）のやり方。15〜20分がベスト。",
+        "tags": [
+          "5〜8分",
+          "おすすめ"
+        ]
       },
       {
         "title": "明日から人生変わる最高の昼寝",
@@ -1612,7 +2535,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:46",
         "views": "11万",
         "videoId": "RarcurP9xMc",
-        "comment": "椅子に座ったままできる眠気覚ましストレッチ。オフィスでもバレにくい。"
+        "comment": "椅子に座ったままできる眠気覚ましストレッチ。オフィスでもバレにくい。",
+        "tags": [
+          "5〜8分",
+          "座ったまま"
+        ]
       },
       {
         "title": "【一瞬で】集中力MAX｜科学が証明したパワーナップ法",
@@ -1620,7 +2547,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:53",
         "views": "136",
         "videoId": "cnTBD95TYso",
-        "comment": "食後の血糖値スパイクを防ぐ食事の順番。野菜→タンパク質→炭水化物。"
+        "comment": "食後の血糖値スパイクを防ぐ食事の順番。野菜→タンパク質→炭水化物。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       },
       {
         "title": "適切なパワーナップで寝不足を解消する方法",
@@ -1628,7 +2559,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:53",
         "views": "173",
         "videoId": "hKmvgDgbcN8",
-        "comment": "午後の眠気対策には軽い散歩も効果的。5分歩くだけで頭がスッキリ。"
+        "comment": "午後の眠気対策には軽い散歩も効果的。5分歩くだけで頭がスッキリ。",
+        "tags": [
+          "5〜8分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【実証済み】昼寝で仕事も健康も充実させる方法",
@@ -1636,7 +2571,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "5:28",
         "views": "1万",
         "videoId": "Aht29hgpt60",
-        "comment": "ガムを噛むことで脳への血流が増加。集中力回復の簡単テクニック。"
+        "comment": "ガムを噛むことで脳への血流が増加。集中力回復の簡単テクニック。",
+        "tags": [
+          "3〜5分",
+          "初心者向け"
+        ]
       },
       {
         "title": "GoogleやNASAも取り入れているパワーナップとは",
@@ -1644,7 +2583,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:08",
         "views": "184",
         "videoId": "NyeDbG71Tb0",
-        "comment": "ミントティーやレモン水はカフェインなしでもリフレッシュ効果あり。"
+        "comment": "ミントティーやレモン水はカフェインなしでもリフレッシュ効果あり。",
+        "tags": [
+          "5〜8分",
+          "リラックス"
+        ]
       },
       {
         "title": "最強の昼寝法スーパーパワーナップ",
@@ -1652,7 +2595,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "13:09",
         "views": "164",
         "videoId": "P1pmVqp6BCE",
-        "comment": "深呼吸を5回するだけでも眠気が和らぎます。酸素を脳に送りましょう。"
+        "comment": "深呼吸を5回するだけでも眠気が和らぎます。酸素を脳に送りましょう。",
+        "tags": [
+          "12〜20分",
+          "おすすめ"
+        ]
       }
     ]
   },
@@ -1664,7 +2611,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "16:11",
         "views": "77万",
         "videoId": "7pc0N4x1zhw",
-        "comment": "まずはこれから。呼吸と動きの連動を意識してください。完璧じゃなくてOK。"
+        "comment": "まずはこれから。呼吸と動きの連動を意識してください。完璧じゃなくてOK。",
+        "tags": [
+          "12〜20分",
+          "初心者向け"
+        ]
       },
       {
         "title": "【毎日10分で体が変わる！】ヨガ初心者、体が硬い人におすすめ",
@@ -1672,7 +2623,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:49",
         "views": "15万",
         "videoId": "EzN2a2HZkHs",
-        "comment": "「体が硬いからヨガは無理」は誤解です。硬い人ほど効果を実感できます。"
+        "comment": "「体が硬いからヨガは無理」は誤解です。硬い人ほど効果を実感できます。",
+        "tags": [
+          "8〜12分",
+          "初心者向け"
+        ]
       },
       {
         "title": "【６分初心者向けヨガ】体が硬い人も男性もOK!!全身スッキリする優しいヨガでストレッチ!!【児嶋だよ!】",
@@ -1680,7 +2635,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:57",
         "views": "167万",
         "videoId": "slspGIMcK2Q",
-        "comment": "ポーズより先に呼吸を覚えると上達が早いです。腹式呼吸から始めましょう。"
+        "comment": "ポーズより先に呼吸を覚えると上達が早いです。腹式呼吸から始めましょう。",
+        "tags": [
+          "5〜8分",
+          "初心者向け"
+        ]
       },
       {
         "title": "【ヨガ基本ポーズ】初心者におすすめの7つの基礎ポーズ",
@@ -1688,7 +2647,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:21",
         "views": "18万",
         "videoId": "yKXCWFYtTDQ",
-        "comment": "基本ポーズの名前と効果を解説。ヨガの全体像が掴めます。"
+        "comment": "基本ポーズの名前と効果を解説。ヨガの全体像が掴めます。",
+        "tags": [
+          "8〜12分",
+          "初心者向け"
+        ]
       },
       {
         "title": "PARK YOGA♪ポーズの名前付き",
@@ -1696,7 +2659,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:59",
         "views": "145",
         "videoId": "sLDMjG0n0X8",
-        "comment": "呼吸法だけを丁寧に教える動画。ポーズの前にまず呼吸から。"
+        "comment": "呼吸法だけを丁寧に教える動画。ポーズの前にまず呼吸から。",
+        "tags": [
+          "5〜8分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【ヨガ初心者向け解説付き】基本の立位ヨガポーズ",
@@ -1704,7 +2671,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:35",
         "views": "7.0千",
         "videoId": "jcZW7DLR4OM",
-        "comment": "リラックス系ヨガ。無理なく心地よく体を動かせます。"
+        "comment": "リラックス系ヨガ。無理なく心地よく体を動かせます。",
+        "tags": [
+          "8〜12分",
+          "初心者向け",
+          "リラックス"
+        ]
       },
       {
         "title": "これだけは押さえたい！初心者向け基本ヨガポーズ10選",
@@ -1712,7 +2684,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:47",
         "views": "3.4千",
         "videoId": "tcKu1iWYILc",
-        "comment": "男性にもおすすめのヨガ入門。柔軟性は後からついてきます。"
+        "comment": "男性にもおすすめのヨガ入門。柔軟性は後からついてきます。",
+        "tags": [
+          "5〜8分",
+          "初心者向け"
+        ]
       },
       {
         "title": "ポーズが深まる理由、説明できますか？ヨガを変える解剖学入門",
@@ -1720,7 +2696,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:20",
         "views": "1.6千",
         "videoId": "w-zBNuFCjzI",
-        "comment": "5分でできるミニヨガ。まずは短い時間から習慣化を目指して。"
+        "comment": "5分でできるミニヨガ。まずは短い時間から習慣化を目指して。",
+        "tags": [
+          "5〜8分",
+          "初心者向け"
+        ]
       },
       {
         "title": "【ヨガ基礎立ちポーズ】初心者におすすめの4つの基本ポーズ",
@@ -1728,7 +2708,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:39",
         "views": "7万",
         "videoId": "VVpYeC9630k",
-        "comment": "ヨガマットがなくてもカーペットの上でOK。まずは始めることが大事。"
+        "comment": "ヨガマットがなくてもカーペットの上でOK。まずは始めることが大事。",
+        "tags": [
+          "5〜8分",
+          "立ったまま",
+          "初心者向け"
+        ]
       },
       {
         "title": "【10分でととのう】呼吸を深めて自律神経を整えるやさしいヨガ #732",
@@ -1736,7 +2721,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:11",
         "views": "51万",
         "videoId": "D9L4__SdLFg",
-        "comment": "チェアヨガで椅子に座ったままポーズを取れます。オフィスでもできる。"
+        "comment": "チェアヨガで椅子に座ったままポーズを取れます。オフィスでもできる。",
+        "tags": [
+          "8〜12分",
+          "座ったまま",
+          "リラックス"
+        ]
       }
     ],
     "morningyoga": [
@@ -1746,7 +2736,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:45",
         "views": "310万",
         "videoId": "AqyzZj8DcWI",
-        "comment": "太陽礼拝は全身を使う万能フロー。朝に1セットやるだけで1日の調子が変わります。"
+        "comment": "太陽礼拝は全身を使う万能フロー。朝に1セットやるだけで1日の調子が変わります。",
+        "tags": [
+          "8〜12分",
+          "朝におすすめ"
+        ]
       },
       {
         "title": "太陽礼拝☆ヨガ初心者にもオススメの朝ヨガ #46",
@@ -1754,7 +2748,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:58",
         "views": "173万",
         "videoId": "9RP9YGcQYCY",
-        "comment": "布団の上でそのままできる手軽さが魅力。目覚めのスイッチとして習慣化を。"
+        "comment": "布団の上でそのままできる手軽さが魅力。目覚めのスイッチとして習慣化を。",
+        "tags": [
+          "5〜8分",
+          "朝におすすめ",
+          "初心者向け"
+        ]
       },
       {
         "title": "朝ヨガで一日を最高に過ごす！　15分のエナジーチャージ☆ #264",
@@ -1762,7 +2761,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "16:37",
         "views": "409万",
         "videoId": "gLCd-E8ekEg",
-        "comment": "しっかり動きたい朝に。呼吸に合わせた流れるような動きが気持ちいいです。"
+        "comment": "しっかり動きたい朝に。呼吸に合わせた流れるような動きが気持ちいいです。",
+        "tags": [
+          "12〜20分",
+          "朝におすすめ"
+        ]
       },
       {
         "title": "【人生を変える5分ヨガ】寝たまま朝ヨガで1日を気持ちよくスタート！ #591",
@@ -1770,7 +2773,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:08",
         "views": "300万",
         "videoId": "KXe07sNk9uc",
-        "comment": "5分の朝ヨガ。ベッドから出たくない朝でもこれなら続けられます。"
+        "comment": "5分の朝ヨガ。ベッドから出たくない朝でもこれなら続けられます。",
+        "tags": [
+          "5〜8分",
+          "寝ながら",
+          "朝におすすめ"
+        ]
       },
       {
         "title": "【人生を変える5分ヨガ】これ1本で全身の不調がみるみる改善！ #596",
@@ -1778,7 +2786,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:10",
         "views": "395万",
         "videoId": "8FX9ZwDvf_0",
-        "comment": "ヴィンヤサフローで全身にエネルギーを巡らせる。動く瞑想のような感覚。"
+        "comment": "ヴィンヤサフローで全身にエネルギーを巡らせる。動く瞑想のような感覚。",
+        "tags": [
+          "5〜8分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【毎朝５分】初心者さん向け朝ヨガで毎日スッキリ!!",
@@ -1786,7 +2798,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:26",
         "views": "437万",
         "videoId": "kJ9MYjz-nQg",
-        "comment": "太陽礼拝のゆっくり解説版。初心者でもフォームを確認しながらできます。"
+        "comment": "太陽礼拝のゆっくり解説版。初心者でもフォームを確認しながらできます。",
+        "tags": [
+          "5〜8分",
+          "朝におすすめ",
+          "初心者向け"
+        ]
       },
       {
         "title": "【毎日5分】朝ヨガで柔軟性を高め、しなやかな体をつくる！ #640",
@@ -1794,7 +2811,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:47",
         "views": "219万",
         "videoId": "xvrIxDH6REM",
-        "comment": "朝ヨガ+瞑想の組み合わせ。メンタルも整えて1日をスタート。"
+        "comment": "朝ヨガ+瞑想の組み合わせ。メンタルも整えて1日をスタート。",
+        "tags": [
+          "5〜8分",
+          "朝におすすめ"
+        ]
       },
       {
         "title": "【5分朝ヨガ】目覚めスッキリ！全身をやさしくリセット #744",
@@ -1802,7 +2823,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:43",
         "views": "68万",
         "videoId": "BlJpibXWjzs",
-        "comment": "立ちポーズ中心の朝ヨガ。下半身の活性化で代謝もアップ。"
+        "comment": "立ちポーズ中心の朝ヨガ。下半身の活性化で代謝もアップ。",
+        "tags": [
+          "5〜8分",
+          "立ったまま",
+          "朝におすすめ"
+        ]
       },
       {
         "title": "【毎日5分】朝ヨガはメリットだらけ☆ #369",
@@ -1810,7 +2836,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:05",
         "views": "754万",
         "videoId": "GuxDXXYUjn0",
-        "comment": "背骨を動かす朝のフローで体の目覚めを促進。気持ちの良い1日に。"
+        "comment": "背骨を動かす朝のフローで体の目覚めを促進。気持ちの良い1日に。",
+        "tags": [
+          "5〜8分",
+          "朝におすすめ"
+        ]
       },
       {
         "title": "毎朝5分だけ！自律神経を整える朝のヨガ習慣 #643",
@@ -1818,7 +2848,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:28",
         "views": "88万",
         "videoId": "ZTzyKyATBlQ",
-        "comment": "呼吸に合わせたゆったりペース。朝の静かな時間を大切にできます。"
+        "comment": "呼吸に合わせたゆったりペース。朝の静かな時間を大切にできます。",
+        "tags": [
+          "5〜8分",
+          "朝におすすめ",
+          "リラックス"
+        ]
       }
     ],
     "nightyoga": [
@@ -1828,7 +2863,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "15:36",
         "views": "468万",
         "videoId": "fJJrJ2dd1U4",
-        "comment": "寝る前の新習慣に。前屈系のポーズが多く副交感神経が優位になります。"
+        "comment": "寝る前の新習慣に。前屈系のポーズが多く副交感神経が優位になります。",
+        "tags": [
+          "12〜20分",
+          "寝ながら",
+          "夜におすすめ",
+          "リラックス"
+        ]
       },
       {
         "title": "【毎晩10分】ぐっすり眠れる安眠ストレッチ　全身の疲労回復や骨盤調整にも効果的！ #633",
@@ -1836,7 +2877,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:26",
         "views": "398万",
         "videoId": "grD9NGRtGiQ",
-        "comment": "クッションやブランケットを使って完全脱力。トレーニング日の夜に特におすすめ。"
+        "comment": "クッションやブランケットを使って完全脱力。トレーニング日の夜に特におすすめ。",
+        "tags": [
+          "8〜12分",
+          "夜におすすめ"
+        ]
       },
       {
         "title": "10分安眠ヨガで不眠から解放される【おやすみヨガ】 #8",
@@ -1844,7 +2889,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:51",
         "views": "775万",
         "videoId": "te3y-dU57Eg",
-        "comment": "1ポーズ3〜5分キープ。筋膜や結合組織にアプローチするのでストレッチとは別の効果。"
+        "comment": "1ポーズ3〜5分キープ。筋膜や結合組織にアプローチするのでストレッチとは別の効果。",
+        "tags": [
+          "8〜12分",
+          "夜におすすめ"
+        ]
       },
       {
         "title": "【毎日10分 夜ストレッチ】腰痛改善、疲労回復、安眠に効果的！ #523",
@@ -1852,7 +2901,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:33",
         "views": "906万",
         "videoId": "GISUPMLKtak",
-        "comment": "陰ヨガで深いリラックス。1ポーズ長くキープするのが特徴です。"
+        "comment": "陰ヨガで深いリラックス。1ポーズ長くキープするのが特徴です。",
+        "tags": [
+          "8〜12分",
+          "夜におすすめ",
+          "リラックス"
+        ]
       },
       {
         "title": "【毎晩8分】寝たままできる骨盤調整 #567",
@@ -1860,7 +2914,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:43",
         "views": "209万",
         "videoId": "Bo6Anz4hsTM",
-        "comment": "リストラティブヨガはクッション等を使って完全に力を抜くスタイル。"
+        "comment": "リストラティブヨガはクッション等を使って完全に力を抜くスタイル。",
+        "tags": [
+          "8〜12分",
+          "寝ながら"
+        ]
       },
       {
         "title": "【毎日10分 夜のストレッチ】骨盤調整、全身の疲労回復 #644",
@@ -1868,7 +2926,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:26",
         "views": "371万",
         "videoId": "shhGflhYFfk",
-        "comment": "5分でできる夜のミニヨガ。短くても続けることに意味があります。"
+        "comment": "5分でできる夜のミニヨガ。短くても続けることに意味があります。",
+        "tags": [
+          "8〜12分",
+          "夜におすすめ"
+        ]
       },
       {
         "title": "カラダ喜ぶ〜！寝たまま13分間ヨガで股関節がほぐれ疲労回復！",
@@ -1876,7 +2938,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "13:54",
         "views": "24万",
         "videoId": "24BnPCiZMC0",
-        "comment": "寝ながらできるポーズだけ集めたメニュー。ベッドの上でOK。"
+        "comment": "寝ながらできるポーズだけ集めたメニュー。ベッドの上でOK。",
+        "tags": [
+          "12〜20分",
+          "寝ながら"
+        ]
       },
       {
         "title": "【毎日10分】疲労回復ストレッチヨガ #543",
@@ -1884,7 +2950,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:31",
         "views": "351万",
         "videoId": "Z5uaxJBUGeM",
-        "comment": "月の礼拝は太陽礼拝の夜版。落ち着いた動きで心を鎮めます。"
+        "comment": "月の礼拝は太陽礼拝の夜版。落ち着いた動きで心を鎮めます。",
+        "tags": [
+          "8〜12分",
+          "夜におすすめ"
+        ]
       },
       {
         "title": "【寝る前10分】骨盤リラックスヨガ #745",
@@ -1892,7 +2962,13 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:22",
         "views": "36万",
         "videoId": "1kdoIm9gIGs",
-        "comment": "ヨガニドラで究極のリラクゼーション。ガイド瞑想付き。"
+        "comment": "ヨガニドラで究極のリラクゼーション。ガイド瞑想付き。",
+        "tags": [
+          "8〜12分",
+          "寝ながら",
+          "夜におすすめ",
+          "リラックス"
+        ]
       },
       {
         "title": "【10分】寝たままデトックスヨガ #584",
@@ -1900,7 +2976,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:36",
         "views": "88万",
         "videoId": "W4Y5Vb3FxBA",
-        "comment": "自律神経を整える陰ヨガフロー。トレーニング後の興奮を鎮めてくれます。"
+        "comment": "自律神経を整える陰ヨガフロー。トレーニング後の興奮を鎮めてくれます。",
+        "tags": [
+          "8〜12分",
+          "寝ながら",
+          "リラックス"
+        ]
       }
     ],
     "pilatescore": [
@@ -1910,7 +2991,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:30",
         "views": "162万",
         "videoId": "vT85-ssw7Ls",
-        "comment": "インナーマッスルの使い方がわかる良い動画です。お腹を薄く保つ意識を忘れずに。"
+        "comment": "インナーマッスルの使い方がわかる良い動画です。お腹を薄く保つ意識を忘れずに。",
+        "tags": [
+          "8〜12分",
+          "初心者向け"
+        ]
       },
       {
         "title": "【初心者のためのピラティス10分】基本のシンプル6つの動きで全身に効くピラティス/体がかたくてもOK",
@@ -1918,7 +3003,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:06",
         "views": "113万",
         "videoId": "Q9QYS6pISxk",
-        "comment": "RESISTのセッションの復習にも使えます。ハンドレッドは呼吸が命です。"
+        "comment": "RESISTのセッションの復習にも使えます。ハンドレッドは呼吸が命です。",
+        "tags": [
+          "8〜12分",
+          "初心者向け"
+        ]
       },
       {
         "title": "【祝テレビ出演】心と体の軸を整えるためのマットピラティス16分【MEGUMIさんエクササイズを再現】",
@@ -1926,7 +3015,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "18:19",
         "views": "11万",
         "videoId": "gplqarNH08Q",
-        "comment": "骨盤底筋群は意識しにくい部位。この動画の誘導がとてもわかりやすいです。"
+        "comment": "骨盤底筋群は意識しにくい部位。この動画の誘導がとてもわかりやすいです。",
+        "tags": [
+          "12〜20分",
+          "おすすめ"
+        ]
       },
       {
         "title": "腹筋ピラティスでお腹痩せ・くびれ・インナーマッスル・体幹強化",
@@ -1934,7 +3027,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:09",
         "views": "21万",
         "videoId": "GWR3NwEs5u0",
-        "comment": "腹筋に特化したピラティスメニュー。インナーマッスルを確実に刺激。"
+        "comment": "腹筋に特化したピラティスメニュー。インナーマッスルを確実に刺激。",
+        "tags": [
+          "5〜8分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【お腹なかなか痩せない人必見！腹筋割るお腹痩せピラティス】",
@@ -1942,7 +3039,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:45",
         "views": "11万",
         "videoId": "67ToutNdfPA",
-        "comment": "背骨のストレッチ要素もあるピラティス。猫背改善にも効果的。"
+        "comment": "背骨のストレッチ要素もあるピラティス。猫背改善にも効果的。",
+        "tags": [
+          "5〜8分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【毎日10分】2週間で腹筋を割る！ BEST FIT #490",
@@ -1950,7 +3051,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:25",
         "views": "1508万",
         "videoId": "wtRzBlpadU0",
-        "comment": "骨盤底筋エクササイズ。産後の方や尿漏れ予防にもおすすめ。"
+        "comment": "骨盤底筋エクササイズ。産後の方や尿漏れ予防にもおすすめ。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【ピラティスでお腹痩せ】インナーマッスルを強化してウエスト引き締め",
@@ -1958,7 +3063,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "13:24",
         "views": "34万",
         "videoId": "J3QnM8kUg6o",
-        "comment": "ハンドレッドなどクラシカルなピラティスの基本動作を網羅。"
+        "comment": "ハンドレッドなどクラシカルなピラティスの基本動作を網羅。",
+        "tags": [
+          "12〜20分",
+          "初心者向け"
+        ]
       },
       {
         "title": "【最強10分ピラティスで脂肪燃焼】初心者OK体幹強化",
@@ -1966,7 +3075,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:48",
         "views": "23万",
         "videoId": "EbLfkIBBu_E",
-        "comment": "呼吸法が独特なピラティス。胸式呼吸のやり方をマスターしましょう。"
+        "comment": "呼吸法が独特なピラティス。胸式呼吸のやり方をマスターしましょう。",
+        "tags": [
+          "8〜12分",
+          "初心者向け"
+        ]
       },
       {
         "title": "【毎日10分】2週間で腹筋を割る！ RISE #526",
@@ -1974,7 +3087,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:09",
         "views": "184万",
         "videoId": "lWCm4yCM8cM",
-        "comment": "全身を使うマットピラティス30分。しっかりやりたい日にどうぞ。"
+        "comment": "全身を使うマットピラティス30分。しっかりやりたい日にどうぞ。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【全身ピラティス】これなら続く！10分の音楽で腹筋・お尻・下半身スッキリ",
@@ -1982,7 +3099,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:17",
         "views": "3万",
         "videoId": "0rwIckIjq4Y",
-        "comment": "サイドプランクやスワンなど、中級者向けのチャレンジメニューも。"
+        "comment": "サイドプランクやスワンなど、中級者向けのチャレンジメニューも。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       }
     ],
     "flexibility": [
@@ -1992,7 +3113,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "17:16",
         "views": "124万",
         "videoId": "DJ7iz90cRcw",
-        "comment": "週3回続ければ1ヶ月で変化を実感できます。無理に伸ばさず呼吸で深めて。"
+        "comment": "週3回続ければ1ヶ月で変化を実感できます。無理に伸ばさず呼吸で深めて。",
+        "tags": [
+          "12〜20分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【毎日10分 朝ストレッチ】 柔軟性を高め、しなやかな体を作る！　#522",
@@ -2000,7 +3125,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:15",
         "views": "629万",
         "videoId": "1Z3SifFe4RM",
-        "comment": "ハムストリングスだけでなく背中の柔軟性も重要。段階的に進められる構成が◎"
+        "comment": "ハムストリングスだけでなく背中の柔軟性も重要。段階的に進められる構成が◎",
+        "tags": [
+          "8〜12分",
+          "朝におすすめ"
+        ]
       },
       {
         "title": "【極上ストレッチ】 全身の不調が改善し、みるみる柔らかくなる！ #501",
@@ -2008,7 +3137,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "18:34",
         "views": "578万",
         "videoId": "SX2FsECzB24",
-        "comment": "シリーズものなので続けるモチベーションになります。Day1から始めてみて。"
+        "comment": "シリーズものなので続けるモチベーションになります。Day1から始めてみて。",
+        "tags": [
+          "12〜20分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【毎日7分】前屈が深まる魔法のストレッチ #511",
@@ -2016,7 +3149,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:52",
         "views": "197万",
         "videoId": "U7EpYjkW7_M",
-        "comment": "前屈が苦手な方向けのプログラム。ハムストリングスを重点的にケア。"
+        "comment": "前屈が苦手な方向けのプログラム。ハムストリングスを重点的にケア。",
+        "tags": [
+          "5〜8分",
+          "おすすめ"
+        ]
       },
       {
         "title": "開脚できるようになるストレッチ！【2週間で開脚ベターっになる方法】",
@@ -2024,7 +3161,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "14:11",
         "views": "2807万",
         "videoId": "Re5FPU5_37g",
-        "comment": "毎日10分の柔軟ルーティン。1ヶ月続けた変化を実感してください。"
+        "comment": "毎日10分の柔軟ルーティン。1ヶ月続けた変化を実感してください。",
+        "tags": [
+          "12〜20分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【毎日10分】2週間でベターっと開脚できる魔法のストレッチ #510",
@@ -2032,7 +3173,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:59",
         "views": "868万",
         "videoId": "hS_BRoS5euw",
-        "comment": "開脚を目指す方のためのステップバイステップガイド。焦らず着実に。"
+        "comment": "開脚を目指す方のためのステップバイステップガイド。焦らず着実に。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       },
       {
         "title": "もも裏が硬い人これやって!!前屈が苦手な人向けストレッチ",
@@ -2040,7 +3185,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:57",
         "views": "50万",
         "videoId": "-_jqbTqH-Lk",
-        "comment": "ストレッチ+ヨガの融合メニュー。静的・動的の両方を取り入れて。"
+        "comment": "ストレッチ+ヨガの融合メニュー。静的・動的の両方を取り入れて。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【身体が硬い人必見】長座ができるようになるポイント",
@@ -2048,7 +3197,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:43",
         "views": "136万",
         "videoId": "vPwoF23mbmU",
-        "comment": "PNFストレッチの要素も入った上級者向け。さらに柔軟性を高めたい方に。"
+        "comment": "PNFストレッチの要素も入った上級者向け。さらに柔軟性を高めたい方に。",
+        "tags": [
+          "3〜5分",
+          "おすすめ"
+        ]
       },
       {
         "title": "体が硬い人必見！長座ができない人がやるべき本当のストレッチ",
@@ -2056,7 +3209,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "13:18",
         "views": "83万",
         "videoId": "ivwjYtGynnk",
-        "comment": "体が硬い原因は筋肉だけでなく筋膜にもある。その解説と対策。"
+        "comment": "体が硬い原因は筋肉だけでなく筋膜にもある。その解説と対策。",
+        "tags": [
+          "12〜20分",
+          "おすすめ"
+        ]
       },
       {
         "title": "前屈は柔軟性だけじゃない⁉ ○○を改善せよ",
@@ -2064,7 +3221,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "5:13",
         "views": "761",
         "videoId": "9A-rxRS9FXw",
-        "comment": "年齢を問わず柔軟性は改善できます。諦めずに続けることが唯一のコツ。"
+        "comment": "年齢を問わず柔軟性は改善できます。諦めずに続けることが唯一のコツ。",
+        "tags": [
+          "3〜5分",
+          "おすすめ"
+        ]
       }
     ]
   },
@@ -2076,7 +3237,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:52",
         "views": "9万",
         "videoId": "LOXvBPglBMA",
-        "comment": "まずはこの動画で全体像を掴んでください。自分の目標体重でのPFCを計算してみましょう。"
+        "comment": "まずはこの動画で全体像を掴んでください。自分の目標体重でのPFCを計算してみましょう。",
+        "tags": [
+          "5〜8分",
+          "実践的"
+        ]
       },
       {
         "title": "タンパク質の取りすぎは危険！バズーカ岡田が教える3大栄養素摂取法【PFCバランス】",
@@ -2084,7 +3249,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:18",
         "views": "26万",
         "videoId": "dptKX7iqjxM",
-        "comment": "体重×1.5〜2gが目安。1食で吸収できる量にも限りがあるので分散摂取が理想。"
+        "comment": "体重×1.5〜2gが目安。1食で吸収できる量にも限りがあるので分散摂取が理想。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       },
       {
         "title": "これを意識するだけでダイエットの成功率がグンとあがります！",
@@ -2092,7 +3261,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "17:23",
         "views": "22万",
         "videoId": "idsGfRbJQ6M",
-        "comment": "オメガ3脂肪酸を意識的に。サバ缶やアマニ油を日常に取り入れてみてください。"
+        "comment": "オメガ3脂肪酸を意識的に。サバ缶やアマニ油を日常に取り入れてみてください。",
+        "tags": [
+          "12〜20分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【減量】マクロ栄養素の計算の仕方",
@@ -2100,7 +3273,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:09",
         "views": "58",
         "videoId": "cIctGlH8pAc",
-        "comment": "マクロ栄養素の計算方法を実践的に解説。自分の数値を出してみましょう。"
+        "comment": "マクロ栄養素の計算方法を実践的に解説。自分の数値を出してみましょう。",
+        "tags": [
+          "8〜12分",
+          "詳しい解説",
+          "実践的"
+        ]
       },
       {
         "title": "減量のためのカロリー計算とマクロ栄養素",
@@ -2108,7 +3286,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:04",
         "views": "111",
         "videoId": "UthaAl0by0U",
-        "comment": "糖質制限と脂質制限の比較。自分に合った方法を選ぶための判断材料に。"
+        "comment": "糖質制限と脂質制限の比較。自分に合った方法を選ぶための判断材料に。",
+        "tags": [
+          "8〜12分",
+          "実践的"
+        ]
       },
       {
         "title": "最強の食べ方！マクロ管理法を徹底解説！",
@@ -2116,7 +3298,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:08",
         "views": "3.1千",
         "videoId": "2KpE_e_M03o",
-        "comment": "食事管理アプリの使い方。あすけんやMyFitnessPalが便利です。"
+        "comment": "食事管理アプリの使い方。あすけんやMyFitnessPalが便利です。",
+        "tags": [
+          "5〜8分",
+          "詳しい解説"
+        ]
       },
       {
         "title": "減量期のマクロ栄養素、カロリーについて",
@@ -2124,7 +3310,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:56",
         "views": "2万",
         "videoId": "0dFOZP8Ex0A",
-        "comment": "外食時のPFC管理テクニック。メニュー選びのポイントがわかります。"
+        "comment": "外食時のPFC管理テクニック。メニュー選びのポイントがわかります。",
+        "tags": [
+          "5〜8分",
+          "おすすめ"
+        ]
       },
       {
         "title": "カロリー計算は不要！ダイエットで痩せる食事違い",
@@ -2132,7 +3322,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:01",
         "views": "1万",
         "videoId": "vAD-jmmsIZQ",
-        "comment": "炭水化物は悪者ではありません。適量と質の選び方が重要です。"
+        "comment": "炭水化物は悪者ではありません。適量と質の選び方が重要です。",
+        "tags": [
+          "8〜12分",
+          "実践的"
+        ]
       },
       {
         "title": "ダイエットで最も重要な要素【カロリー計算・マクロ栄養素】",
@@ -2140,7 +3334,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:37",
         "views": "2.3千",
         "videoId": "mF3hxBgLB0o",
-        "comment": "脂質の種類と選び方。飽和脂肪酸と不飽和脂肪酸の違いを理解して。"
+        "comment": "脂質の種類と選び方。飽和脂肪酸と不飽和脂肪酸の違いを理解して。",
+        "tags": [
+          "8〜12分",
+          "実践的"
+        ]
       },
       {
         "title": "【タンパク質・脂質・糖質】PFCバランス計算法 一日の食事について！",
@@ -2148,7 +3346,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:07",
         "views": "14万",
         "videoId": "IGpCJyHQSgw",
-        "comment": "水分摂取量の目安も栄養管理の一部。体重×30mlを目指しましょう。"
+        "comment": "水分摂取量の目安も栄養管理の一部。体重×30mlを目指しましょう。",
+        "tags": [
+          "8〜12分",
+          "実践的"
+        ]
       }
     ],
     "muscle": [
@@ -2158,7 +3360,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "18:34",
         "views": "1万",
         "videoId": "Hfu8KeXA-dI",
-        "comment": "トレーニングの原理を知ると、ジムでの取り組み方が変わります。必見。"
+        "comment": "トレーニングの原理を知ると、ジムでの取り組み方が変わります。必見。",
+        "tags": [
+          "12〜20分",
+          "おすすめ"
+        ]
       },
       {
         "title": "筋肉がつく仕組み！筋肥大のメカニズムをわかりやすく解説！",
@@ -2166,7 +3372,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:11",
         "views": "9.1千",
         "videoId": "RLX3FevyzkQ",
-        "comment": "48〜72時間の休息が必要、というのは部位や強度によって変わります。"
+        "comment": "48〜72時間の休息が必要、というのは部位や強度によって変わります。",
+        "tags": [
+          "8〜12分",
+          "初心者向け",
+          "詳しい解説"
+        ]
       },
       {
         "title": "【必見！筋肉大きくする究極法！】筋肥大のための「筋トレ」と「栄養」の基本【ネガティブ動作を意識しよう！】",
@@ -2174,7 +3385,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:19",
         "views": "4万",
         "videoId": "AIh7G_GIxzI",
-        "comment": "漸進性過負荷・適切な栄養・十分な休息。この3つを押さえれば確実に変わります。"
+        "comment": "漸進性過負荷・適切な栄養・十分な休息。この3つを押さえれば確実に変わります。",
+        "tags": [
+          "8〜12分",
+          "初心者向け"
+        ]
       },
       {
         "title": "【筋トレ】その情報間違いかもしれません。筋肥大の間違った10の知識",
@@ -2182,7 +3397,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "18:33",
         "views": "29万",
         "videoId": "NrskgGIaclo",
-        "comment": "筋トレ初心者がやりがちなNG行動。効率的な成長のために知っておいて。"
+        "comment": "筋トレ初心者がやりがちなNG行動。効率的な成長のために知っておいて。",
+        "tags": [
+          "12〜20分",
+          "初心者向け",
+          "詳しい解説"
+        ]
       },
       {
         "title": "【筋トレ】初心者さんに多いよくある間違い3選",
@@ -2190,7 +3410,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:28",
         "views": "2.1千",
         "videoId": "cXCQDoA3cjg",
-        "comment": "筋肉痛の正しい理解。痛みがなくても筋肥大はしている場合があります。"
+        "comment": "筋肉痛の正しい理解。痛みがなくても筋肥大はしている場合があります。",
+        "tags": [
+          "8〜12分",
+          "初心者向け"
+        ]
       },
       {
         "title": "筋トレ初心者によくある勘違い5選",
@@ -2198,7 +3422,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:55",
         "views": "6.2千",
         "videoId": "3lknkcBhcp4",
-        "comment": "漸進性過負荷の具体的なやり方。毎回少しずつ負荷を上げるコツ。"
+        "comment": "漸進性過負荷の具体的なやり方。毎回少しずつ負荷を上げるコツ。",
+        "tags": [
+          "8〜12分",
+          "初心者向け",
+          "実践的"
+        ]
       },
       {
         "title": "筋トレ間違いあるある【全人類に伝えたい】",
@@ -2206,7 +3435,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "15:27",
         "views": "5万",
         "videoId": "c__c3BSY8yM",
-        "comment": "年齢と筋肥大の関係。何歳からでも筋肉は成長します。"
+        "comment": "年齢と筋肥大の関係。何歳からでも筋肉は成長します。",
+        "tags": [
+          "12〜20分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【運動が苦手なあなたへ】筋トレ初心者が本当にやるべきトレーニング",
@@ -2214,7 +3447,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:01",
         "views": "1万",
         "videoId": "XrIEkwXplKI",
-        "comment": "マインドマッスルコネクション。意識するだけで効果が変わる。"
+        "comment": "マインドマッスルコネクション。意識するだけで効果が変わる。",
+        "tags": [
+          "8〜12分",
+          "初心者向け"
+        ]
       },
       {
         "title": "筋トレよくある勘違い、間違い10選",
@@ -2222,7 +3459,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:46",
         "views": "80",
         "videoId": "PERB60t5Nms",
-        "comment": "1セットの回数と効果の関係。目的に応じた回数設定を学べます。"
+        "comment": "1セットの回数と効果の関係。目的に応じた回数設定を学べます。",
+        "tags": [
+          "5〜8分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【初心者の方へ】筋トレ1年目に知っておけばよかった事６選。",
@@ -2230,7 +3471,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "13:03",
         "views": "182万",
         "videoId": "KhxFvg9bK4s",
-        "comment": "遅筋と速筋の違い。トレーニング目的に応じた使い分けが大事。"
+        "comment": "遅筋と速筋の違い。トレーニング目的に応じた使い分けが大事。",
+        "tags": [
+          "12〜20分",
+          "初心者向け"
+        ]
       }
     ],
     "fatburn": [
@@ -2240,7 +3485,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:49",
         "views": "11万",
         "videoId": "3eey544P2e4",
-        "comment": "結論、両方大事。ただし筋トレによる基礎代謝アップが長期的には最強です。"
+        "comment": "結論、両方大事。ただし筋トレによる基礎代謝アップが長期的には最強です。",
+        "tags": [
+          "8〜12分",
+          "詳しい解説"
+        ]
       },
       {
         "title": "【10分でわかる】眠れなくなるほど面白い 図解 体脂肪の話【痩せる運動のコツ】",
@@ -2248,7 +3497,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:25",
         "views": "199万",
         "videoId": "zCl7dzo-LO4",
-        "comment": "消費>摂取がすべての基本。ただし極端なカロリー制限はNGな理由もわかります。"
+        "comment": "消費>摂取がすべての基本。ただし極端なカロリー制限はNGな理由もわかります。",
+        "tags": [
+          "8〜12分",
+          "初心者向け",
+          "わかりやすい"
+        ]
       },
       {
         "title": "【筋トレ】筋肉が付き、体脂肪が燃える有酸素運動のやり方。",
@@ -2256,7 +3510,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:33",
         "views": "64万",
         "videoId": "N1gKKWoEPBQ",
-        "comment": "部分痩せはできない、という事実の科学的根拠。焦らず全体の体脂肪を落としましょう。"
+        "comment": "部分痩せはできない、という事実の科学的根拠。焦らず全体の体脂肪を落としましょう。",
+        "tags": [
+          "8〜12分",
+          "科学的根拠",
+          "実践的"
+        ]
       },
       {
         "title": "ダイエットで代謝を上げるために筋トレよりやるべき3つの事",
@@ -2264,7 +3523,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "13:30",
         "views": "32万",
         "videoId": "zqDKW7dqvic",
-        "comment": "基礎代謝を上げる最も効果的な方法は筋肉量を増やすこと。"
+        "comment": "基礎代謝を上げる最も効果的な方法は筋肉量を増やすこと。",
+        "tags": [
+          "12〜20分",
+          "実践的"
+        ]
       },
       {
         "title": "基礎代謝を高めるには筋肉を増やす？内臓の代謝を高める？",
@@ -2272,7 +3535,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:20",
         "views": "3万",
         "videoId": "KsBBFlK7GzU",
-        "comment": "内臓脂肪と皮下脂肪の違いと落とし方。それぞれアプローチが異なります。"
+        "comment": "内臓脂肪と皮下脂肪の違いと落とし方。それぞれアプローチが異なります。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【知らなきゃ損する】痩せるための基礎代謝とは？",
@@ -2280,7 +3547,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:06",
         "views": "6.4千",
         "videoId": "msOk5Mqs6Lc",
-        "comment": "停滞期の乗り越え方。チートデイの正しい使い方を解説。"
+        "comment": "停滞期の乗り越え方。チートデイの正しい使い方を解説。",
+        "tags": [
+          "5〜8分",
+          "詳しい解説"
+        ]
       },
       {
         "title": "運動よりも基礎代謝を上げるなら〇〇をやれ！",
@@ -2288,7 +3559,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "13:30",
         "views": "5.4千",
         "videoId": "GaSiWy_Gyds",
-        "comment": "有酸素と筋トレの順番。脂肪燃焼を最大化する組み合わせとは。"
+        "comment": "有酸素と筋トレの順番。脂肪燃焼を最大化する組み合わせとは。",
+        "tags": [
+          "12〜20分",
+          "おすすめ"
+        ]
       },
       {
         "title": "食事を変えるだけで基礎代謝を上げ脂肪を燃焼させる方法",
@@ -2296,7 +3571,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "17:02",
         "views": "8万",
         "videoId": "zd23mqGFCXU",
-        "comment": "空腹時の有酸素は本当に効果的？最新のエビデンスを確認して。"
+        "comment": "空腹時の有酸素は本当に効果的？最新のエビデンスを確認して。",
+        "tags": [
+          "12〜20分",
+          "科学的根拠",
+          "実践的"
+        ]
       },
       {
         "title": "代謝を上げる筋トレのやり方",
@@ -2304,7 +3584,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "5:04",
         "views": "1.7千",
         "videoId": "ZXT4EL7JP-A",
-        "comment": "NEAT（非運動性熱産生）を増やすだけでもカロリー消費は上がります。"
+        "comment": "NEAT（非運動性熱産生）を増やすだけでもカロリー消費は上がります。",
+        "tags": [
+          "3〜5分",
+          "実践的"
+        ]
       },
       {
         "title": "基礎代謝とは？基礎代謝を上げる3つのコツ",
@@ -2312,7 +3596,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:47",
         "views": "1万",
         "videoId": "Y0EdJhSHlLI",
-        "comment": "体重が減らなくても体組成は変わっている場合がある。体脂肪率を見よう。"
+        "comment": "体重が減らなくても体組成は変わっている場合がある。体脂肪率を見よう。",
+        "tags": [
+          "5〜8分",
+          "おすすめ"
+        ]
       }
     ],
     "frequency": [
@@ -2322,7 +3610,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:38",
         "views": "67万",
         "videoId": "uj99B4qi5oA",
-        "comment": "週2〜3回のRESISTセッション+自宅トレが理想的な頻度です。"
+        "comment": "週2〜3回のRESISTセッション+自宅トレが理想的な頻度です。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【筋トレ】筋肉を大きくするためにトレーニングは毎日してしまってはいけない？【頻度】",
@@ -2330,7 +3622,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "6:02",
         "views": "70万",
         "videoId": "YyRWlpqmqXA",
-        "comment": "やる気が出ない、関節が痛い、風邪を引きやすい…これらはサインです。"
+        "comment": "やる気が出ない、関節が痛い、風邪を引きやすい…これらはサインです。",
+        "tags": [
+          "5〜8分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【筋トレ科学】休息期間と筋委縮の関係　~何日間の休みで筋分解が起こるのか？~",
@@ -2338,7 +3634,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:31",
         "views": "22万",
         "videoId": "XjCfk-mQL94",
-        "comment": "完全休養とアクティブレストの使い分けがわかります。散歩やストレッチがおすすめ。"
+        "comment": "完全休養とアクティブレストの使い分けがわかります。散歩やストレッチがおすすめ。",
+        "tags": [
+          "8〜12分",
+          "科学的根拠",
+          "詳しい解説"
+        ]
       },
       {
         "title": "分割法の選び方｜初心者卒業のタイミングと効果的な組み合わせ",
@@ -2346,7 +3647,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:04",
         "views": "3万",
         "videoId": "Q1hjH4s9XwA",
-        "comment": "分割法のスケジュール例。初心者は全身法から始めるのがおすすめ。"
+        "comment": "分割法のスケジュール例。初心者は全身法から始めるのがおすすめ。",
+        "tags": [
+          "5〜8分",
+          "初心者向け"
+        ]
       },
       {
         "title": "確実にデカくなる分割法の極意",
@@ -2354,7 +3659,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:37",
         "views": "45万",
         "videoId": "IfMbluU6lIk",
-        "comment": "朝トレvs夜トレ。それぞれのメリット・デメリットを比較。"
+        "comment": "朝トレvs夜トレ。それぞれのメリット・デメリットを比較。",
+        "tags": [
+          "5〜8分",
+          "おすすめ"
+        ]
       },
       {
         "title": "筋肉が大きくなる分割法とは？",
@@ -2362,7 +3671,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:12",
         "views": "27万",
         "videoId": "1qvhhPI-QaU",
-        "comment": "休息日の過ごし方。完全休養日とアクティブレスト日の使い分け。"
+        "comment": "休息日の過ごし方。完全休養日とアクティブレスト日の使い分け。",
+        "tags": [
+          "8〜12分",
+          "詳しい解説"
+        ]
       },
       {
         "title": "【筋トレ初心者】全身法から分割法に変えるタイミング",
@@ -2370,7 +3683,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:40",
         "views": "2万",
         "videoId": "mx-0c5Ygfh4",
-        "comment": "ディロード（減量期）の必要性。4〜6週ごとに強度を落とす理由。"
+        "comment": "ディロード（減量期）の必要性。4〜6週ごとに強度を落とす理由。",
+        "tags": [
+          "5〜8分",
+          "初心者向け"
+        ]
       },
       {
         "title": "トレーニングは全身を一度にやるか部位ごとに分けるか",
@@ -2378,7 +3695,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "8:48",
         "views": "18万",
         "videoId": "peiX7VBTjPg",
-        "comment": "週2回でも効果は出ます。大事なのは頻度より継続です。"
+        "comment": "週2回でも効果は出ます。大事なのは頻度より継続です。",
+        "tags": [
+          "5〜8分",
+          "おすすめ"
+        ]
       },
       {
         "title": "筋トレ初心者は絶対押さえるべき！最短で効果を出すためのポイント",
@@ -2386,7 +3707,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "11:20",
         "views": "51万",
         "videoId": "9W0aACjimho",
-        "comment": "筋肉痛が残っている時のトレーニング。部位を変えればOK。"
+        "comment": "筋肉痛が残っている時のトレーニング。部位を変えればOK。",
+        "tags": [
+          "8〜12分",
+          "初心者向け"
+        ]
       },
       {
         "title": "一週間の筋トレメニューはどうやって作るのか？",
@@ -2394,7 +3719,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:50",
         "views": "154万",
         "videoId": "nSpiLUOB_A4",
-        "comment": "トレーニング時間は1回45〜60分がベスト。長すぎは逆効果。"
+        "comment": "トレーニング時間は1回45〜60分がベスト。長すぎは逆効果。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       }
     ],
     "supplement": [
@@ -2404,7 +3733,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "13:04",
         "views": "78万",
         "videoId": "5GoMJHWmHhQ",
-        "comment": "プロテイン・クレアチン・ビタミンD。この3つはエビデンスが豊富です。"
+        "comment": "プロテイン・クレアチン・ビタミンD。この3つはエビデンスが豊富です。",
+        "tags": [
+          "12〜20分",
+          "科学的根拠",
+          "詳しい解説"
+        ]
       },
       {
         "title": "【もったいない】プロテインを無駄にしていませんか？必要な人と必要ない人それぞれ３選ずつ、初級編〜中級編です。",
@@ -2412,7 +3746,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "12:36",
         "views": "54万",
         "videoId": "R8BzAVXs2_k",
-        "comment": "迷ったらホエイプロテイン。乳糖不耐症の方はWPIかソイを選んでください。"
+        "comment": "迷ったらホエイプロテイン。乳糖不耐症の方はWPIかソイを選んでください。",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【プロテインの次に必要なサプリは？】意外なTOP3をプロビルダーが解説！",
@@ -2420,7 +3758,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "13:16",
         "views": "4万",
         "videoId": "01L9CjQDPEI",
-        "comment": "広告に踊らされないために。エビデンスのあるものだけを選ぶ目を養えます。"
+        "comment": "広告に踊らされないために。エビデンスのあるものだけを選ぶ目を養えます。",
+        "tags": [
+          "12〜20分",
+          "科学的根拠",
+          "詳しい解説"
+        ]
       },
       {
         "title": "筋肉をつけたいなら絶対に飲むべきクレアチンを徹底解説！",
@@ -2428,7 +3771,12 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:38",
         "views": "52万",
         "videoId": "v1-ZOCyF1mY",
-        "comment": "クレアチンの効果と飲み方。科学的根拠が最も豊富なサプリの一つ。"
+        "comment": "クレアチンの効果と飲み方。科学的根拠が最も豊富なサプリの一つ。",
+        "tags": [
+          "8〜12分",
+          "科学的根拠",
+          "詳しい解説"
+        ]
       },
       {
         "title": "絶対飲むべきクレアチン！6つの面から徹底解説",
@@ -2436,7 +3784,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:37",
         "views": "78万",
         "videoId": "C_ZFxv4CsqI",
-        "comment": "BCAAとEAAの違い。どちらを選ぶべきか、目的別に解説。"
+        "comment": "BCAAとEAAの違い。どちらを選ぶべきか、目的別に解説。",
+        "tags": [
+          "8〜12分",
+          "詳しい解説"
+        ]
       },
       {
         "title": "NGなクレアチンの飲み方2選【効果・摂取タイミング】",
@@ -2444,7 +3796,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "7:25",
         "views": "10万",
         "videoId": "v9Gr8rJpe_E",
-        "comment": "ビタミンDは筋力にも影響する。日本人の多くが不足している栄養素。"
+        "comment": "ビタミンDは筋力にも影響する。日本人の多くが不足している栄養素。",
+        "tags": [
+          "5〜8分",
+          "おすすめ"
+        ]
       },
       {
         "title": "私がクレアチンのサプリを勧める理由",
@@ -2452,7 +3808,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "13:27",
         "views": "50万",
         "videoId": "GZ68Vy8I9KA",
-        "comment": "マルチビタミンは保険として。食事だけで完璧に摂るのは難しいから。"
+        "comment": "マルチビタミンは保険として。食事だけで完璧に摂るのは難しいから。",
+        "tags": [
+          "12〜20分",
+          "おすすめ"
+        ]
       },
       {
         "title": "クレアチンの効果や飲み方・おすすめの摂取タイミング",
@@ -2460,7 +3820,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "10:05",
         "views": "10万",
         "videoId": "18LY4szlqsw",
-        "comment": "カフェインはパフォーマンス向上効果あり。トレ前30分に摂ると◎"
+        "comment": "カフェインはパフォーマンス向上効果あり。トレ前30分に摂ると◎",
+        "tags": [
+          "8〜12分",
+          "おすすめ"
+        ]
       },
       {
         "title": "【筋肥大】クレアチンの効果と摂取タイミングを徹底解説！",
@@ -2468,7 +3832,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "4:56",
         "views": "7万",
         "videoId": "7JPvtwOPBPM",
-        "comment": "グルタミンは免疫力維持に。ハードなトレーニングをする方向け。"
+        "comment": "グルタミンは免疫力維持に。ハードなトレーニングをする方向け。",
+        "tags": [
+          "3〜5分",
+          "詳しい解説"
+        ]
       },
       {
         "title": "筋トレと組み合わせたクレアチンの効果、摂取量、飲み方",
@@ -2476,7 +3844,11 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "duration": "9:31",
         "views": "14万",
         "videoId": "JDeslr4VYb4",
-        "comment": "サプリは食事の補助。基本はリアルフードからの栄養摂取が最優先。"
+        "comment": "サプリは食事の補助。基本はリアルフードからの栄養摂取が最優先。",
+        "tags": [
+          "8〜12分",
+          "初心者向け"
+        ]
       }
     ]
   }

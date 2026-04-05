@@ -77,7 +77,36 @@ function VideoCard({ video, index }: { video: Video; index: number }) {
             {video.duration}
           </div>
         </div>
-        <div style={{ padding: "14px 16px 8px" }}>
+        {/* Tags */}
+        {video.tags && video.tags.length > 0 && (
+          <div
+            style={{
+              padding: "10px 16px 0",
+              display: "flex",
+              flexWrap: "wrap",
+              gap: 6,
+            }}
+          >
+            {video.tags.map((tag: string, ti: number) => (
+              <span
+                key={ti}
+                style={{
+                  fontSize: 11,
+                  fontWeight: 600,
+                  color: "#E8623E",
+                  background: "#FFF0EB",
+                  padding: "3px 10px",
+                  borderRadius: 20,
+                  fontFamily: "'Noto Sans JP', sans-serif",
+                  whiteSpace: "nowrap",
+                }}
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
+        <div style={{ padding: "8px 16px 8px" }}>
           <h3
             style={{
               fontSize: 14,
