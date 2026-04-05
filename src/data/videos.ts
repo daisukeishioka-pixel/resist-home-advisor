@@ -988,6 +988,46 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
     ],
     "glutes": [
       {
+        "title": "【10分】脚・お尻・太ももキラーワークアウト｜器具なし｜MadFit",
+        "channel": "MadFit",
+        "duration": "10:00",
+        "views": "639万",
+        "videoId": "FJA3R7n_594",
+        "comment": "海外で大人気のMadFitの下半身メニュー。スクワットとランジのバリエーションが豊富で飽きない構成。",
+        "tags": [
+          "8〜12分",
+          "海外トレーナー",
+          "器具なし",
+          "上級者向け"
+        ]
+      },
+      {
+        "title": "【自宅で本格】お尻＆ハムストリングス最強ワークアウト｜TIFFxDAN",
+        "channel": "TIFFxDAN",
+        "duration": "10:00",
+        "views": "32万",
+        "videoId": "oxdQBVlrEyI",
+        "comment": "ダンベルを使った本格的なお尻・もも裏トレーニング。フォームが丁寧で参考になる。",
+        "tags": [
+          "8〜12分",
+          "海外トレーナー",
+          "器具あり"
+        ]
+      },
+      {
+        "title": "【10分】引き締まった脚を作るハイインテンシティワークアウト｜GAINSBYBBRAINS",
+        "channel": "TRAINWITHGAINSBYBRAINS",
+        "duration": "10:00",
+        "views": "182万",
+        "videoId": "cGxJ79TbsAI",
+        "comment": "高強度の脚トレーニング。短時間でしっかり追い込みたい方におすすめ。",
+        "tags": [
+          "8〜12分",
+          "海外トレーナー",
+          "上級者向け"
+        ]
+      },
+      {
         "title": "【10分】横のお尻に効く！砂時計ボディチャレンジ｜Chloe Ting",
         "channel": "Chloe Ting",
         "duration": "11:19",
