@@ -87,7 +87,6 @@ export const CATEGORIES: Category[] = [
       { id: "pfc", label: "タンパク質・PFCバランス", icon: "📊" },
       { id: "muscle", label: "筋肉がつく仕組み", icon: "💪" },
       { id: "fatburn", label: "脂肪が落ちる仕組み", icon: "🔥" },
-      { id: "frequency", label: "トレーニング頻度と休息", icon: "📅" },
       { id: "supplement", label: "サプリメントの選び方", icon: "💊" },
     ],
   },
