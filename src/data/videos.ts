@@ -712,7 +712,7 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "tags": [
           "3〜5分",
           "器具なし",
-          "立ったまま"
+          "上級者向け"
         ]
       },
       {
@@ -774,7 +774,8 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "comment": "毎日少しずつでOK。腹筋は回復が早い筋肉なので頻度を上げられます。",
         "tags": [
           "8〜12分",
-          "器具なし"
+          "器具なし",
+          "上級者向け"
         ]
       }
     ],
