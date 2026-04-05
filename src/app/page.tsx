@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { CATEGORIES, type Category, type Concern } from "@/data/categories";
 import { getVideos, type Video } from "@/data/videos";
 
@@ -195,6 +195,29 @@ export default function HomePage() {
     null
   );
   const [selectedConcern, setSelectedConcern] = useState<Concern | null>(null);
+  const [showBackBtn, setShowBackBtn] = useState(true);
+  const lastScrollY = useRef(0);
+  const scrollTimer = useRef<NodeJS.Timeout | null>(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentY = window.scrollY;
+      if (currentY > lastScrollY.current && currentY > 60) {
+        setShowBackBtn(false);
+      } else {
+        setShowBackBtn(true);
+      }
+      lastScrollY.current = currentY;
+
+      // Show on scroll stop
+      if (scrollTimer.current) clearTimeout(scrollTimer.current);
+      scrollTimer.current = setTimeout(() => {
+        setShowBackBtn(true);
+      }, 300);
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const handleCategorySelect = (cat: Category) => {
     setSelectedCategory(cat);
@@ -358,25 +381,40 @@ export default function HomePage() {
         <div style={{ padding: "20px 16px 20px" }}>
           {/* Back button */}
           {step !== "category" && (
-            <button
-              onClick={handleBack}
+            <div
               style={{
-                background: "none",
-                border: "none",
-                cursor: "pointer",
-                display: "flex",
-                alignItems: "center",
-                gap: 6,
-                fontSize: 13,
-                color: "#E8623E",
-                fontWeight: 600,
-                marginBottom: 16,
-                padding: 0,
-                fontFamily: "'Noto Sans JP', sans-serif",
+                position: "sticky",
+                top: 0,
+                zIndex: 10,
+                background: "rgba(255,255,255,0.95)",
+                backdropFilter: "blur(8px)",
+                WebkitBackdropFilter: "blur(8px)",
+                padding: "12px 0 8px",
+                marginBottom: 8,
+                transform: showBackBtn ? "translateY(0)" : "translateY(-100%)",
+                opacity: showBackBtn ? 1 : 0,
+                transition: "transform 0.25s ease, opacity 0.25s ease",
               }}
             >
-              ← 戻る
-            </button>
+              <button
+                onClick={handleBack}
+                style={{
+                  background: "none",
+                  border: "none",
+                  cursor: "pointer",
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 6,
+                  fontSize: 13,
+                  color: "#E8623E",
+                  fontWeight: 600,
+                  padding: 0,
+                  fontFamily: "'Noto Sans JP', sans-serif",
+                }}
+              >
+                ← 戻る
+              </button>
+            </div>
           )}
 
           {/* Step 1: Category — 2x3 grid */}
