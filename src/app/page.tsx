@@ -29,11 +29,17 @@ function VideoCard({ video, index }: { video: Video; index: number }) {
           <img
             src={thumbUrl}
             alt={video.title}
+            onLoad={(e) => {
+              const img = e.target as HTMLImageElement;
+              if (img.naturalWidth <= 120) {
+                img.src = thumbFallback;
+              }
+            }}
             onError={(e) => { (e.target as HTMLImageElement).src = thumbFallback; }}
             style={{
               width: "100%",
               aspectRatio: "16/9",
-              objectFit: "contain",
+              objectFit: "cover",
               display: "block",
               background: "#000",
             }}
