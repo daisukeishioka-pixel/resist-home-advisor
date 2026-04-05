@@ -24,6 +24,7 @@ export const CATEGORIES: Category[] = [
       { id: "hip", label: "股関節が硬い", icon: "🦵" },
       { id: "leg", label: "脚のむくみ・疲れ", icon: "🦶" },
       { id: "fullbody", label: "全身スッキリしたい", icon: "✨" },
+      { id: "stretchpole", label: "ストレッチポールエクササイズ", icon: "🧴" },
     ],
   },
   {
