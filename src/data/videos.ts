@@ -2766,6 +2766,19 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
           "朝におすすめ",
           "初心者向け"
         ]
+      },
+      {
+        "title": "自律神経を整えたい方にオススメ｜目覚めのストレッチでスッキリ【6分間】",
+        "channel": "前田のまいにちセルフケア ! by GronG",
+        "duration": "6:31",
+        "views": "97万",
+        "videoId": "DXJtVh9TZOw",
+        "comment": "有資格者が教える朝の自律神経ケア。首・肩・背中を6分で整えて気持ちよく1日をスタート。",
+        "tags": [
+          "5〜8分",
+          "朝におすすめ",
+          "専門家監修"
+        ]
       }
     ],
     "fatigue": [
