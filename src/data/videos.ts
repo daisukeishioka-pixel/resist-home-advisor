@@ -2743,18 +2743,6 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         ]
       },
       {
-        "title": "【朝のストレッチエクササイズ】2週間で-5kgモーニングルーティン",
-        "channel": "美容整体アピアランスTV",
-        "duration": "8:15",
-        "views": "185万",
-        "videoId": "S1_1Zmy9BNs",
-        "comment": "冷水で顔を洗うと交感神経が刺激されてスッキリ目覚められます。",
-        "tags": [
-          "5〜8分",
-          "朝におすすめ"
-        ]
-      },
-      {
         "title": "【人生を変える5分ヨガ】腸活デトックスで内臓機能が改善！ #597",
         "channel": "B-Flow",
         "duration": "7:24",
