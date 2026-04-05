@@ -1147,6 +1147,74 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
     ],
     "cardio": [
       {
+        "title": "【20分】初心者向け全身筋力トレーニング ft. growingannanas｜繰り返しなし",
+        "channel": "Juice & Toya",
+        "duration": "20:00",
+        "views": "19万",
+        "videoId": "gJQCsZRVPhE",
+        "comment": "海外で大人気のJuice & Toyaの初心者向け全身トレ。繰り返しなしで飽きない構成が魅力。",
+        "tags": [
+          "12〜20分",
+          "海外トレーナー",
+          "器具なし",
+          "初心者向け"
+        ]
+      },
+      {
+        "title": "【20分】全身カーディオHIITワークアウト｜繰り返しなし｜Juice & Toya",
+        "channel": "Juice & Toya",
+        "duration": "29:02",
+        "views": "3013万",
+        "videoId": "M0uO8X3_tEA",
+        "comment": "3000万回再生超えの大人気HIITメニュー。高強度だけど達成感がすごい。繰り返しなしで最後まで飽きない。",
+        "tags": [
+          "20分以上",
+          "海外トレーナー",
+          "HIIT",
+          "上級者向け"
+        ]
+      },
+      {
+        "title": "【20分】全身ワークアウト｜器具なし｜Pamela Reif",
+        "channel": "Pamela Reif",
+        "duration": "20:20",
+        "views": "5888万",
+        "videoId": "UBMk30rjy0o",
+        "comment": "5800万回再生のPamela Reifの代表作。無言で淡々と進むスタイルが集中しやすいと好評。",
+        "tags": [
+          "20分以上",
+          "海外トレーナー",
+          "器具なし",
+          "上級者向け"
+        ]
+      },
+      {
+        "title": "【10分】自宅でシックスパック腹筋ワークアウト｜上級者向け｜ジェホ",
+        "channel": "ジェホ・トレーナー&理学療法士",
+        "duration": "10:02",
+        "views": "不明",
+        "videoId": "ALXh7L4cfKk",
+        "comment": "理学療法士のジェホによる上級者向け腹筋メニュー。正しいフォームの解説が丁寧で信頼性が高い。",
+        "tags": [
+          "8〜12分",
+          "海外トレーナー",
+          "上級者向け"
+        ]
+      },
+      {
+        "title": "【15分】全身ダンベルワークアウト｜筋力＆コンディショニング｜Juice & Toya",
+        "channel": "Juice & Toya",
+        "duration": "17:16",
+        "views": "759万",
+        "videoId": "xqVBoyKXbsA",
+        "comment": "ダンベルを使った本格的な全身トレーニング。筋力アップとコンディショニングを同時に。",
+        "tags": [
+          "12〜20分",
+          "海外トレーナー",
+          "器具あり"
+        ]
+      },
+      {
         "title": "【飛ばない10分】20日間で脚やせ！静かにできる自宅ワークアウト",
         "channel": "emi wong",
         "duration": "11:35",
