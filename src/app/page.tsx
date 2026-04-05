@@ -327,13 +327,11 @@ export default function HomePage() {
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                fontSize: 16,
-                fontWeight: 900,
-                color: "#E8623E",
-                fontFamily: "'DM Mono', monospace",
+                overflow: "hidden",
+                padding: 4,
               }}
             >
-              R
+              <img src="/resist-logo.png" alt="R" style={{ width: "100%", height: "100%", objectFit: "contain" }} />
             </div>
             <span
               style={{
