@@ -30,9 +30,10 @@ function VideoCard({ video, index }: { video: Video; index: number }) {
             alt={video.title}
             style={{
               width: "100%",
-              height: 180,
-              objectFit: "cover",
+              aspectRatio: "16/9",
+              objectFit: "contain",
               display: "block",
+              background: "#000",
             }}
           />
           <div
