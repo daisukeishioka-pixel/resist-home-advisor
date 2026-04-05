@@ -777,6 +777,59 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
           "器具なし",
           "上級者向け"
         ]
+      },
+      {
+        "title": "Get Abs in 2 WEEKS | Abs Workout Challenge",
+        "channel": "Chloe Ting",
+        "duration": "11:04",
+        "views": "5億9800万",
+        "videoId": "2pLT-olgUJs",
+        "comment": "言葉がわからなくても動きを真似するだけでOK。海外トレーナーの本格メニュー。",
+        "tags": [
+          "8〜12分",
+          "海外トレーナー",
+          "上級者向け"
+        ]
+      },
+      {
+        "title": "10 MIN BEGINNER AB WORKOUT // No Equipment | Pamela Reif",
+        "channel": "Pamela Reif",
+        "duration": "10:30",
+        "views": "9924万",
+        "videoId": "1f8yoFFdkcY",
+        "comment": "器具なしで自宅でできる本格コアトレーニング。フォームを動画で確認して。",
+        "tags": [
+          "8〜12分",
+          "海外トレーナー",
+          "器具なし",
+          "初心者向け"
+        ]
+      },
+      {
+        "title": "LOSE FAT in 7 days (belly, waist & abs) | 5 minute Home Workout",
+        "channel": "Lilly Sabri",
+        "duration": "5:53",
+        "views": "9562万",
+        "videoId": "ohgLmY19jNg",
+        "comment": "短時間で追い込みたい方に。海外のワークアウトは効率重視で無駄がない。",
+        "tags": [
+          "3〜5分",
+          "海外トレーナー",
+          "上級者向け"
+        ]
+      },
+      {
+        "title": "10 Min Abs Workout -- At Home Abdominal and Oblique Exercises",
+        "channel": "FitnessBlender",
+        "duration": "10:13",
+        "views": "7963万",
+        "videoId": "1919eTCoESo",
+        "comment": "プランクバリエーションが豊富。体幹を多角的に鍛えられます。",
+        "tags": [
+          "8〜12分",
+          "海外トレーナー",
+          "器具なし"
+        ]
       }
     ],
     "arms": [
@@ -902,6 +955,34 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
           "5〜8分",
           "器具なし",
           "立ったまま"
+        ]
+      },
+      {
+        "title": "Slim Arms in 30 DAYs! | 8 Min Beginner Friendly Standing Workout",
+        "channel": "April Han",
+        "duration": "9:29",
+        "views": "1億2945万",
+        "videoId": "8qDDtm6BOfw",
+        "comment": "海外で大人気の二の腕ワークアウト。立ったままできて初心者にも優しい。",
+        "tags": [
+          "8〜12分",
+          "海外トレーナー",
+          "器具なし",
+          "初心者向け"
+        ]
+      },
+      {
+        "title": "15 Min DUMBBELL ARMS & SHOULDER WORKOUT at Home | No Repeat",
+        "channel": "Caroline Girvan",
+        "duration": "16:55",
+        "views": "1501万",
+        "videoId": "X6gWQ1Lcvjg",
+        "comment": "繰り返しなしで飽きない構成。ダンベルを使った本格メニュー。",
+        "tags": [
+          "12〜20分",
+          "海外トレーナー",
+          "器具あり",
+          "上級者向け"
         ]
       }
     ],
@@ -1032,6 +1113,19 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
         "comment": "週3回このメニューを続ければ1ヶ月で変化を実感できるはずです。",
         "tags": [
           "5〜8分",
+          "器具なし"
+        ]
+      },
+      {
+        "title": "10 Min Side Booty Exercises 🍑 At Home Hourglass Challenge",
+        "channel": "Chloe Ting",
+        "duration": "11:19",
+        "views": "4924万",
+        "videoId": "LjmZ1YMOwws",
+        "comment": "海外で話題のヒップアップメニュー。お尻の横にも効く。",
+        "tags": [
+          "8〜12分",
+          "海外トレーナー",
           "器具なし"
         ]
       }
@@ -1173,6 +1267,32 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
           "器具なし",
           "HIIT"
         ]
+      },
+      {
+        "title": "SLIM LEGS IN 20 DAYS! 10 min No Jumping Quiet Home Workout",
+        "channel": "emi wong",
+        "duration": "11:35",
+        "views": "4485万",
+        "videoId": "Jg61m0DwURs",
+        "comment": "飛ばないのに脂肪燃焼効果抜群。マンション住まいでも安心。",
+        "tags": [
+          "8〜12分",
+          "海外トレーナー",
+          "マンションOK"
+        ]
+      },
+      {
+        "title": "15 MIN HAPPY DANCE WORKOUT - burn calories and smile",
+        "channel": "Pamela Reif",
+        "duration": "14:26",
+        "views": "4861万",
+        "videoId": "Cw-Wt4xKD2s",
+        "comment": "楽しいダンスワークアウト。運動が苦手な人でも続けられる。",
+        "tags": [
+          "12〜20分",
+          "海外トレーナー",
+          "ダンス系"
+        ]
       }
     ],
     "posture": [
@@ -1297,6 +1417,56 @@ export const VIDEOS: Record<string, Record<string, Video[]>> = {
           "5〜8分",
           "器具なし",
           "立ったまま"
+        ]
+      },
+      {
+        "title": "FIX & SLIM YOUR BACK + BETTER POSTURE in 10 minutes",
+        "channel": "emi wong",
+        "duration": "10:56",
+        "views": "3823万",
+        "videoId": "riS89biXH7E",
+        "comment": "デスクワーカー必見。背中と姿勢を同時に改善する海外メニュー。",
+        "tags": [
+          "8〜12分",
+          "海外トレーナー"
+        ]
+      },
+      {
+        "title": "10 MIN EXERCISE & STRETCH FOR SHOULDERS, NECK & COLLARBONE",
+        "channel": "emi wong",
+        "duration": "10:30",
+        "views": "1億2584万",
+        "videoId": "jXm0y-csiuE",
+        "comment": "肩・首・鎖骨周りを10分でケア。巻き肩改善にも効果的。",
+        "tags": [
+          "8〜12分",
+          "海外トレーナー"
+        ]
+      },
+      {
+        "title": "Fix your posture and reduce back pain | 10 Minute Daily Stretch",
+        "channel": "Mady Morrison",
+        "duration": "11:12",
+        "views": "1332万",
+        "videoId": "BPlCatqZRPI",
+        "comment": "毎日10分の姿勢改善ストレッチ。腰痛予防にもなる。",
+        "tags": [
+          "8〜12分",
+          "海外トレーナー",
+          "初心者向け"
+        ]
+      },
+      {
+        "title": "How to Fix a Neck Hump at Home (FAST)",
+        "channel": "Milton Chiropractic Clinic",
+        "duration": "4:41",
+        "views": "3561万",
+        "videoId": "T43753AfaKY",
+        "comment": "ストレートネック改善エクササイズ。首と肩の負担を軽減。",
+        "tags": [
+          "3〜5分",
+          "海外トレーナー",
+          "実践的"
         ]
       }
     ]
