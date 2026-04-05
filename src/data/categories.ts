@@ -88,6 +88,8 @@ export const CATEGORIES: Category[] = [
       { id: "muscle", label: "筋肉がつく仕組み", icon: "💪" },
       { id: "fatburn", label: "脂肪が落ちる仕組み", icon: "🔥" },
       { id: "supplement", label: "サプリメントの選び方", icon: "💊" },
+      { id: "evidence", label: "最新エビデンス", icon: "🔬" },
+      { id: "mindset", label: "マインドセット", icon: "🧠" },
     ],
   },
 ];
