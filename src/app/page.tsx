@@ -5,7 +5,8 @@ import { CATEGORIES, type Category, type Concern } from "@/data/categories";
 import { getVideos, type Video } from "@/data/videos";
 
 function VideoCard({ video, index }: { video: Video; index: number }) {
-  const thumbUrl = `https://img.youtube.com/vi/${video.videoId}/mqdefault.jpg`;
+  const thumbUrl = `https://img.youtube.com/vi/${video.videoId}/maxresdefault.jpg`;
+  const thumbFallback = `https://img.youtube.com/vi/${video.videoId}/hqdefault.jpg`;
   const ytLink = `https://www.youtube.com/watch?v=${video.videoId}`;
 
   return (
@@ -28,6 +29,7 @@ function VideoCard({ video, index }: { video: Video; index: number }) {
           <img
             src={thumbUrl}
             alt={video.title}
+            onError={(e) => { (e.target as HTMLImageElement).src = thumbFallback; }}
             style={{
               width: "100%",
               aspectRatio: "16/9",
